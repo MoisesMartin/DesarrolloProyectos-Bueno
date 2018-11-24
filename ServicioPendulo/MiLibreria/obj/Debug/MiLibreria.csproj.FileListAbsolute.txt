@@ -1,0 +1,12 @@
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\ERP-ServicioElPendulo\ERP-ServicioElPendulo\MiLibreria\bin\Debug\MiLibreria.dll
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\ERP-ServicioElPendulo\ERP-ServicioElPendulo\MiLibreria\bin\Debug\MiLibreria.pdb
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\ERP-ServicioElPendulo\ERP-ServicioElPendulo\MiLibreria\obj\Debug\MiLibreria.csprojResolveAssemblyReference.cache
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\ERP-ServicioElPendulo\ERP-ServicioElPendulo\MiLibreria\obj\Debug\MiLibreria.csproj.CoreCompileInputs.cache
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\ERP-ServicioElPendulo\ERP-ServicioElPendulo\MiLibreria\obj\Debug\MiLibreria.dll
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\ERP-ServicioElPendulo\ERP-ServicioElPendulo\MiLibreria\obj\Debug\MiLibreria.pdb
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos\MiLibreria\bin\Debug\MiLibreria.dll
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos\MiLibreria\bin\Debug\MiLibreria.pdb
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos\MiLibreria\obj\Debug\MiLibreria.csprojAssemblyReference.cache
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos\MiLibreria\obj\Debug\MiLibreria.csproj.CoreCompileInputs.cache
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos\MiLibreria\obj\Debug\MiLibreria.dll
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos\MiLibreria\obj\Debug\MiLibreria.pdb

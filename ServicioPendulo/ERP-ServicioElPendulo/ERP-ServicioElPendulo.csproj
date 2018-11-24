@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DAF5DB7B-5F1C-4ACC-9F80-8D9EB941B2F0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ERP_ServicioElPendulo</RootNamespace>
+    <AssemblyName>ERP-ServicioElPendulo</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\..\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MiLibreria">
+      <HintPath>..\MiLibreria\bin\Debug\MiLibreria.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgendarCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgendarCita.Designer.cs">
+      <DependentUpon>AgendarCita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AsignarTrabajos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AsignarTrabajos.Designer.cs">
+      <DependentUpon>AsignarTrabajos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaCitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaCitas.Designer.cs">
+      <DependentUpon>ConsultaCitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSolicitudes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaSolicitudes.Designer.cs">
+      <DependentUpon>ConsultaSolicitudes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="contactosInnova.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>contactosInnova.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Correos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Correos.Designer.cs">
+      <DependentUpon>Correos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dataSetListaTecnicos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dataSetListaTecnicos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_ContactosSolicitud.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_ContactosSolicitud.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaPrincipal.Designer.cs">
+      <DependentUpon>PantallaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedores.Designer.cs">
+      <DependentUpon>Proveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarTiendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarTiendas.Designer.cs">
+      <DependentUpon>RegistrarTiendas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarUsuario.Designer.cs">
+      <DependentUpon>RegistrarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="servicioElPenduloDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>servicioElPenduloDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="servicioElPenduloDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>servicioElPenduloDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="servicioElPenduloDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>servicioElPenduloDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="servicioElPenduloDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>servicioElPenduloDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="servicioElPenduloDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>servicioElPenduloDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="servicioElPenduloDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>servicioElPenduloDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="servicioElPenduloDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>servicioElPenduloDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="servicioElPenduloDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>servicioElPenduloDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="servicioElPenduloDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>servicioElPenduloDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SolicitudServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SolicitudServicio.Designer.cs">
+      <DependentUpon>SolicitudServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuariosSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuariosSistema.Designer.cs">
+      <DependentUpon>UsuariosSistema.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AgendarCita.es-419.resx">
+      <DependentUpon>AgendarCita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgendarCita.resx">
+      <DependentUpon>AgendarCita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AsignarTrabajos.resx">
+      <DependentUpon>AsignarTrabajos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaCitas.resx">
+      <DependentUpon>ConsultaCitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaSolicitudes.resx">
+      <DependentUpon>ConsultaSolicitudes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Correos.resx">
+      <DependentUpon>Correos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaPrincipal.resx">
+      <DependentUpon>PantallaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Proveedores.resx">
+      <DependentUpon>Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarTiendas.resx">
+      <DependentUpon>RegistrarTiendas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarUsuario.resx">
+      <DependentUpon>RegistrarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SolicitudServicio.es-419.resx">
+      <DependentUpon>SolicitudServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SolicitudServicio.resx">
+      <DependentUpon>SolicitudServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuariosSistema.resx">
+      <DependentUpon>UsuariosSistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="contactosInnova.xsc">
+      <DependentUpon>contactosInnova.xsd</DependentUpon>
+    </None>
+    <None Include="contactosInnova.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>contactosInnova.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="contactosInnova.xss">
+      <DependentUpon>contactosInnova.xsd</DependentUpon>
+    </None>
+    <None Include="dataSetListaTecnicos.xsc">
+      <DependentUpon>dataSetListaTecnicos.xsd</DependentUpon>
+    </None>
+    <None Include="dataSetListaTecnicos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dataSetListaTecnicos.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dataSetListaTecnicos.xss">
+      <DependentUpon>dataSetListaTecnicos.xsd</DependentUpon>
+    </None>
+    <None Include="ds_ContactosSolicitud.xsc">
+      <DependentUpon>ds_ContactosSolicitud.xsd</DependentUpon>
+    </None>
+    <None Include="ds_ContactosSolicitud.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_ContactosSolicitud.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_ContactosSolicitud.xss">
+      <DependentUpon>ds_ContactosSolicitud.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="servicioElPenduloDataSet.xsc">
+      <DependentUpon>servicioElPenduloDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>servicioElPenduloDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="servicioElPenduloDataSet.xss">
+      <DependentUpon>servicioElPenduloDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet1.xsc">
+      <DependentUpon>servicioElPenduloDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>servicioElPenduloDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="servicioElPenduloDataSet1.xss">
+      <DependentUpon>servicioElPenduloDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet2.xsc">
+      <DependentUpon>servicioElPenduloDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>servicioElPenduloDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="servicioElPenduloDataSet2.xss">
+      <DependentUpon>servicioElPenduloDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet3.xsc">
+      <DependentUpon>servicioElPenduloDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>servicioElPenduloDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="servicioElPenduloDataSet3.xss">
+      <DependentUpon>servicioElPenduloDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet4.xsc">
+      <DependentUpon>servicioElPenduloDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>servicioElPenduloDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="servicioElPenduloDataSet4.xss">
+      <DependentUpon>servicioElPenduloDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet5.xsc">
+      <DependentUpon>servicioElPenduloDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>servicioElPenduloDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="servicioElPenduloDataSet5.xss">
+      <DependentUpon>servicioElPenduloDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet6.xsc">
+      <DependentUpon>servicioElPenduloDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>servicioElPenduloDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="servicioElPenduloDataSet6.xss">
+      <DependentUpon>servicioElPenduloDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet7.xsc">
+      <DependentUpon>servicioElPenduloDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>servicioElPenduloDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="servicioElPenduloDataSet7.xss">
+      <DependentUpon>servicioElPenduloDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet8.xsc">
+      <DependentUpon>servicioElPenduloDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>servicioElPenduloDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="servicioElPenduloDataSet8.xss">
+      <DependentUpon>servicioElPenduloDataSet8.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMG\Maximize Window_52px.png" />
+    <None Include="IMG\Minimize Window_52px.png" />
+    <None Include="IMG\Multiply_50px.png" />
+    <None Include="IMG\User_50px.png" />
+    <None Include="IMG\Document_52px.png" />
+    <None Include="IMG\Error_52px.png" />
+    <None Include="IMG\Brick Wall_50px.png" />
+    <None Include="IMG\Close Window_52px.png" />
+    <Content Include="IMG\icons8_Customer_96px.png" />
+    <Content Include="IMG\icons8_Maintenance.ico" />
+    <None Include="IMG\Schedule_52px.png" />
+    <None Include="IMG\Schedule_64px.png" />
+    <None Include="IMG\Menu_48px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
