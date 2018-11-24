@@ -200,6 +200,7 @@
             this.tablaCitas.Name = "tablaCitas";
             this.tablaCitas.Size = new System.Drawing.Size(754, 329);
             this.tablaCitas.TabIndex = 37;
+            this.tablaCitas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaCitas_CellContentClick_1);
             // 
             // iDCitaDataGridViewTextBoxColumn
             // 

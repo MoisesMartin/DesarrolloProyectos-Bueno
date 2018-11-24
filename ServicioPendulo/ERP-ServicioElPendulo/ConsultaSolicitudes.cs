@@ -97,7 +97,8 @@ namespace ERP_ServicioElPendulo
             //Tipo de fuente
             iTextSharp.text.Font _standardFont = new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 8, iTextSharp.text.Font.NORMAL, BaseColor.BLACK);
             // Creamos la imagen y le ajustamos el tamaño
-            iTextSharp.text.Image imagen = iTextSharp.text.Image.GetInstance("C:/Users/Moises Martin Campos/Pictures/LOGOPendulo.jpg");
+            /*
+            iTextSharp.text.Image imagen = iTextSharp.text.Image.GetInstance("./IMG/LOGOPendulo.jpg");
             imagen.BorderWidth = 0;
             imagen.Alignment = Element.ALIGN_RIGHT;
             float percentage = 0.0f;
@@ -105,6 +106,7 @@ namespace ERP_ServicioElPendulo
             imagen.ScalePercent(percentage * 80);
             // Insertamos la imagen en el documento
             doc.Add(imagen);
+            */
             //
             doc.Add(new Paragraph("Reporte de Solicitudes de Servicio"));
             doc.Add(Chunk.NEWLINE);
@@ -185,8 +187,7 @@ namespace ERP_ServicioElPendulo
 
         private void ConsultaSolicitudes_Load(object sender, EventArgs e)
         {
-            // TODO: esta línea de código carga datos en la tabla 'servicioElPenduloDataSet1.solicitudServicio' Puede moverla o quitarla según sea necesario.
-            this.solicitudServicioTableAdapter1.Fill(this.servicioElPenduloDataSet1.solicitudServicio);
+            llenarTabla();
 
         }
 
@@ -199,7 +200,27 @@ namespace ERP_ServicioElPendulo
         {
 
         }
-
+        public void llenarTabla()
+        {
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "SELECT * FROM solicitudServicio";
+                //
+                cmd.ExecuteNonQuery();
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable consulta = new DataTable();
+                da.Fill(consulta);
+                dt_SolicitudesR.DataSource = consulta;
+                con.Close();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error");
+            }
+        }
         private void btn_Filtrar_Click(object sender, EventArgs e)
         {
             if(rd_buscarPorContacto.Checked)

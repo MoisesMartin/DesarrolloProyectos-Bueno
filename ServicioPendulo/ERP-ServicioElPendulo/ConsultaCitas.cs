@@ -102,14 +102,16 @@ namespace ERP_ServicioElPendulo
             //Tipo de fuente
             iTextSharp.text.Font _standardFont = new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 8, iTextSharp.text.Font.NORMAL, BaseColor.BLACK);
             // Creamos la imagen y le ajustamos el tamaño
-            iTextSharp.text.Image imagen = iTextSharp.text.Image.GetInstance("C:/Users/Moises Martin Campos/Pictures/LOGOPendulo.jpg");
+
+           /* iTextSharp.text.Image imagen = iTextSharp.text.Image.GetInstance("./IMG/LOGOPendulo.jpg");
             imagen.BorderWidth = 0;
             imagen.Alignment = Element.ALIGN_RIGHT;
             float percentage = 0.0f;
-            percentage = 150 / imagen.Width;
-            imagen.ScalePercent(percentage * 100);
+            percentage = 100 / imagen.Width;
+            imagen.ScalePercent(percentage * 80);
             // Insertamos la imagen en el documento
-            doc.Add(imagen);
+            doc.Add(imagen);*/
+           
             //
             doc.Add(new Paragraph("Reporte de Citas"));
             doc.Add(Chunk.NEWLINE);
@@ -199,7 +201,7 @@ namespace ERP_ServicioElPendulo
         private void btn_Back_Load(object sender, EventArgs e)
         {
             // TODO: esta línea de código carga datos en la tabla 'servicioElPenduloDataSet3.CitasAgendadas' Puede moverla o quitarla según sea necesario.
-            this.citasAgendadasTableAdapter.Fill(this.servicioElPenduloDataSet3.CitasAgendadas);
+            LlenarTabla();
             sumarCeldas();
             operacion.Text = "Consulta General de Citas Agendadas";
         }
@@ -213,7 +215,27 @@ namespace ERP_ServicioElPendulo
         {
 
         }
-
+        private void LlenarTabla()
+        {
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "SELECT * FROM CitasAgendadas";
+                cmd.ExecuteNonQuery();
+                //Actualizar Tabla
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable consulta = new DataTable();
+                da.Fill(consulta);
+                tablaCitas.DataSource = consulta;
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + "Error desconocido", "Atencion", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
         private void btn_Filtrar_Click(object sender, EventArgs e)
         {
             string statusV = combo_Estatus.Text;
@@ -338,6 +360,11 @@ namespace ERP_ServicioElPendulo
                 }
                 sumarCeldas();
             }
+        }
+
+        private void tablaCitas_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
