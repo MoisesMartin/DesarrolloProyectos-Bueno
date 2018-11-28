@@ -128,7 +128,6 @@
             this.rd_porFecha.Name = "rd_porFecha";
             this.rd_porFecha.Size = new System.Drawing.Size(55, 17);
             this.rd_porFecha.TabIndex = 18;
-            this.rd_porFecha.TabStop = true;
             this.rd_porFecha.Text = "Fecha";
             this.rd_porFecha.UseVisualStyleBackColor = true;
             this.rd_porFecha.CheckedChanged += new System.EventHandler(this.rd_porFecha_CheckedChanged);
@@ -148,6 +147,7 @@
             this.buscarPContacto.Size = new System.Drawing.Size(121, 21);
             this.buscarPContacto.Sorted = true;
             this.buscarPContacto.TabIndex = 19;
+            this.buscarPContacto.Text = "Abigail Castillo";
             // 
             // contactosInnovaBindingSource
             // 
@@ -170,12 +170,10 @@
             // rd_buscarPorContacto
             // 
             this.rd_buscarPorContacto.AutoSize = true;
-            this.rd_buscarPorContacto.Checked = true;
             this.rd_buscarPorContacto.Location = new System.Drawing.Point(27, 98);
             this.rd_buscarPorContacto.Name = "rd_buscarPorContacto";
             this.rd_buscarPorContacto.Size = new System.Drawing.Size(68, 17);
             this.rd_buscarPorContacto.TabIndex = 23;
-            this.rd_buscarPorContacto.TabStop = true;
             this.rd_buscarPorContacto.Text = "Contacto";
             this.rd_buscarPorContacto.UseVisualStyleBackColor = true;
             this.rd_buscarPorContacto.CheckedChanged += new System.EventHandler(this.rd_buscarPorContacto_CheckedChanged);
@@ -183,10 +181,12 @@
             // rd_BuscarTodo
             // 
             this.rd_BuscarTodo.AutoSize = true;
-            this.rd_BuscarTodo.Location = new System.Drawing.Point(359, 98);
+            this.rd_BuscarTodo.Checked = true;
+            this.rd_BuscarTodo.Location = new System.Drawing.Point(703, 98);
             this.rd_BuscarTodo.Name = "rd_BuscarTodo";
             this.rd_BuscarTodo.Size = new System.Drawing.Size(84, 17);
             this.rd_BuscarTodo.TabIndex = 24;
+            this.rd_BuscarTodo.TabStop = true;
             this.rd_BuscarTodo.Text = "Mostrar todo";
             this.rd_BuscarTodo.UseVisualStyleBackColor = true;
             this.rd_BuscarTodo.CheckedChanged += new System.EventHandler(this.rd_BuscarTodo_CheckedChanged);

@@ -288,9 +288,9 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.label3.Location = new System.Drawing.Point(13, 203);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 16);
+            this.label3.Size = new System.Drawing.Size(77, 16);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Producto";
+            this.label3.Text = "Seleccion";
             // 
             // nameP
             // 
@@ -298,7 +298,7 @@
             this.nameP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nameP.Location = new System.Drawing.Point(8, 12);
             this.nameP.Name = "nameP";
-            this.nameP.Size = new System.Drawing.Size(85, 16);
+            this.nameP.Size = new System.Drawing.Size(82, 16);
             this.nameP.TabIndex = 1;
             this.nameP.Text = "La Ballena";
             // 
@@ -372,7 +372,7 @@
             this.tab_canfra.Location = new System.Drawing.Point(4, 22);
             this.tab_canfra.Name = "tab_canfra";
             this.tab_canfra.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_canfra.Size = new System.Drawing.Size(657, 365);
+            this.tab_canfra.Size = new System.Drawing.Size(485, 365);
             this.tab_canfra.TabIndex = 1;
             this.tab_canfra.Text = "Canfra Electro Central";
             // 
@@ -382,7 +382,7 @@
             this.tab_Artur.Location = new System.Drawing.Point(4, 22);
             this.tab_Artur.Name = "tab_Artur";
             this.tab_Artur.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_Artur.Size = new System.Drawing.Size(657, 365);
+            this.tab_Artur.Size = new System.Drawing.Size(485, 365);
             this.tab_Artur.TabIndex = 2;
             this.tab_Artur.Text = "Refrigeración Artur";
             // 
@@ -392,7 +392,7 @@
             this.tab_ElGuero.Location = new System.Drawing.Point(4, 22);
             this.tab_ElGuero.Name = "tab_ElGuero";
             this.tab_ElGuero.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_ElGuero.Size = new System.Drawing.Size(657, 365);
+            this.tab_ElGuero.Size = new System.Drawing.Size(485, 365);
             this.tab_ElGuero.TabIndex = 3;
             this.tab_ElGuero.Text = "Materiales El Guero";
             // 
@@ -402,7 +402,7 @@
             this.tab_Gil.Location = new System.Drawing.Point(4, 22);
             this.tab_Gil.Name = "tab_Gil";
             this.tab_Gil.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_Gil.Size = new System.Drawing.Size(657, 365);
+            this.tab_Gil.Size = new System.Drawing.Size(485, 365);
             this.tab_Gil.TabIndex = 4;
             this.tab_Gil.Text = "Tapicería Gilberto Cruz Mora";
             // 
@@ -412,7 +412,7 @@
             this.tab_Aguila.Location = new System.Drawing.Point(4, 22);
             this.tab_Aguila.Name = "tab_Aguila";
             this.tab_Aguila.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_Aguila.Size = new System.Drawing.Size(657, 365);
+            this.tab_Aguila.Size = new System.Drawing.Size(485, 365);
             this.tab_Aguila.TabIndex = 5;
             this.tab_Aguila.Text = "Ferreteria y Tlapalería El Aguila";
             // 
@@ -421,7 +421,7 @@
             this.tab_COMEX.Location = new System.Drawing.Point(4, 22);
             this.tab_COMEX.Name = "tab_COMEX";
             this.tab_COMEX.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_COMEX.Size = new System.Drawing.Size(657, 365);
+            this.tab_COMEX.Size = new System.Drawing.Size(485, 365);
             this.tab_COMEX.TabIndex = 6;
             this.tab_COMEX.Text = "COMEX";
             this.tab_COMEX.UseVisualStyleBackColor = true;
@@ -431,7 +431,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(657, 365);
+            this.tabPage1.Size = new System.Drawing.Size(485, 365);
             this.tabPage1.TabIndex = 7;
             this.tabPage1.Text = "Bodega de Pisos Division del Norte";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -584,7 +584,7 @@
             // 
             this.sumaArticulos.AutoSize = true;
             this.sumaArticulos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sumaArticulos.Location = new System.Drawing.Point(542, 436);
+            this.sumaArticulos.Location = new System.Drawing.Point(549, 436);
             this.sumaArticulos.Name = "sumaArticulos";
             this.sumaArticulos.Size = new System.Drawing.Size(20, 24);
             this.sumaArticulos.TabIndex = 22;

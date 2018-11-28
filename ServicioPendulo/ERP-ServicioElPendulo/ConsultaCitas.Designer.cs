@@ -155,6 +155,7 @@
             this.combo_Estatus.Name = "combo_Estatus";
             this.combo_Estatus.Size = new System.Drawing.Size(121, 21);
             this.combo_Estatus.TabIndex = 33;
+            this.combo_Estatus.Text = "Pendiente";
             this.combo_Estatus.TextChanged += new System.EventHandler(this.combo_Estatus_TextChanged);
             // 
             // fechaCita
@@ -175,7 +176,7 @@
             // 
             // btn_Filtrar
             // 
-            this.btn_Filtrar.Location = new System.Drawing.Point(580, 103);
+            this.btn_Filtrar.Location = new System.Drawing.Point(784, 107);
             this.btn_Filtrar.Name = "btn_Filtrar";
             this.btn_Filtrar.Size = new System.Drawing.Size(113, 23);
             this.btn_Filtrar.TabIndex = 36;
@@ -265,7 +266,8 @@
             // rdBuscarTodo
             // 
             this.rdBuscarTodo.AutoSize = true;
-            this.rdBuscarTodo.Location = new System.Drawing.Point(580, 81);
+            this.rdBuscarTodo.Checked = true;
+            this.rdBuscarTodo.Location = new System.Drawing.Point(784, 85);
             this.rdBuscarTodo.Name = "rdBuscarTodo";
             this.rdBuscarTodo.Size = new System.Drawing.Size(88, 17);
             this.rdBuscarTodo.TabIndex = 38;
@@ -280,7 +282,6 @@
             this.porFechaC.Name = "porFechaC";
             this.porFechaC.Size = new System.Drawing.Size(89, 17);
             this.porFechaC.TabIndex = 39;
-            this.porFechaC.TabStop = true;
             this.porFechaC.Text = "PorFechaCita";
             this.porFechaC.UseVisualStyleBackColor = true;
             // 
@@ -291,7 +292,6 @@
             this.porFechaA.Name = "porFechaA";
             this.porFechaA.Size = new System.Drawing.Size(128, 17);
             this.porFechaA.TabIndex = 40;
-            this.porFechaA.TabStop = true;
             this.porFechaA.Text = "PorFechaAgendacion";
             this.porFechaA.UseVisualStyleBackColor = true;
             // 
@@ -302,7 +302,6 @@
             this.filtrarEstatus.Name = "filtrarEstatus";
             this.filtrarEstatus.Size = new System.Drawing.Size(71, 17);
             this.filtrarEstatus.TabIndex = 41;
-            this.filtrarEstatus.TabStop = true;
             this.filtrarEstatus.Text = "PorStatus";
             this.filtrarEstatus.UseVisualStyleBackColor = true;
             // 
@@ -329,11 +328,11 @@
             // operacion
             // 
             this.operacion.AutoSize = true;
-            this.operacion.Location = new System.Drawing.Point(723, 82);
+            this.operacion.Location = new System.Drawing.Point(837, 53);
             this.operacion.Name = "operacion";
-            this.operacion.Size = new System.Drawing.Size(119, 13);
+            this.operacion.Size = new System.Drawing.Size(167, 13);
             this.operacion.TabIndex = 44;
-            this.operacion.Text = "Esto es el titulo del PDF";
+            this.operacion.Text = "Esto es el titulo del PDF, no borrar";
             this.operacion.Visible = false;
             // 
             // rd_BuscarTodo

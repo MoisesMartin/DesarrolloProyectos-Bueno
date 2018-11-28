@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.IO;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
 
 namespace ERP_ServicioElPendulo
 {
@@ -56,12 +59,31 @@ namespace ERP_ServicioElPendulo
             costoTotal.Text = totalCotizacion;
             sumaArticulos.Text = cantA.ToString();
         }
+        public void llenarTabla()
+        {
+            try
+            {
+                con.Open();
+                SqlCommand cmd_update = con.CreateCommand();
+                cmd_update.CommandType = CommandType.Text;
+                cmd_update.CommandText = "SELECT * FROM LaBallena";
+                SqlDataAdapter da = new SqlDataAdapter(cmd_update);
+                DataTable ballena = new DataTable();
+                da.Fill(ballena);
+                tablaLaBallena.DataSource = ballena;
+                con.Close();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("No se pudo recuperar la informacion:" + ex.Message, "Error Desconocido");
+            }
+        }
         private void Proveedores_Load(object sender, EventArgs e)
         {
+            
             // TODO: esta línea de código carga datos en la tabla 'servicioElPenduloDataSet5.Cotizaciones' Puede moverla o quitarla según sea necesario.
             this.cotizacionesTableAdapter.Fill(this.servicioElPenduloDataSet5.Cotizaciones);
-            // TODO: esta línea de código carga datos en la tabla 'servicioElPenduloDataSet4.LaBallena' Puede moverla o quitarla según sea necesario.
-            this.laBallenaTableAdapter.Fill(this.servicioElPenduloDataSet4.LaBallena);
+            llenarTabla();
 
 
         }
@@ -137,9 +159,134 @@ namespace ERP_ServicioElPendulo
 
         private void btn_PDF_Click(object sender, EventArgs e)
         {
+            Stream myStream;
+            SaveFileDialog guardarComo = new SaveFileDialog();
+            guardarComo.Filter = "Archivos PDF (*.pdf)|*.pdf";
+            guardarComo.FilterIndex = 2;
+            guardarComo.RestoreDirectory = true;
+            //Invocando al cuadro Guardar y generand el PDF
+            try
+            {
+                if (guardarComo.ShowDialog() == DialogResult.OK)
+                {
+                    if ((myStream = guardarComo.OpenFile()) != null)
+                    {
+                        myStream.Close();
+                        crearPDF(guardarComo.FileName);
+                        MessageBox.Show("Archivo Guardado", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+                else
+                {
+                    return;
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message, "Atencion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
             borrarTablaCotizacion();
         }
+        public void crearPDF(String nombre)
+        {
+            Document doc = new Document(PageSize.LETTER);
+            MessageBox.Show(nombre);
+            //Creando el documento
+            PdfWriter writer = PdfWriter.GetInstance(doc, new FileStream(@nombre, FileMode.Create));
+            doc.AddTitle(nombre);
+            doc.AddCreator("Servicio El Pendulo");
+            doc.Open();
+            //Tipo de fuente
+            iTextSharp.text.Font _standardFont = new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 8, iTextSharp.text.Font.NORMAL, BaseColor.BLACK);
+            // Creamos la imagen y le ajustamos el tamaño
 
+            /* iTextSharp.text.Image imagen = iTextSharp.text.Image.GetInstance("./IMG/LOGOPendulo.jpg");
+             imagen.BorderWidth = 0;
+             imagen.Alignment = Element.ALIGN_RIGHT;
+             float percentage = 0.0f;
+             percentage = 100 / imagen.Width;
+             imagen.ScalePercent(percentage * 80);
+             // Insertamos la imagen en el documento
+             doc.Add(imagen);*/
+
+            //
+            doc.Add(new Paragraph("Cotización de Proveedor"));
+            doc.Add(Chunk.NEWLINE);
+            //
+            //
+            doc.Add(new Paragraph("Cotización Realizada el:" + fecha_Cotizacion.Value.ToString("dddd, dd MMMM yyyy")));
+            doc.Add(Chunk.NEWLINE);
+            //
+            PdfPTable tblCotizacion = new PdfPTable(5);
+            tblCotizacion.WidthPercentage = 100;
+            //
+            PdfPCell clPr = new PdfPCell(new Phrase("Proveedor", _standardFont));
+            clPr.BorderWidth = 0;
+            clPr.BorderWidthBottom = 0.75f;
+            //
+            PdfPCell clArt = new PdfPCell(new Phrase("Articulo", _standardFont));
+            clArt.BorderWidth = 0;
+            clArt.BorderWidthBottom = 0.75f;
+            //
+            PdfPCell clCant = new PdfPCell(new Phrase("Cantidad", _standardFont));
+            clCant.BorderWidth = 0;
+            clCant.BorderWidthBottom = 0.75f;
+            //
+            PdfPCell clCU = new PdfPCell(new Phrase("Costo Unitario", _standardFont));
+            clCU.BorderWidth = 0;
+            clCU.BorderWidthBottom = 0.75f;
+            //
+            PdfPCell clCT = new PdfPCell(new Phrase("Proveedor", _standardFont));
+            clCT.BorderWidth = 0;
+            clCT.BorderWidthBottom = 0.75f;       
+            //
+            doc.Add(new Paragraph("Tabla: " + sumaArticulos.Text));
+            doc.Add(Chunk.NEWLINE);
+            //
+            tblCotizacion.AddCell(clPr);
+            tblCotizacion.AddCell(clArt);
+            tblCotizacion.AddCell(clCant);
+            tblCotizacion.AddCell(clCU);
+            tblCotizacion.AddCell(clCT);
+            //Llenando la Tabla
+            foreach (DataGridViewRow Row in tablaCotizaciones.Rows)
+            {
+                String strFila = Row.Index.ToString();
+                if (!Row.IsNewRow)
+                {
+                    clPr = new PdfPCell(new Phrase(Convert.ToString(tablaCotizaciones.Rows[Convert.ToInt32(strFila)].Cells[1].Value.ToString()), _standardFont));
+                    clPr.BorderWidth = 0;
+                    clArt = new PdfPCell(new Phrase(Convert.ToString(tablaCotizaciones.Rows[Convert.ToInt32(strFila)].Cells[2].Value.ToString()), _standardFont));
+                    clArt.BorderWidth = 0;
+                    clCant = new PdfPCell(new Phrase(Convert.ToString(tablaCotizaciones.Rows[Convert.ToInt32(strFila)].Cells[3].Value.ToString()), _standardFont));
+                    clCant.BorderWidth = 0;
+                    clCU = new PdfPCell(new Phrase(Convert.ToString(tablaCotizaciones.Rows[Convert.ToInt32(strFila)].Cells[4].Value.ToString()), _standardFont));
+                    clCU.BorderWidth = 0;
+                    clCT = new PdfPCell(new Phrase(Convert.ToString(tablaCotizaciones.Rows[Convert.ToInt32(strFila)].Cells[5].Value.ToString()), _standardFont));
+                    clCT.BorderWidth = 0;
+                    //
+                    tblCotizacion.AddCell(clPr);
+                    tblCotizacion.AddCell(clArt);
+                    tblCotizacion.AddCell(clCant);
+                    tblCotizacion.AddCell(clCU);
+                    tblCotizacion.AddCell(clCT);
+                }
+            }
+            doc.Add(tblCotizacion);
+            //
+            doc.Add(new Paragraph("Total de Articulos: " + sumaArticulos.Text));
+            doc.Add(Chunk.NEWLINE);
+            //
+            doc.Add(new Paragraph("Total de Cotización: " + costoTotal.Text + " pesos mexicanos"));
+            doc.Add(Chunk.NEWLINE);
+            //Margenes
+      
+            //Cerrando el Archivo
+            doc.Close();
+            writer.Close();
+        }
+  
         private void tablaCotizaciones_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 

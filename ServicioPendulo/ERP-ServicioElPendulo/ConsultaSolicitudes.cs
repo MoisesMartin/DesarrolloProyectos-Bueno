@@ -216,8 +216,7 @@ namespace ERP_ServicioElPendulo
                 dt_SolicitudesR.DataSource = consulta;
                 con.Close();
             }
-            catch(Exception ex)
-            {
+            catch(Exception ex)            {
                 MessageBox.Show(ex.Message, "Error");
             }
         }
