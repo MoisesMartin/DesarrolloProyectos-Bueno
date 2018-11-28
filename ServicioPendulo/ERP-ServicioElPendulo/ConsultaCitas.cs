@@ -12,10 +12,13 @@ using System.IO;
 using iTextSharp.text;
 using iTextSharp;
 using iTextSharp.text.pdf;
+using MaterialSkin;
+using MaterialSkin.Animations;
+using MaterialSkin.Controls;
 
 namespace ERP_ServicioElPendulo
 {
-    public partial class rd_BuscarTodo : Form
+    public partial class rd_BuscarTodo : MaterialForm
     {
         public static string conexionString = @"Data Source=DESKTOP-GL238MR\SQLEXPRESS;Initial Catalog=servicioElPendulo;Integrated Security=True";
         SqlConnection con = new SqlConnection(conexionString);
@@ -47,6 +50,11 @@ namespace ERP_ServicioElPendulo
         public rd_BuscarTodo()
         {
             InitializeComponent();
+            MaterialSkinManager sm = MaterialSkinManager.Instance;
+            sm.AddFormToManage(this);
+            sm.Theme = MaterialSkinManager.Themes.DARK;
+            sm.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.BlueGrey500, Accent.Green700, TextShade.WHITE);
+            
         }
 
         private void button1_Click(object sender, EventArgs e)

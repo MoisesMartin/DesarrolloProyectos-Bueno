@@ -168,3 +168,33 @@ C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\Desarro
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\es-419\ERP-ServicioElPendulo.resources.dll
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.exe
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.pdb
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.csprojAssemblyReference.cache
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.AgendarCita.resources
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.AsignarTrabajos.resources
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.rd_BuscarTodo.resources
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.ConsultaSolicitudes.resources
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.Correos.resources
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.form_Login.resources
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.PantallaPrincipal.resources
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.Properties.Resources.resources
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.Proveedores.resources
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.RegistrarTiendas.resources
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.OperacionesUsuarios.resources
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.SolicitudServicio.resources
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.form_UsrSistema.resources
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.AgendarCita.es-419.resources
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.SolicitudServicio.es-419.resources
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.csproj.GenerateResource.cache
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.csproj.CoreCompileInputs.cache
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.exe
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.pdb
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\ERP-ServicioElPendulo.exe.config
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\ERP-ServicioElPendulo.exe
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\ERP-ServicioElPendulo.pdb
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\es-419\ERP-ServicioElPendulo.resources.dll
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\itextsharp.dll
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\MaterialSkin.dll
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\MiLibreria.dll
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\MiLibreria.pdb
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\es-419\ERP-ServicioElPendulo.resources.dll
+E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.csproj.CopyComplete
