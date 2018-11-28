@@ -20,7 +20,7 @@ namespace ERP_ServicioElPendulo
 {
     public partial class rd_BuscarTodo : MaterialForm
     {
-        public static string conexionString = @"Data Source=DESKTOP-GL238MR\SQLEXPRESS;Initial Catalog=servicioElPendulo;Integrated Security=True";
+        public static string conexionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=servicioElPendulo;Integrated Security=True";
         SqlConnection con = new SqlConnection(conexionString);
         /* Validar Cierre de formulario*/
 
