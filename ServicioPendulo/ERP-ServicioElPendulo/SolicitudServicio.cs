@@ -14,18 +14,18 @@ using MaterialSkin.Controls;
 
 namespace ERP_ServicioElPendulo
 {
-    public partial class SolicitudServicio : MaterialForm
+    public partial class SolicitudServicio : Form
     {
         public static string conexionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=servicioElPendulo;Integrated Security=True";
         SqlConnection con = new SqlConnection(conexionString);
 
-            public SolicitudServicio()
+        public SolicitudServicio()
         {
             InitializeComponent();
-            MaterialSkinManager sm = MaterialSkinManager.Instance;
-            sm.AddFormToManage(this);
-            sm.Theme = MaterialSkinManager.Themes.DARK;
-            sm.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.BlueGrey500, Accent.Green700, TextShade.WHITE);
+            //MaterialSkinManager sm = MaterialSkinManager.Instance;
+            //sm.AddFormToManage(this);
+            //sm.Theme = MaterialSkinManager.Themes.DARK;
+            //sm.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.BlueGrey500, Accent.Green700, TextShade.WHITE);
             this.AcceptButton = btn_Aceptar;
         }
 
@@ -132,6 +132,11 @@ namespace ERP_ServicioElPendulo
 
         private void SolicitudServicio_Load(object sender, EventArgs e)
         {
+            materialLabel1.ForeColor = System.Drawing.Color.White;
+            materialLabel2.ForeColor = System.Drawing.Color.White;
+            materialLabel3.ForeColor = System.Drawing.Color.White;
+            materialLabel4.ForeColor = System.Drawing.Color.White;
+            materialLabel5.ForeColor = System.Drawing.Color.White;
             // TODO: esta línea de código carga datos en la tabla 'ds_ContactosSolicitud.ContactosInnova' Puede moverla o quitarla según sea necesario.
             //this.contactosInnovaTableAdapter.Fill(this.ds_ContactosSolicitud.ContactosInnova);
 

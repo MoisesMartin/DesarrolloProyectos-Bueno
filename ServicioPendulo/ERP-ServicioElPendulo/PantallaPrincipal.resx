@@ -675,35 +675,35 @@
   <metadata name="logoAnimation.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>538, 17</value>
   </metadata>
-  <data name="animation4.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation10.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="animation4.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation10.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="animation4.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation10.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="animation4.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation10.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAACAPwAAgD8L
 </value>
   </data>
-  <data name="animation4.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation10.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
@@ -713,35 +713,35 @@
   <metadata name="sideBarAnimation.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>671, 17</value>
   </metadata>
-  <data name="animation5.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation11.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="animation5.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation11.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAABIQwAASEML
 </value>
   </data>
-  <data name="animation5.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation11.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAD8L
 </value>
   </data>
-  <data name="animation5.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation11.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="animation5.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation11.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
@@ -751,35 +751,35 @@
   <metadata name="sideBarAnimation2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>818, 17</value>
   </metadata>
-  <data name="animation6.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation12.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="animation6.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation12.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="animation6.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation12.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="animation6.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation12.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="animation6.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation12.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
@@ -793,7 +793,7 @@
     <value>0, 0</value>
   </data>
   <data name="barraLateral.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 504</value>
+    <value>270, 523</value>
   </data>
   <data name="barraLateral.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1413,53 +1413,77 @@
   <data name="&gt;&gt;bunifuFlatButton8.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;contenidoForms.Name" xml:space="preserve">
-    <value>contenidoForms</value>
+  <data name="descripcionPrincipal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="&gt;&gt;contenidoForms.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="descripcionPrincipal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;contenidoForms.Parent" xml:space="preserve">
-    <value>contenido</value>
+  <data name="descripcionPrincipal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
   </data>
-  <data name="&gt;&gt;contenidoForms.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="descripcionPrincipal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;header.Name" xml:space="preserve">
-    <value>header</value>
+  <data name="descripcionPrincipal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 206</value>
   </data>
-  <data name="&gt;&gt;header.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="descripcionPrincipal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 21</value>
   </data>
-  <data name="&gt;&gt;header.Parent" xml:space="preserve">
-    <value>contenido</value>
-  </data>
-  <data name="&gt;&gt;header.ZOrder" xml:space="preserve">
+  <data name="descripcionPrincipal.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="contenido.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="descripcionPrincipal.Text" xml:space="preserve">
+    <value>Elige una opción de la barra lateral.</value>
   </data>
-  <data name="contenido.Location" type="System.Drawing.Point, System.Drawing">
-    <value>270, 0</value>
+  <data name="&gt;&gt;descripcionPrincipal.Name" xml:space="preserve">
+    <value>descripcionPrincipal</value>
   </data>
-  <data name="contenido.Size" type="System.Drawing.Size, System.Drawing">
-    <value>730, 504</value>
+  <data name="&gt;&gt;descripcionPrincipal.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuCustomLabel, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="contenido.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;descripcionPrincipal.Parent" xml:space="preserve">
+    <value>contenidoForms</value>
+  </data>
+  <data name="&gt;&gt;descripcionPrincipal.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;contenido.Name" xml:space="preserve">
-    <value>contenido</value>
+  <data name="tituloPrincipal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="&gt;&gt;contenido.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tituloPrincipal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;contenido.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="tituloPrincipal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 18pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;contenido.ZOrder" xml:space="preserve">
+  <data name="tituloPrincipal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tituloPrincipal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 174</value>
+  </data>
+  <data name="tituloPrincipal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 32</value>
+  </data>
+  <data name="tituloPrincipal.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="tituloPrincipal.Text" xml:space="preserve">
+    <value>Servicio el Péndulo</value>
+  </data>
+  <data name="&gt;&gt;tituloPrincipal.Name" xml:space="preserve">
+    <value>tituloPrincipal</value>
+  </data>
+  <data name="&gt;&gt;tituloPrincipal.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuCustomLabel, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tituloPrincipal.Parent" xml:space="preserve">
+    <value>contenidoForms</value>
+  </data>
+  <data name="&gt;&gt;tituloPrincipal.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="contenidoForms.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -1468,7 +1492,7 @@
     <value>0, 77</value>
   </data>
   <data name="contenidoForms.Size" type="System.Drawing.Size, System.Drawing">
-    <value>730, 427</value>
+    <value>790, 446</value>
   </data>
   <data name="contenidoForms.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -1485,194 +1509,38 @@
   <data name="&gt;&gt;contenidoForms.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;bunifuCustomLabel3.Name" xml:space="preserve">
-    <value>bunifuCustomLabel3</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel3.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuCustomLabel, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel3.Parent" xml:space="preserve">
-    <value>header</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel1.Name" xml:space="preserve">
-    <value>bunifuCustomLabel1</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel1.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuCustomLabel, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel1.Parent" xml:space="preserve">
-    <value>header</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel2.Name" xml:space="preserve">
-    <value>bunifuCustomLabel2</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel2.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuCustomLabel, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel2.Parent" xml:space="preserve">
-    <value>header</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;menuButton.Name" xml:space="preserve">
-    <value>menuButton</value>
-  </data>
-  <data name="&gt;&gt;menuButton.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuImageButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;menuButton.Parent" xml:space="preserve">
-    <value>header</value>
-  </data>
-  <data name="&gt;&gt;menuButton.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;topHeader.Name" xml:space="preserve">
-    <value>topHeader</value>
-  </data>
-  <data name="&gt;&gt;topHeader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;topHeader.Parent" xml:space="preserve">
-    <value>header</value>
-  </data>
-  <data name="&gt;&gt;topHeader.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="header.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="header.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="header.Size" type="System.Drawing.Size, System.Drawing">
-    <value>730, 77</value>
-  </data>
-  <data name="header.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;header.Name" xml:space="preserve">
-    <value>header</value>
-  </data>
-  <data name="&gt;&gt;header.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;header.Parent" xml:space="preserve">
-    <value>contenido</value>
-  </data>
-  <data name="&gt;&gt;header.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="bunifuCustomLabel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="bunifuCustomLabel3.AutoSize" type="System.Boolean, mscorlib">
+  <data name="TituloOpcion.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="bunifuCustomLabel3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="bunifuCustomLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="bunifuCustomLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>431, 45</value>
-  </data>
-  <data name="bunifuCustomLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>252, 21</value>
-  </data>
-  <data name="bunifuCustomLabel3.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="bunifuCustomLabel3.Text" xml:space="preserve">
-    <value>Elige una opción de la barra lateral.</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel3.Name" xml:space="preserve">
-    <value>bunifuCustomLabel3</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel3.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuCustomLabel, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel3.Parent" xml:space="preserve">
-    <value>header</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="bunifuCustomLabel1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="bunifuCustomLabel1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="TituloOpcion.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 14.25pt, style=Bold</value>
   </data>
-  <data name="bunifuCustomLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="TituloOpcion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="bunifuCustomLabel1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="TituloOpcion.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 37</value>
   </data>
-  <data name="bunifuCustomLabel1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="TituloOpcion.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 25</value>
   </data>
-  <data name="bunifuCustomLabel1.TabIndex" type="System.Int32, mscorlib">
+  <data name="TituloOpcion.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="bunifuCustomLabel1.Text" xml:space="preserve">
+  <data name="TituloOpcion.Text" xml:space="preserve">
     <value>Bienvenido</value>
   </data>
-  <data name="&gt;&gt;bunifuCustomLabel1.Name" xml:space="preserve">
-    <value>bunifuCustomLabel1</value>
+  <data name="&gt;&gt;TituloOpcion.Name" xml:space="preserve">
+    <value>TituloOpcion</value>
   </data>
-  <data name="&gt;&gt;bunifuCustomLabel1.Type" xml:space="preserve">
+  <data name="&gt;&gt;TituloOpcion.Type" xml:space="preserve">
     <value>Bunifu.Framework.UI.BunifuCustomLabel, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;bunifuCustomLabel1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TituloOpcion.Parent" xml:space="preserve">
     <value>header</value>
   </data>
-  <data name="&gt;&gt;bunifuCustomLabel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="bunifuCustomLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="bunifuCustomLabel2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="bunifuCustomLabel2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 18pt, style=Bold</value>
-  </data>
-  <data name="bunifuCustomLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="bunifuCustomLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>191, 30</value>
-  </data>
-  <data name="bunifuCustomLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>234, 32</value>
-  </data>
-  <data name="bunifuCustomLabel2.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;TituloOpcion.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="bunifuCustomLabel2.Text" xml:space="preserve">
-    <value>Servicio el Péndulo</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel2.Name" xml:space="preserve">
-    <value>bunifuCustomLabel2</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel2.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuCustomLabel, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel2.Parent" xml:space="preserve">
-    <value>header</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomLabel2.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="menuButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1699,67 +1567,7 @@
     <value>header</value>
   </data>
   <data name="&gt;&gt;menuButton.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;minimizar.Name" xml:space="preserve">
-    <value>minimizar</value>
-  </data>
-  <data name="&gt;&gt;minimizar.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuImageButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;minimizar.Parent" xml:space="preserve">
-    <value>topHeader</value>
-  </data>
-  <data name="&gt;&gt;minimizar.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;maximizar.Name" xml:space="preserve">
-    <value>maximizar</value>
-  </data>
-  <data name="&gt;&gt;maximizar.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuImageButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;maximizar.Parent" xml:space="preserve">
-    <value>topHeader</value>
-  </data>
-  <data name="&gt;&gt;maximizar.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="&gt;&gt;bunifuImageButton2.Name" xml:space="preserve">
-    <value>bunifuImageButton2</value>
-  </data>
-  <data name="&gt;&gt;bunifuImageButton2.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuImageButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuImageButton2.Parent" xml:space="preserve">
-    <value>topHeader</value>
-  </data>
-  <data name="&gt;&gt;bunifuImageButton2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="topHeader.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="topHeader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="topHeader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>730, 28</value>
-  </data>
-  <data name="topHeader.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;topHeader.Name" xml:space="preserve">
-    <value>topHeader</value>
-  </data>
-  <data name="&gt;&gt;topHeader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;topHeader.Parent" xml:space="preserve">
-    <value>header</value>
-  </data>
-  <data name="&gt;&gt;topHeader.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <data name="minimizar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -1768,7 +1576,7 @@
     <value>NoControl</value>
   </data>
   <data name="minimizar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 6</value>
+    <value>726, 6</value>
   </data>
   <data name="minimizar.Size" type="System.Drawing.Size, System.Drawing">
     <value>17, 16</value>
@@ -1798,7 +1606,7 @@
     <value>NoControl</value>
   </data>
   <data name="maximizar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>687, 6</value>
+    <value>747, 6</value>
   </data>
   <data name="maximizar.Size" type="System.Drawing.Size, System.Drawing">
     <value>17, 17</value>
@@ -1828,7 +1636,7 @@
     <value>NoControl</value>
   </data>
   <data name="bunifuImageButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>708, 5</value>
+    <value>768, 5</value>
   </data>
   <data name="bunifuImageButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>17, 18</value>
@@ -1851,11 +1659,86 @@
   <data name="&gt;&gt;bunifuImageButton2.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="topHeader.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="topHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="topHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>790, 28</value>
+  </data>
+  <data name="topHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;topHeader.Name" xml:space="preserve">
+    <value>topHeader</value>
+  </data>
+  <data name="&gt;&gt;topHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topHeader.Parent" xml:space="preserve">
+    <value>header</value>
+  </data>
+  <data name="&gt;&gt;topHeader.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="header.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="header.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="header.Size" type="System.Drawing.Size, System.Drawing">
+    <value>790, 77</value>
+  </data>
+  <data name="header.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;header.Name" xml:space="preserve">
+    <value>header</value>
+  </data>
+  <data name="&gt;&gt;header.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;header.Parent" xml:space="preserve">
+    <value>contenido</value>
+  </data>
+  <data name="&gt;&gt;header.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="contenido.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="contenido.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 0</value>
+  </data>
+  <data name="contenido.Size" type="System.Drawing.Size, System.Drawing">
+    <value>790, 523</value>
+  </data>
+  <data name="contenido.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;contenido.Name" xml:space="preserve">
+    <value>contenido</value>
+  </data>
+  <data name="&gt;&gt;contenido.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contenido.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;contenido.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="bunifuDragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>218, 17</value>
   </metadata>
   <metadata name="bunifuDragControl2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>378, 17</value>
+  </metadata>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>972, 17</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -1867,16 +1750,13 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1000, 504</value>
+    <value>1060, 523</value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1076, 562</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>PantallaPrincipal</value>
   </data>
   <data name="&gt;&gt;bunifuDragControl1.Name" xml:space="preserve">
     <value>bunifuDragControl1</value>
@@ -1907,6 +1787,12 @@
   </data>
   <data name="&gt;&gt;sideBarAnimation2.Type" xml:space="preserve">
     <value>BunifuAnimatorNS.BunifuTransition, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>PantallaPrincipal</value>

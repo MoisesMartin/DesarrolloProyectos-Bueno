@@ -18,7 +18,7 @@ using MaterialSkin.Controls;
 
 namespace ERP_ServicioElPendulo
 {
-    public partial class ConsultaSolicitudes : MaterialForm
+    public partial class ConsultaSolicitudes : Form
     {
 
         public static string conexionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=servicioElPendulo;Integrated Security=True";
@@ -52,10 +52,10 @@ namespace ERP_ServicioElPendulo
         public ConsultaSolicitudes()
         {
             InitializeComponent();
-            MaterialSkinManager sm = MaterialSkinManager.Instance;
-            sm.AddFormToManage(this);
-            sm.Theme = MaterialSkinManager.Themes.DARK;
-            sm.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.BlueGrey500, Accent.Green700, TextShade.WHITE);
+            //MaterialSkinManager sm = MaterialSkinManager.Instance;
+            //sm.AddFormToManage(this);
+            //sm.Theme = MaterialSkinManager.Themes.DARK;
+            //sm.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.BlueGrey500, Accent.Green700, TextShade.WHITE);
             
         }
 
@@ -195,6 +195,13 @@ namespace ERP_ServicioElPendulo
 
         private void ConsultaSolicitudes_Load(object sender, EventArgs e)
         {
+            materialLabel1.ForeColor = System.Drawing.Color.White;
+            materialLabel2.ForeColor = System.Drawing.Color.White;
+            materialLabel3.ForeColor = System.Drawing.Color.White;
+            materialLabel4.ForeColor = System.Drawing.Color.White;
+            label1.ForeColor = System.Drawing.Color.White;
+            label4.ForeColor = System.Drawing.Color.White;
+            cantColumnas.ForeColor = System.Drawing.Color.White;
             llenarTabla();
 
         }

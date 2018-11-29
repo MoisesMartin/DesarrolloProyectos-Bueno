@@ -16,7 +16,7 @@ namespace ERP_ServicioElPendulo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new rd_BuscarTodo());
+            Application.Run(new PantallaPrincipal());
         }
     }
 }

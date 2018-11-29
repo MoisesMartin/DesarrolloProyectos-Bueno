@@ -202,7 +202,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.Controls.Add(this.fecha_Solicitud);
             this.Controls.Add(this.btn_Aceptar);
             this.Controls.Add(this.btn_Cancelar);
@@ -217,6 +217,8 @@
             this.Controls.Add(this.list_TipoServicio);
             this.Controls.Add(this.list_ContactoSolicitante);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.Color.White;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SolicitudServicio";
             this.Load += new System.EventHandler(this.SolicitudServicio_Load);
             ((System.ComponentModel.ISupportInitialize)(this.contactosInnovaBindingSource)).EndInit();

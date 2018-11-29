@@ -18,7 +18,7 @@ using MaterialSkin.Controls;
 
 namespace ERP_ServicioElPendulo
 {
-    public partial class rd_BuscarTodo : MaterialForm
+    public partial class rd_BuscarTodo : Form
     {
         public static string conexionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=servicioElPendulo;Integrated Security=True";
         SqlConnection con = new SqlConnection(conexionString);
@@ -50,10 +50,10 @@ namespace ERP_ServicioElPendulo
         public rd_BuscarTodo()
         {
             InitializeComponent();
-            MaterialSkinManager sm = MaterialSkinManager.Instance;
-            sm.AddFormToManage(this);
-            sm.Theme = MaterialSkinManager.Themes.DARK;
-            sm.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.BlueGrey500, Accent.Green700, TextShade.WHITE);
+            //MaterialSkinManager sm = MaterialSkinManager.Instance;
+            //sm.AddFormToManage(this);
+            //sm.Theme = MaterialSkinManager.Themes.DARK;
+            //sm.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.BlueGrey500, Accent.Green700, TextShade.WHITE);
             
         }
 
@@ -208,6 +208,15 @@ namespace ERP_ServicioElPendulo
         }
         private void btn_Back_Load(object sender, EventArgs e)
         {
+            label1.ForeColor = System.Drawing.Color.White;
+            label3.ForeColor = System.Drawing.Color.White;
+            label2.ForeColor = System.Drawing.Color.White;
+            label4.ForeColor = System.Drawing.Color.White;
+            label5.ForeColor = System.Drawing.Color.White;
+            label6.ForeColor = System.Drawing.Color.White;
+            label7.ForeColor = System.Drawing.Color.White;
+            cantColumnas.ForeColor = System.Drawing.Color.White;
+            operacion.ForeColor = System.Drawing.Color.White;
             // TODO: esta línea de código carga datos en la tabla 'servicioElPenduloDataSet3.CitasAgendadas' Puede moverla o quitarla según sea necesario.
             LlenarTabla();
             sumarCeldas();

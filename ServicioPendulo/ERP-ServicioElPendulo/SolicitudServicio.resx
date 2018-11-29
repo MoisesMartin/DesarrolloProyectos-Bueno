@@ -163,7 +163,7 @@
     <value>Sergio Marines</value>
   </data>
   <data name="list_ContactoSolicitante.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 115</value>
+    <value>22, 48</value>
   </data>
   <data name="list_ContactoSolicitante.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 21</value>
@@ -189,9 +189,6 @@
   <metadata name="ds_ContactosSolicitud.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="ds_ContactosSolicitud.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <data name="list_TipoServicio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
@@ -202,7 +199,7 @@
     <value>Autorizado</value>
   </data>
   <data name="list_TipoServicio.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 165</value>
+    <value>23, 98</value>
   </data>
   <data name="list_TipoServicio.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 21</value>
@@ -256,7 +253,7 @@
     <value>Las Américas</value>
   </data>
   <data name="list_Sucursal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 218</value>
+    <value>23, 151</value>
   </data>
   <data name="list_Sucursal.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 21</value>
@@ -280,13 +277,19 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="textBox_Descripcion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 270</value>
+    <value>23, 203</value>
+  </data>
+  <data name="textBox_Descripcion.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>10000, 200</value>
+  </data>
+  <data name="textBox_Descripcion.MaxLength" type="System.Int32, mscorlib">
+    <value>255</value>
   </data>
   <data name="textBox_Descripcion.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="textBox_Descripcion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 83</value>
+    <value>210, 83</value>
   </data>
   <data name="textBox_Descripcion.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -346,7 +349,7 @@
     <value>Roboto, 11pt</value>
   </data>
   <data name="materialLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 93</value>
+    <value>18, 26</value>
   </data>
   <data name="materialLabel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 19</value>
@@ -379,7 +382,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 143</value>
+    <value>20, 76</value>
   </data>
   <data name="materialLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 19</value>
@@ -412,7 +415,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 196</value>
+    <value>20, 129</value>
   </data>
   <data name="materialLabel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 19</value>
@@ -448,7 +451,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 248</value>
+    <value>20, 181</value>
   </data>
   <data name="materialLabel4.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 19</value>
@@ -484,7 +487,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>292, 93</value>
+    <value>300, 26</value>
   </data>
   <data name="materialLabel5.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 19</value>
@@ -568,7 +571,7 @@
     <value>Top, Right</value>
   </data>
   <data name="fecha_Solicitud.Location" type="System.Drawing.Point, System.Drawing">
-    <value>296, 115</value>
+    <value>304, 48</value>
   </data>
   <data name="fecha_Solicitud.Size" type="System.Drawing.Size, System.Drawing">
     <value>186, 33</value>
@@ -597,9 +600,6 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>508, 387</value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>  Formulario de Solicitud de Servicio</value>
   </data>
@@ -625,6 +625,6 @@
     <value>SolicitudServicio</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialForm, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

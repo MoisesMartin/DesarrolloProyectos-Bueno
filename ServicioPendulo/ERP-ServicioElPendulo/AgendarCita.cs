@@ -14,7 +14,7 @@ using MaterialSkin.Controls;
 
 namespace ERP_ServicioElPendulo
 {
-    public partial class AgendarCita : MaterialForm
+    public partial class AgendarCita : Form
     {
         public static string conexionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=servicioElPendulo;Integrated Security=True";
         SqlConnection con = new SqlConnection(conexionString);
@@ -49,10 +49,10 @@ namespace ERP_ServicioElPendulo
         public AgendarCita()
         {
             InitializeComponent();
-            MaterialSkinManager sm = MaterialSkinManager.Instance;
-            sm.AddFormToManage(this);
-            sm.Theme = MaterialSkinManager.Themes.DARK;
-            sm.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.BlueGrey500, Accent.Green700, TextShade.WHITE);
+            //MaterialSkinManager sm = MaterialSkinManager.Instance;
+            //sm.AddFormToManage(this);
+            //sm.Theme = MaterialSkinManager.Themes.DARK;
+            //sm.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.BlueGrey500, Accent.Green700, TextShade.WHITE);
             this.AcceptButton = btn_Aceptar;
         }
 
@@ -162,7 +162,14 @@ namespace ERP_ServicioElPendulo
 
         private void AgendarCita_Load(object sender, EventArgs e)
         {
-
+            materialLabel1.ForeColor = System.Drawing.Color.White;
+            materialLabel2.ForeColor = System.Drawing.Color.White;
+            materialLabel3.ForeColor = System.Drawing.Color.White;
+            materialLabel4.ForeColor = System.Drawing.Color.White;
+            materialLabel5.ForeColor = System.Drawing.Color.White;
+            materialLabel6.ForeColor = System.Drawing.Color.White;
+            materialLabel7.ForeColor = System.Drawing.Color.White;
+            materialLabel8.ForeColor = System.Drawing.Color.White;
         }
 
         private void list_Sucursales_SelectedIndexChanged(object sender, EventArgs e)

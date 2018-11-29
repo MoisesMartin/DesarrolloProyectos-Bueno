@@ -13,10 +13,15 @@ namespace ERP_ServicioElPendulo
 {
     public partial class PantallaPrincipal : Form
     {
+
         public PantallaPrincipal()
         {
             InitializeComponent();
+            this.ControlBox = false;
+            this.Text = string.Empty;
         }
+
+
 
         #region Validar_Cierre_Formulario
         protected override void OnFormClosing(FormClosingEventArgs e)
@@ -159,6 +164,7 @@ namespace ERP_ServicioElPendulo
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
+            ajustaBarra();
             if (registroOptions.Visible == false)
             {
                 reporteOptions.Visible = false;
@@ -169,10 +175,12 @@ namespace ERP_ServicioElPendulo
             } else {
                 registroOptions.Visible = false;
             }
+            
         }
 
         private void bunifuFlatButton2_Click(object sender, EventArgs e)
         {
+            ajustaBarra();
             if (recursosOptions.Visible == false)
             {
                 tecnicosOptions.Visible = false;
@@ -189,6 +197,7 @@ namespace ERP_ServicioElPendulo
 
         private void bunifuFlatButton3_Click(object sender, EventArgs e)
         {
+            ajustaBarra();
             if (tecnicosOptions.Visible == false)
             {
                 registroOptions.Visible = false;
@@ -205,6 +214,7 @@ namespace ERP_ServicioElPendulo
 
         private void bunifuFlatButton4_Click(object sender, EventArgs e)
         {
+            ajustaBarra();
             if (quejasOptions.Visible == false)
             {
                 registroOptions.Visible = false;
@@ -221,6 +231,7 @@ namespace ERP_ServicioElPendulo
 
         private void bunifuFlatButton5_Click(object sender, EventArgs e)
         {
+            ajustaBarra();
             if (reporteOptions.Visible == false)
             {
                 registroOptions.Visible = false;
@@ -237,6 +248,7 @@ namespace ERP_ServicioElPendulo
 
         private void bunifuFlatButton8_Click(object sender, EventArgs e)
         {
+            cambioPantalla("Formulario de Solicitud de Servicio");
             SolicitudServicio solicitud = new SolicitudServicio();
             solicitud.TopLevel = false;
             contenidoForms.Controls.Add(solicitud);
@@ -247,6 +259,8 @@ namespace ERP_ServicioElPendulo
 
         private void bunifuFlatButton7_Click(object sender, EventArgs e)
         {
+            contenidoForms.Controls.Clear();
+            cambioPantalla("Agendar Cita");
             AgendarCita agendar = new AgendarCita();
             agendar.TopLevel = false;
             contenidoForms.Controls.Add(agendar);
@@ -257,6 +271,7 @@ namespace ERP_ServicioElPendulo
 
         private void bunifuFlatButton9_Click(object sender, EventArgs e)
         {
+            cambioPantalla("Solicitudes de Servicio Registradas");
             ConsultaSolicitudes solicitudes = new ConsultaSolicitudes();
             solicitudes.TopLevel = false;
             contenidoForms.Controls.Add(solicitudes);
@@ -267,6 +282,7 @@ namespace ERP_ServicioElPendulo
 
         private void bunifuFlatButton6_Click(object sender, EventArgs e)
         {
+            cambioPantalla("Consulta de Citas");
             rd_BuscarTodo consultacitas = new rd_BuscarTodo();
             consultacitas.TopLevel = false;
             contenidoForms.Controls.Add(consultacitas);
@@ -277,6 +293,7 @@ namespace ERP_ServicioElPendulo
 
         private void bunifuFlatButton13_Click(object sender, EventArgs e)
         {
+            ocultarInstruccion();
             Proveedores prov = new Proveedores();
             prov.TopLevel = false;
             contenidoForms.Controls.Add(prov);
@@ -287,6 +304,7 @@ namespace ERP_ServicioElPendulo
 
         private void bunifuFlatButton12_Click(object sender, EventArgs e)
         {
+            ocultarInstruccion();
             AsignarTrabajos asignarTrabajos = new AsignarTrabajos();
             asignarTrabajos.TopLevel = false;
             contenidoForms.Controls.Add(asignarTrabajos);
@@ -307,6 +325,7 @@ namespace ERP_ServicioElPendulo
 
         private void bunifuFlatButton17_Click(object sender, EventArgs e)
         {
+            ocultarInstruccion();
             OperacionesUsuarios gestionTecnicos = new OperacionesUsuarios();
             gestionTecnicos.TopLevel = false;
             contenidoForms.Controls.Add(gestionTecnicos);
@@ -335,7 +354,6 @@ namespace ERP_ServicioElPendulo
             }
             else
             {
-                FormBorderStyle = FormBorderStyle.None;
                 WindowState = FormWindowState.Maximized;
             }
             
@@ -353,6 +371,82 @@ namespace ERP_ServicioElPendulo
         }
 
         private void contenidoForms_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void ocultarInstruccion()
+        {
+            tituloPrincipal.Hide();
+            descripcionPrincipal.Hide();
+        }
+
+        private void cambioPantalla(string texto)
+        {
+            contenidoForms.Controls.Clear();
+            TituloOpcion.Text = texto;
+        }
+
+        private void ajustaBarra()
+        {
+            if (barraLateral.Width < 270)
+            {
+                barraLateral.Width = 270;
+                logoAnimation.ShowSync(logo);
+            }
+        }
+
+        private void bunifuFlatButton11_Click(object sender, EventArgs e)
+        {
+            ocultarInstruccion();
+        }
+
+        private void bunifuFlatButton10_Click(object sender, EventArgs e)
+        {
+            ocultarInstruccion();
+        }
+
+        private void bunifuFlatButton16_Click(object sender, EventArgs e)
+        {
+            ocultarInstruccion();
+        }
+
+        private void bunifuFlatButton19_Click(object sender, EventArgs e)
+        {
+            ocultarInstruccion();
+        }
+
+        private void bunifuFlatButton18_Click(object sender, EventArgs e)
+        {
+            ocultarInstruccion();
+        }
+
+        private void bunifuFlatButton15_Click(object sender, EventArgs e)
+        {
+            ocultarInstruccion();
+        }
+
+        private void bunifuFlatButton14_Click(object sender, EventArgs e)
+        {
+            ocultarInstruccion();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_MouseUp(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
 
         }

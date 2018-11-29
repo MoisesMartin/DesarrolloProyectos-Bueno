@@ -45,6 +45,8 @@
             this.fechaAgendacion = new Bunifu.Framework.UI.BunifuDatepicker();
             this.fechaProgramada = new Bunifu.Framework.UI.BunifuDatepicker();
             this.horaCita = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.SuspendLayout();
             // 
             // txt_PersonaAtiende
@@ -132,6 +134,7 @@
             // 
             resources.ApplyResources(this.radio_EnProceso, "radio_EnProceso");
             this.radio_EnProceso.Depth = 0;
+            this.radio_EnProceso.ForeColor = System.Drawing.Color.White;
             this.radio_EnProceso.MouseLocation = new System.Drawing.Point(-1, -1);
             this.radio_EnProceso.MouseState = MaterialSkin.MouseState.HOVER;
             this.radio_EnProceso.Name = "radio_EnProceso";
@@ -143,6 +146,7 @@
             resources.ApplyResources(this.radio_Agendado, "radio_Agendado");
             this.radio_Agendado.Checked = true;
             this.radio_Agendado.Depth = 0;
+            this.radio_Agendado.ForeColor = System.Drawing.Color.White;
             this.radio_Agendado.MouseLocation = new System.Drawing.Point(-1, -1);
             this.radio_Agendado.MouseState = MaterialSkin.MouseState.HOVER;
             this.radio_Agendado.Name = "radio_Agendado";
@@ -203,11 +207,29 @@
             this.horaCita.Name = "horaCita";
             this.horaCita.Value = new System.DateTime(2018, 11, 21, 2, 11, 39, 105);
             // 
+            // materialLabel7
+            // 
+            resources.ApplyResources(this.materialLabel7, "materialLabel7");
+            this.materialLabel7.Depth = 0;
+            this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel7.Name = "materialLabel7";
+            // 
+            // materialLabel8
+            // 
+            resources.ApplyResources(this.materialLabel8, "materialLabel8");
+            this.materialLabel8.Depth = 0;
+            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel8.Name = "materialLabel8";
+            // 
             // AgendarCita
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.Controls.Add(this.materialLabel8);
+            this.Controls.Add(this.materialLabel7);
             this.Controls.Add(this.horaCita);
             this.Controls.Add(this.fechaProgramada);
             this.Controls.Add(this.fechaAgendacion);
@@ -224,6 +246,7 @@
             this.Controls.Add(this.link_Fecha);
             this.Controls.Add(this.list_Sucursales);
             this.Controls.Add(this.txt_PersonaAtiende);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AgendarCita";
             this.Load += new System.EventHandler(this.AgendarCita_Load);
             this.ResumeLayout(false);
@@ -248,5 +271,7 @@
         private Bunifu.Framework.UI.BunifuDatepicker fechaAgendacion;
         private Bunifu.Framework.UI.BunifuDatepicker fechaProgramada;
         private Bunifu.Framework.UI.BunifuDatepicker horaCita;
+        private MaterialSkin.Controls.MaterialLabel materialLabel7;
+        private MaterialSkin.Controls.MaterialLabel materialLabel8;
     }
 }

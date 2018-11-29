@@ -123,7 +123,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="txt_PersonaAtiende.Location" type="System.Drawing.Point, System.Drawing">
-    <value>449, 114</value>
+    <value>471, 55</value>
   </data>
   <data name="txt_PersonaAtiende.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 20</value>
@@ -142,7 +142,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txt_PersonaAtiende.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>17</value>
   </data>
   <data name="list_Sucursales.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -178,10 +178,10 @@
     <value>Las Américas</value>
   </data>
   <data name="list_Sucursales.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 113</value>
+    <value>37, 54</value>
   </data>
   <data name="list_Sucursales.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 21</value>
+    <value>387, 21</value>
   </data>
   <data name="list_Sucursales.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -196,7 +196,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;list_Sucursales.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>16</value>
   </data>
   <data name="link_Fecha.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Right</value>
@@ -208,7 +208,7 @@
     <value>Segoe UI Semilight, 9pt</value>
   </data>
   <data name="link_Fecha.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 286</value>
+    <value>383, 230</value>
   </data>
   <data name="link_Fecha.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 15</value>
@@ -229,7 +229,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;link_Fecha.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>15</value>
   </data>
   <data name="materialLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -238,7 +238,7 @@
     <value>Roboto, 11pt</value>
   </data>
   <data name="materialLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 90</value>
+    <value>33, 31</value>
   </data>
   <data name="materialLabel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 19</value>
@@ -259,7 +259,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel1.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>14</value>
   </data>
   <data name="materialLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -274,7 +274,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 166</value>
+    <value>33, 107</value>
   </data>
   <data name="materialLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 19</value>
@@ -295,7 +295,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel2.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>13</value>
   </data>
   <data name="materialLabel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -310,7 +310,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 211</value>
+    <value>33, 152</value>
   </data>
   <data name="materialLabel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>172, 19</value>
@@ -331,7 +331,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel3.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
   <data name="materialLabel4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -346,7 +346,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 286</value>
+    <value>33, 227</value>
   </data>
   <data name="materialLabel4.Size" type="System.Drawing.Size, System.Drawing">
     <value>97, 19</value>
@@ -367,7 +367,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel4.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="materialLabel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -382,7 +382,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>445, 90</value>
+    <value>467, 31</value>
   </data>
   <data name="materialLabel5.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 19</value>
@@ -403,7 +403,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel5.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="materialLabel6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -418,7 +418,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>449, 144</value>
+    <value>467, 99</value>
   </data>
   <data name="materialLabel6.Size" type="System.Drawing.Size, System.Drawing">
     <value>146, 19</value>
@@ -439,7 +439,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel6.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="radio_EnProceso.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -451,19 +451,16 @@
     <value>Roboto, 10pt</value>
   </data>
   <data name="radio_EnProceso.Location" type="System.Drawing.Point, System.Drawing">
-    <value>449, 166</value>
+    <value>467, 121</value>
   </data>
   <data name="radio_EnProceso.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="radio_EnProceso.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 30</value>
+    <value>25, 30</value>
   </data>
   <data name="radio_EnProceso.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
-  </data>
-  <data name="radio_EnProceso.Text" xml:space="preserve">
-    <value>En Proceso</value>
   </data>
   <data name="&gt;&gt;radio_EnProceso.Name" xml:space="preserve">
     <value>radio_EnProceso</value>
@@ -475,7 +472,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;radio_EnProceso.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="radio_Agendado.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -490,19 +487,16 @@
     <value>NoControl</value>
   </data>
   <data name="radio_Agendado.Location" type="System.Drawing.Point, System.Drawing">
-    <value>449, 193</value>
+    <value>467, 151</value>
   </data>
   <data name="radio_Agendado.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="radio_Agendado.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 30</value>
+    <value>25, 30</value>
   </data>
   <data name="radio_Agendado.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
-  </data>
-  <data name="radio_Agendado.Text" xml:space="preserve">
-    <value>Agendado</value>
   </data>
   <data name="&gt;&gt;radio_Agendado.Name" xml:space="preserve">
     <value>radio_Agendado</value>
@@ -514,13 +508,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;radio_Agendado.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="btn_Cancelar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
   <data name="btn_Cancelar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>478, 339</value>
+    <value>482, 320</value>
   </data>
   <data name="btn_Cancelar.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 32</value>
@@ -541,7 +535,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btn_Cancelar.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="btn_Aceptar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -550,7 +544,7 @@
     <value>NoControl</value>
   </data>
   <data name="btn_Aceptar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>581, 339</value>
+    <value>585, 320</value>
   </data>
   <data name="btn_Aceptar.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 32</value>
@@ -571,16 +565,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btn_Aceptar.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="fechaAgendacion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
   <data name="fechaAgendacion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>233, 158</value>
+    <value>235, 99</value>
   </data>
   <data name="fechaAgendacion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 38</value>
+    <value>189, 38</value>
   </data>
   <data name="fechaAgendacion.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -598,16 +592,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;fechaAgendacion.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="fechaProgramada.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
   <data name="fechaProgramada.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 233</value>
+    <value>37, 174</value>
   </data>
   <data name="fechaProgramada.Size" type="System.Drawing.Size, System.Drawing">
-    <value>368, 36</value>
+    <value>387, 36</value>
   </data>
   <data name="fechaProgramada.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -622,16 +616,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;fechaProgramada.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="horaCita.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
   <data name="horaCita.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 308</value>
+    <value>37, 249</value>
   </data>
   <data name="horaCita.Size" type="System.Drawing.Size, System.Drawing">
-    <value>368, 36</value>
+    <value>387, 36</value>
   </data>
   <data name="horaCita.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -646,6 +640,78 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;horaCita.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialLabel7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="materialLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="materialLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 128</value>
+  </data>
+  <data name="materialLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="materialLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="materialLabel7.Text" xml:space="preserve">
+    <value>En proceso</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Name" xml:space="preserve">
+    <value>materialLabel7</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialLabel8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="materialLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="materialLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 158</value>
+  </data>
+  <data name="materialLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
+  </data>
+  <data name="materialLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="materialLabel8.Text" xml:space="preserve">
+    <value>Agendado</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Name" xml:space="preserve">
+    <value>materialLabel8</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -655,7 +721,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>679, 389</value>
+    <value>683, 364</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Agendar Cita</value>
@@ -664,6 +730,6 @@
     <value>AgendarCita</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialForm, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
