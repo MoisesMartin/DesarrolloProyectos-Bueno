@@ -100,7 +100,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label1.Location = new System.Drawing.Point(17, 7);
+            this.label1.Location = new System.Drawing.Point(16, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(118, 24);
             this.label1.TabIndex = 3;
@@ -231,9 +231,10 @@
             // 
             // btn_gest_Ballena
             // 
-            this.btn_gest_Ballena.Location = new System.Drawing.Point(363, 260);
+            this.btn_gest_Ballena.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_gest_Ballena.Location = new System.Drawing.Point(363, 255);
             this.btn_gest_Ballena.Name = "btn_gest_Ballena";
-            this.btn_gest_Ballena.Size = new System.Drawing.Size(113, 23);
+            this.btn_gest_Ballena.Size = new System.Drawing.Size(113, 41);
             this.btn_gest_Ballena.TabIndex = 9;
             this.btn_gest_Ballena.Text = "Gestionar Proveedor";
             this.btn_gest_Ballena.UseVisualStyleBackColor = true;
@@ -243,7 +244,7 @@
             this.totalProv.AutoSize = true;
             this.totalProv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.totalProv.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalProv.Location = new System.Drawing.Point(315, 332);
+            this.totalProv.Location = new System.Drawing.Point(225, 332);
             this.totalProv.Name = "totalProv";
             this.totalProv.Size = new System.Drawing.Size(14, 13);
             this.totalProv.TabIndex = 6;
@@ -253,7 +254,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.label6.Location = new System.Drawing.Point(257, 332);
+            this.label6.Location = new System.Drawing.Point(167, 332);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(31, 13);
             this.label6.TabIndex = 5;
@@ -264,7 +265,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(257, 296);
+            this.label5.Location = new System.Drawing.Point(167, 296);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(159, 15);
             this.label5.TabIndex = 4;
@@ -360,7 +361,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.pictureBox2.Location = new System.Drawing.Point(250, 289);
+            this.pictureBox2.Location = new System.Drawing.Point(160, 289);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(177, 64);
             this.pictureBox2.TabIndex = 17;

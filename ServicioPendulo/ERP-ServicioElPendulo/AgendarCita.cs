@@ -58,8 +58,6 @@ namespace ERP_ServicioElPendulo
 
         private void btn_Cancelar_Click(object sender, EventArgs e)
         {
-            PantallaPrincipal mainScreen = new PantallaPrincipal();
-            mainScreen.Show();
             Hide();
         }
         public bool validaciones()
@@ -113,9 +111,8 @@ namespace ERP_ServicioElPendulo
             if(validaciones() == true)
             {
                 Hide();
-                PantallaPrincipal mainScreen = new PantallaPrincipal();
                 agendarCita();
-                mainScreen.Show();
+                
             }
             else
             {

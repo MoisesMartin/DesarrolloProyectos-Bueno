@@ -107,34 +107,6 @@ namespace ERP_ServicioElPendulo
 
         }
 
-        private void tablaTec_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            try
-            {
-                var clave_tecnico = tablaTec.Rows[e.RowIndex].Cells[0].Value;
-                txt_showClave.Text = clave_tecnico.ToString();
-                //
-                var nombreTecnico = tablaTec.Rows[e.RowIndex].Cells[1].Value;
-                txt_NombreTecnico.Text = nombreTecnico.ToString();
-                //
-                var apellidoP = tablaTec.Rows[e.RowIndex].Cells[2].Value;
-                textBox1.Text = apellidoP.ToString();
-                //
-                var apellidoM = tablaTec.Rows[e.RowIndex].Cells[3].Value;
-                txt_Materno.Text = apellidoM.ToString();
-                //
-                var email = tablaTec.Rows[e.RowIndex].Cells[5].Value;
-                txt_Correo.Text = email.ToString();
-                //
-                var telf = tablaTec.Rows[e.RowIndex].Cells[6].Value;
-                txt_TelefonoC.Text = telf.ToString();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Operación inválida", "Operación Imposible " + ex.Message, MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-        }
-
         private void btn_Eliminar_Click(object sender, EventArgs e)
         {
             borrar();
@@ -256,6 +228,34 @@ namespace ERP_ServicioElPendulo
             catch (Exception e1)
             {
                 MessageBox.Show(e1.Message, "ErrorSQL");
+            }
+        }
+
+        private void tablaTec_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+                var clave_tecnico = tablaTec.Rows[e.RowIndex].Cells[0].Value;
+                txt_showClave.Text = clave_tecnico.ToString();
+                //
+                var nombreTecnico = tablaTec.Rows[e.RowIndex].Cells[1].Value;
+                txt_NombreTecnico.Text = nombreTecnico.ToString();
+                //
+                var apellidoP = tablaTec.Rows[e.RowIndex].Cells[2].Value;
+                textBox1.Text = apellidoP.ToString();
+                //
+                var apellidoM = tablaTec.Rows[e.RowIndex].Cells[3].Value;
+                txt_Materno.Text = apellidoM.ToString();
+                //
+                var email = tablaTec.Rows[e.RowIndex].Cells[5].Value;
+                txt_Correo.Text = email.ToString();
+                //
+                var telf = tablaTec.Rows[e.RowIndex].Cells[6].Value;
+                txt_TelefonoC.Text = telf.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Operación inválida", "Operación Imposible " + ex.Message, MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
     }

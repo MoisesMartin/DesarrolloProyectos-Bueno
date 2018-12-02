@@ -57,10 +57,10 @@
             this.btn_Back = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btn_Filtrar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.date_buscarPorFecha = new Bunifu.Framework.UI.BunifuDatepicker();
-            this.label1 = new System.Windows.Forms.Label();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.contactosInnovaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.contactosInnova)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet)).BeginInit();
@@ -82,7 +82,7 @@
             "Mariell Ugalde",
             "Paola Ocampo",
             "Sergio Marines"});
-            this.buscarPContacto.Location = new System.Drawing.Point(137, 103);
+            this.buscarPContacto.Location = new System.Drawing.Point(136, 167);
             this.buscarPContacto.Name = "buscarPContacto";
             this.buscarPContacto.Size = new System.Drawing.Size(184, 21);
             this.buscarPContacto.Sorted = true;
@@ -105,7 +105,7 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.ayuda_Filtrar.AutoSize = true;
             this.ayuda_Filtrar.Font = new System.Drawing.Font("Segoe UI Semilight", 10F);
-            this.ayuda_Filtrar.Location = new System.Drawing.Point(207, 25);
+            this.ayuda_Filtrar.Location = new System.Drawing.Point(213, 89);
             this.ayuda_Filtrar.Name = "ayuda_Filtrar";
             this.ayuda_Filtrar.Size = new System.Drawing.Size(48, 19);
             this.ayuda_Filtrar.TabIndex = 26;
@@ -143,10 +143,10 @@
             this.descripcionProblemaDataGridViewTextBoxColumn,
             this.fechaCapturaDataGridViewTextBoxColumn});
             this.dt_SolicitudesR.DataSource = this.solicitudServicioBindingSource1;
-            this.dt_SolicitudesR.Location = new System.Drawing.Point(29, 148);
+            this.dt_SolicitudesR.Location = new System.Drawing.Point(29, 199);
             this.dt_SolicitudesR.Name = "dt_SolicitudesR";
             this.dt_SolicitudesR.ReadOnly = true;
-            this.dt_SolicitudesR.Size = new System.Drawing.Size(790, 249);
+            this.dt_SolicitudesR.Size = new System.Drawing.Size(693, 276);
             this.dt_SolicitudesR.TabIndex = 27;
             this.dt_SolicitudesR.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dt_SolicitudesR_CellContentClick);
             // 
@@ -215,7 +215,7 @@
             this.cantColumnas.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.cantColumnas.AutoSize = true;
             this.cantColumnas.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cantColumnas.Location = new System.Drawing.Point(172, 425);
+            this.cantColumnas.Location = new System.Drawing.Point(172, 503);
             this.cantColumnas.Name = "cantColumnas";
             this.cantColumnas.Size = new System.Drawing.Size(23, 25);
             this.cantColumnas.TabIndex = 45;
@@ -226,7 +226,7 @@
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(26, 428);
+            this.label4.Location = new System.Drawing.Point(26, 506);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(140, 21);
             this.label4.TabIndex = 44;
@@ -240,7 +240,7 @@
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(25, 25);
+            this.materialLabel1.Location = new System.Drawing.Point(31, 89);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(146, 19);
@@ -254,7 +254,7 @@
             this.rd_buscarPorContacto.AutoSize = true;
             this.rd_buscarPorContacto.Depth = 0;
             this.rd_buscarPorContacto.Font = new System.Drawing.Font("Roboto", 10F);
-            this.rd_buscarPorContacto.Location = new System.Drawing.Point(30, 97);
+            this.rd_buscarPorContacto.Location = new System.Drawing.Point(29, 162);
             this.rd_buscarPorContacto.Margin = new System.Windows.Forms.Padding(0);
             this.rd_buscarPorContacto.MouseLocation = new System.Drawing.Point(-1, -1);
             this.rd_buscarPorContacto.MouseState = MaterialSkin.MouseState.HOVER;
@@ -271,7 +271,7 @@
             this.rd_porFecha.AutoSize = true;
             this.rd_porFecha.Depth = 0;
             this.rd_porFecha.Font = new System.Drawing.Font("Roboto", 10F);
-            this.rd_porFecha.Location = new System.Drawing.Point(30, 56);
+            this.rd_porFecha.Location = new System.Drawing.Point(29, 121);
             this.rd_porFecha.Margin = new System.Windows.Forms.Padding(0);
             this.rd_porFecha.MouseLocation = new System.Drawing.Point(-1, -1);
             this.rd_porFecha.MouseState = MaterialSkin.MouseState.HOVER;
@@ -288,7 +288,7 @@
             this.rd_BuscarTodo.Checked = true;
             this.rd_BuscarTodo.Depth = 0;
             this.rd_BuscarTodo.Font = new System.Drawing.Font("Roboto", 10F);
-            this.rd_BuscarTodo.Location = new System.Drawing.Point(710, 53);
+            this.rd_BuscarTodo.Location = new System.Drawing.Point(615, 78);
             this.rd_BuscarTodo.Margin = new System.Windows.Forms.Padding(0);
             this.rd_BuscarTodo.MouseLocation = new System.Drawing.Point(-1, -1);
             this.rd_BuscarTodo.MouseState = MaterialSkin.MouseState.HOVER;
@@ -303,7 +303,7 @@
             // 
             this.btn_GenerarPDF.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_GenerarPDF.Depth = 0;
-            this.btn_GenerarPDF.Location = new System.Drawing.Point(702, 411);
+            this.btn_GenerarPDF.Location = new System.Drawing.Point(605, 489);
             this.btn_GenerarPDF.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_GenerarPDF.Name = "btn_GenerarPDF";
             this.btn_GenerarPDF.Primary = true;
@@ -317,7 +317,7 @@
             // 
             this.btn_Back.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Back.Depth = 0;
-            this.btn_Back.Location = new System.Drawing.Point(597, 411);
+            this.btn_Back.Location = new System.Drawing.Point(500, 489);
             this.btn_Back.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_Back.Name = "btn_Back";
             this.btn_Back.Primary = true;
@@ -331,7 +331,7 @@
             // 
             this.btn_Filtrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Filtrar.Depth = 0;
-            this.btn_Filtrar.Location = new System.Drawing.Point(720, 89);
+            this.btn_Filtrar.Location = new System.Drawing.Point(625, 114);
             this.btn_Filtrar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_Filtrar.Name = "btn_Filtrar";
             this.btn_Filtrar.Primary = true;
@@ -348,20 +348,11 @@
             this.date_buscarPorFecha.ForeColor = System.Drawing.Color.White;
             this.date_buscarPorFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.date_buscarPorFecha.FormatCustom = null;
-            this.date_buscarPorFecha.Location = new System.Drawing.Point(137, 56);
+            this.date_buscarPorFecha.Location = new System.Drawing.Point(136, 120);
             this.date_buscarPorFecha.Name = "date_buscarPorFecha";
             this.date_buscarPorFecha.Size = new System.Drawing.Size(184, 27);
             this.date_buscarPorFecha.TabIndex = 53;
             this.date_buscarPorFecha.Value = new System.DateTime(2018, 11, 28, 2, 34, 2, 0);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(342, 62);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 13);
-            this.label1.TabIndex = 54;
-            this.label1.Text = "*** preguntar a MOI";
             // 
             // materialLabel2
             // 
@@ -369,12 +360,12 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.materialLabel2.AutoSize = true;
             this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel2.Location = new System.Drawing.Point(58, 62);
+            this.materialLabel2.Location = new System.Drawing.Point(57, 127);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(46, 16);
+            this.materialLabel2.Size = new System.Drawing.Size(49, 19);
             this.materialLabel2.TabIndex = 55;
             this.materialLabel2.Text = "Fecha";
             // 
@@ -384,12 +375,12 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.materialLabel3.AutoSize = true;
             this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
+            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel3.Location = new System.Drawing.Point(58, 104);
+            this.materialLabel3.Location = new System.Drawing.Point(57, 169);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(61, 16);
+            this.materialLabel3.Size = new System.Drawing.Size(71, 19);
             this.materialLabel3.TabIndex = 56;
             this.materialLabel3.Text = "Contacto";
             // 
@@ -399,25 +390,34 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.materialLabel4.AutoSize = true;
             this.materialLabel4.Depth = 0;
-            this.materialLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
+            this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel4.Location = new System.Drawing.Point(738, 60);
+            this.materialLabel4.Location = new System.Drawing.Point(643, 85);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(83, 16);
+            this.materialLabel4.Size = new System.Drawing.Size(97, 19);
             this.materialLabel4.TabIndex = 57;
             this.materialLabel4.Text = "Mostrar todo";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(390, 121);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 58;
+            this.label1.Text = "label1";
             // 
             // ConsultaSolicitudes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(853, 458);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(756, 536);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.materialLabel4);
             this.Controls.Add(this.materialLabel3);
             this.Controls.Add(this.materialLabel2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.date_buscarPorFecha);
             this.Controls.Add(this.btn_Filtrar);
             this.Controls.Add(this.btn_Back);
@@ -431,7 +431,6 @@
             this.Controls.Add(this.dt_SolicitudesR);
             this.Controls.Add(this.ayuda_Filtrar);
             this.Controls.Add(this.buscarPContacto);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ConsultaSolicitudes";
             this.Text = "Solicitudes de Servicio Registradas";
             this.Load += new System.EventHandler(this.ConsultaSolicitudes_Load);
@@ -476,9 +475,9 @@
         private MaterialSkin.Controls.MaterialRaisedButton btn_Back;
         private MaterialSkin.Controls.MaterialRaisedButton btn_Filtrar;
         private Bunifu.Framework.UI.BunifuDatepicker date_buscarPorFecha;
-        private System.Windows.Forms.Label label1;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
         private MaterialSkin.Controls.MaterialLabel materialLabel3;
         private MaterialSkin.Controls.MaterialLabel materialLabel4;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -183,7 +183,7 @@ namespace ERP_ServicioElPendulo
                     clhoraCita.BorderWidth = 0;
                     clAtendio = new PdfPCell(new Phrase(Convert.ToString(tablaCitas.Rows[Convert.ToInt32(strFila)].Cells[4].Value.ToString()), _standardFont));
                     clAtendio.BorderWidth = 0;
-                    clEstatus = new PdfPCell(new Phrase(Convert.ToString(tablaCitas.Rows[Convert.ToInt32(strFila)].Cells[0].Value.ToString()), _standardFont));
+                    clEstatus = new PdfPCell(new Phrase(Convert.ToString(tablaCitas.Rows[Convert.ToInt32(strFila)].Cells[6].Value.ToString()), _standardFont));
                     clEstatus.BorderWidth = 0;
                     //
                     tblPrueba.AddCell(clID);

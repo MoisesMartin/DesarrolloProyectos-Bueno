@@ -63,6 +63,7 @@
             resources.ApplyResources(this.list_ContactoSolicitante, "list_ContactoSolicitante");
             this.list_ContactoSolicitante.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.list_ContactoSolicitante.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.list_ContactoSolicitante.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.list_ContactoSolicitante.FormattingEnabled = true;
             this.list_ContactoSolicitante.Items.AddRange(new object[] {
             resources.GetString("list_ContactoSolicitante.Items"),
@@ -86,6 +87,7 @@
             resources.ApplyResources(this.list_TipoServicio, "list_TipoServicio");
             this.list_TipoServicio.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.list_TipoServicio.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.list_TipoServicio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.list_TipoServicio.FormattingEnabled = true;
             this.list_TipoServicio.Items.AddRange(new object[] {
             resources.GetString("list_TipoServicio.Items"),
@@ -97,6 +99,7 @@
             resources.ApplyResources(this.list_Sucursal, "list_Sucursal");
             this.list_Sucursal.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.list_Sucursal.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.list_Sucursal.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.list_Sucursal.FormattingEnabled = true;
             this.list_Sucursal.Items.AddRange(new object[] {
             resources.GetString("list_Sucursal.Items"),

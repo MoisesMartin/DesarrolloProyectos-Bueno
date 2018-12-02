@@ -124,6 +124,143 @@
   <data name="barraLateral.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
+  <data name="bunifuFlatButton20.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <metadata name="sideBarAnimation2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>818, 17</value>
+  </metadata>
+  <data name="animation1.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="animation1.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="animation1.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="animation1.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="animation1.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAgD8L
+</value>
+  </data>
+  <metadata name="sideBarAnimation.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>671, 17</value>
+  </metadata>
+  <data name="animation2.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="animation2.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAABIQwAASEML
+</value>
+  </data>
+  <data name="animation2.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAD8L
+</value>
+  </data>
+  <data name="animation2.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="animation2.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <metadata name="logoAnimation.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>538, 17</value>
+  </metadata>
+  <data name="animation3.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="animation3.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="animation3.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="animation3.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAACAPwAAgD8L
+</value>
+  </data>
+  <data name="animation3.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="bunifuFlatButton20.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bunifuFlatButton20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="bunifuFlatButton20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 30</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bunifuFlatButton20.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="bunifuFlatButton20.Text" xml:space="preserve">
+    <value>             Generar Orden de Servicio</value>
+  </data>
   <data name="&gt;&gt;bunifuFlatButton20.Name" xml:space="preserve">
     <value>bunifuFlatButton20</value>
   </data>
@@ -136,53 +273,15 @@
   <data name="&gt;&gt;bunifuFlatButton20.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton21.Name" xml:space="preserve">
-    <value>bunifuFlatButton21</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton21.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton21.Parent" xml:space="preserve">
-    <value>reporteOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton21.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton22.Name" xml:space="preserve">
-    <value>bunifuFlatButton22</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton22.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton22.Parent" xml:space="preserve">
-    <value>reporteOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton22.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton23.Name" xml:space="preserve">
-    <value>bunifuFlatButton23</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton23.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton23.Parent" xml:space="preserve">
-    <value>reporteOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton23.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="reporteOptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="reporteOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 800</value>
+    <value>0, 640</value>
   </data>
   <data name="reporteOptions.Size" type="System.Drawing.Size, System.Drawing">
     <value>270, 127</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="reporteOptions.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
@@ -211,16 +310,16 @@
     <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
   </data>
   <data name="bunifuFlatButton5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 752</value>
+    <value>0, 598</value>
   </data>
   <data name="bunifuFlatButton5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 48</value>
+    <value>270, 42</value>
   </data>
   <data name="bunifuFlatButton5.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
   <data name="bunifuFlatButton5.Text" xml:space="preserve">
-    <value>   Generar Reporte</value>
+    <value>   Orden de Servicio</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton5.Name" xml:space="preserve">
     <value>bunifuFlatButton5</value>
@@ -234,17 +333,26 @@
   <data name="&gt;&gt;bunifuFlatButton5.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton14.Name" xml:space="preserve">
-    <value>bunifuFlatButton14</value>
+  <data name="bunifuFlatButton15.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton14.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="bunifuFlatButton15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton14.Parent" xml:space="preserve">
-    <value>quejasOptions</value>
+  <data name="bunifuFlatButton15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton14.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="bunifuFlatButton15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="bunifuFlatButton15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 30</value>
+  </data>
+  <data name="bunifuFlatButton15.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="bunifuFlatButton15.Text" xml:space="preserve">
+    <value>            Ver Quejas y Reincidencias</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton15.Name" xml:space="preserve">
     <value>bunifuFlatButton15</value>
@@ -256,40 +364,16 @@
     <value>quejasOptions</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton15.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton18.Name" xml:space="preserve">
-    <value>bunifuFlatButton18</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton18.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton18.Parent" xml:space="preserve">
-    <value>quejasOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton18.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton19.Name" xml:space="preserve">
-    <value>bunifuFlatButton19</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton19.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton19.Parent" xml:space="preserve">
-    <value>quejasOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton19.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>0</value>
   </data>
   <data name="quejasOptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="quejasOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 625</value>
+    <value>0, 566</value>
   </data>
   <data name="quejasOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 127</value>
+    <value>270, 32</value>
   </data>
   <data name="quejasOptions.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -319,10 +403,10 @@
     <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
   </data>
   <data name="bunifuFlatButton4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 577</value>
+    <value>0, 524</value>
   </data>
   <data name="bunifuFlatButton4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 48</value>
+    <value>270, 42</value>
   </data>
   <data name="bunifuFlatButton4.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -340,747 +424,6 @@
     <value>barraLateral</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton4.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton16.Name" xml:space="preserve">
-    <value>bunifuFlatButton16</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton16.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton16.Parent" xml:space="preserve">
-    <value>tecnicosOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton16.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton17.Name" xml:space="preserve">
-    <value>bunifuFlatButton17</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton17.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton17.Parent" xml:space="preserve">
-    <value>tecnicosOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton17.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tecnicosOptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="tecnicosOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 506</value>
-  </data>
-  <data name="tecnicosOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 71</value>
-  </data>
-  <data name="tecnicosOptions.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="tecnicosOptions.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;tecnicosOptions.Name" xml:space="preserve">
-    <value>tecnicosOptions</value>
-  </data>
-  <data name="&gt;&gt;tecnicosOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tecnicosOptions.Parent" xml:space="preserve">
-    <value>barraLateral</value>
-  </data>
-  <data name="&gt;&gt;tecnicosOptions.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="bunifuFlatButton3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="bunifuFlatButton3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="bunifuFlatButton3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
-  </data>
-  <data name="bunifuFlatButton3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 458</value>
-  </data>
-  <data name="bunifuFlatButton3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 48</value>
-  </data>
-  <data name="bunifuFlatButton3.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="bunifuFlatButton3.Text" xml:space="preserve">
-    <value>   Técnicos y Tiendas</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton3.Name" xml:space="preserve">
-    <value>bunifuFlatButton3</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton3.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton3.Parent" xml:space="preserve">
-    <value>barraLateral</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton3.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton10.Name" xml:space="preserve">
-    <value>bunifuFlatButton10</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton10.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton10.Parent" xml:space="preserve">
-    <value>recursosOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton10.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton11.Name" xml:space="preserve">
-    <value>bunifuFlatButton11</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton11.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton11.Parent" xml:space="preserve">
-    <value>recursosOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton11.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton12.Name" xml:space="preserve">
-    <value>bunifuFlatButton12</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton12.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton12.Parent" xml:space="preserve">
-    <value>recursosOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton12.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton13.Name" xml:space="preserve">
-    <value>bunifuFlatButton13</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton13.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton13.Parent" xml:space="preserve">
-    <value>recursosOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton13.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="recursosOptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="recursosOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 331</value>
-  </data>
-  <data name="recursosOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 127</value>
-  </data>
-  <data name="recursosOptions.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="recursosOptions.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;recursosOptions.Name" xml:space="preserve">
-    <value>recursosOptions</value>
-  </data>
-  <data name="&gt;&gt;recursosOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;recursosOptions.Parent" xml:space="preserve">
-    <value>barraLateral</value>
-  </data>
-  <data name="&gt;&gt;recursosOptions.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="bunifuFlatButton2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="bunifuFlatButton2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="bunifuFlatButton2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
-  </data>
-  <data name="bunifuFlatButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 283</value>
-  </data>
-  <data name="bunifuFlatButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 48</value>
-  </data>
-  <data name="bunifuFlatButton2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="bunifuFlatButton2.Text" xml:space="preserve">
-    <value>   Recursos y Asignación</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton2.Name" xml:space="preserve">
-    <value>bunifuFlatButton2</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton2.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton2.Parent" xml:space="preserve">
-    <value>barraLateral</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton2.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton6.Name" xml:space="preserve">
-    <value>bunifuFlatButton6</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton6.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton6.Parent" xml:space="preserve">
-    <value>registroOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton6.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton9.Name" xml:space="preserve">
-    <value>bunifuFlatButton9</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton9.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton9.Parent" xml:space="preserve">
-    <value>registroOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton9.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton7.Name" xml:space="preserve">
-    <value>bunifuFlatButton7</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton7.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton7.Parent" xml:space="preserve">
-    <value>registroOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton7.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton8.Name" xml:space="preserve">
-    <value>bunifuFlatButton8</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton8.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton8.Parent" xml:space="preserve">
-    <value>registroOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton8.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="registroOptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="registroOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 156</value>
-  </data>
-  <data name="registroOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 127</value>
-  </data>
-  <data name="registroOptions.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="registroOptions.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;registroOptions.Name" xml:space="preserve">
-    <value>registroOptions</value>
-  </data>
-  <data name="&gt;&gt;registroOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;registroOptions.Parent" xml:space="preserve">
-    <value>barraLateral</value>
-  </data>
-  <data name="&gt;&gt;registroOptions.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="bunifuFlatButton1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="bunifuFlatButton1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="bunifuFlatButton1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
-  </data>
-  <data name="bunifuFlatButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 108</value>
-  </data>
-  <data name="bunifuFlatButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 48</value>
-  </data>
-  <data name="bunifuFlatButton1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="bunifuFlatButton1.Text" xml:space="preserve">
-    <value>   Registro y Agendación</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton1.Name" xml:space="preserve">
-    <value>bunifuFlatButton1</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton1.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton1.Parent" xml:space="preserve">
-    <value>barraLateral</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton1.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="logo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="logo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="logo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="logo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 108</value>
-  </data>
-  <data name="logo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>CenterImage</value>
-  </data>
-  <data name="logo.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;logo.Name" xml:space="preserve">
-    <value>logo</value>
-  </data>
-  <data name="&gt;&gt;logo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;logo.Parent" xml:space="preserve">
-    <value>barraLateral</value>
-  </data>
-  <data name="&gt;&gt;logo.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <metadata name="logoAnimation.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>538, 17</value>
-  </metadata>
-  <data name="animation10.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
-</value>
-  </data>
-  <data name="animation10.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
-</value>
-  </data>
-  <data name="animation10.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
-</value>
-  </data>
-  <data name="animation10.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAACAPwAAgD8L
-</value>
-  </data>
-  <data name="animation10.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
-</value>
-  </data>
-  <metadata name="sideBarAnimation.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>671, 17</value>
-  </metadata>
-  <data name="animation11.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
-</value>
-  </data>
-  <data name="animation11.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAABIQwAASEML
-</value>
-  </data>
-  <data name="animation11.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAD8L
-</value>
-  </data>
-  <data name="animation11.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
-</value>
-  </data>
-  <data name="animation11.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
-</value>
-  </data>
-  <metadata name="sideBarAnimation2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>818, 17</value>
-  </metadata>
-  <data name="animation12.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
-</value>
-  </data>
-  <data name="animation12.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
-</value>
-  </data>
-  <data name="animation12.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
-</value>
-  </data>
-  <data name="animation12.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
-</value>
-  </data>
-  <data name="animation12.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAgD8L
-</value>
-  </data>
-  <data name="barraLateral.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="barraLateral.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="barraLateral.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 523</value>
-  </data>
-  <data name="barraLateral.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;barraLateral.Name" xml:space="preserve">
-    <value>barraLateral</value>
-  </data>
-  <data name="&gt;&gt;barraLateral.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;barraLateral.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;barraLateral.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="sideBarAnimation2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>818, 17</value>
-  </metadata>
-  <metadata name="sideBarAnimation.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>671, 17</value>
-  </metadata>
-  <metadata name="logoAnimation.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>538, 17</value>
-  </metadata>
-  <data name="bunifuFlatButton20.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="bunifuFlatButton20.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="bunifuFlatButton20.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
-  </data>
-  <data name="bunifuFlatButton20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 90</value>
-  </data>
-  <data name="bunifuFlatButton20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 30</value>
-  </data>
-  <data name="bunifuFlatButton20.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="bunifuFlatButton20.Text" xml:space="preserve">
-    <value>             Evidencias</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton20.Name" xml:space="preserve">
-    <value>bunifuFlatButton20</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton20.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton20.Parent" xml:space="preserve">
-    <value>reporteOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton20.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="bunifuFlatButton21.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="bunifuFlatButton21.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="bunifuFlatButton21.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
-  </data>
-  <data name="bunifuFlatButton21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 60</value>
-  </data>
-  <data name="bunifuFlatButton21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 30</value>
-  </data>
-  <data name="bunifuFlatButton21.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="bunifuFlatButton21.Text" xml:space="preserve">
-    <value>             Enviar Correos</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton21.Name" xml:space="preserve">
-    <value>bunifuFlatButton21</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton21.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton21.Parent" xml:space="preserve">
-    <value>reporteOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton21.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="bunifuFlatButton22.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="bunifuFlatButton22.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="bunifuFlatButton22.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
-  </data>
-  <data name="bunifuFlatButton22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 30</value>
-  </data>
-  <data name="bunifuFlatButton22.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 30</value>
-  </data>
-  <data name="bunifuFlatButton22.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="bunifuFlatButton22.Text" xml:space="preserve">
-    <value>             Reporte de Gastos</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton22.Name" xml:space="preserve">
-    <value>bunifuFlatButton22</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton22.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton22.Parent" xml:space="preserve">
-    <value>reporteOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton22.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="bunifuFlatButton23.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="bunifuFlatButton23.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="bunifuFlatButton23.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
-  </data>
-  <data name="bunifuFlatButton23.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="bunifuFlatButton23.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 30</value>
-  </data>
-  <data name="bunifuFlatButton23.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="bunifuFlatButton23.Text" xml:space="preserve">
-    <value>             Reporte de Servicios Mensual</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton23.Name" xml:space="preserve">
-    <value>bunifuFlatButton23</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton23.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton23.Parent" xml:space="preserve">
-    <value>reporteOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton23.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="bunifuFlatButton14.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="bunifuFlatButton14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="bunifuFlatButton14.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
-  </data>
-  <data name="bunifuFlatButton14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 90</value>
-  </data>
-  <data name="bunifuFlatButton14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 30</value>
-  </data>
-  <data name="bunifuFlatButton14.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="bunifuFlatButton14.Text" xml:space="preserve">
-    <value>             Gestionar Reincidencias</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton14.Name" xml:space="preserve">
-    <value>bunifuFlatButton14</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton14.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton14.Parent" xml:space="preserve">
-    <value>quejasOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton14.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="bunifuFlatButton15.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="bunifuFlatButton15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="bunifuFlatButton15.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
-  </data>
-  <data name="bunifuFlatButton15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 60</value>
-  </data>
-  <data name="bunifuFlatButton15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 30</value>
-  </data>
-  <data name="bunifuFlatButton15.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="bunifuFlatButton15.Text" xml:space="preserve">
-    <value>             Gestionar Quejas</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton15.Name" xml:space="preserve">
-    <value>bunifuFlatButton15</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton15.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton15.Parent" xml:space="preserve">
-    <value>quejasOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton15.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="bunifuFlatButton18.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="bunifuFlatButton18.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="bunifuFlatButton18.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
-  </data>
-  <data name="bunifuFlatButton18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 30</value>
-  </data>
-  <data name="bunifuFlatButton18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 30</value>
-  </data>
-  <data name="bunifuFlatButton18.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="bunifuFlatButton18.Text" xml:space="preserve">
-    <value>             Nueva Reincidencia</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton18.Name" xml:space="preserve">
-    <value>bunifuFlatButton18</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton18.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton18.Parent" xml:space="preserve">
-    <value>quejasOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton18.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="bunifuFlatButton19.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="bunifuFlatButton19.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="bunifuFlatButton19.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
-  </data>
-  <data name="bunifuFlatButton19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="bunifuFlatButton19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 30</value>
-  </data>
-  <data name="bunifuFlatButton19.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="bunifuFlatButton19.Text" xml:space="preserve">
-    <value>             Nueva Queja</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton19.Name" xml:space="preserve">
-    <value>bunifuFlatButton19</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton19.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton19.Parent" xml:space="preserve">
-    <value>quejasOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton19.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="bunifuFlatButton16.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
@@ -1149,6 +492,66 @@
   <data name="&gt;&gt;bunifuFlatButton17.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="tecnicosOptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tecnicosOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 453</value>
+  </data>
+  <data name="tecnicosOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 71</value>
+  </data>
+  <data name="tecnicosOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="tecnicosOptions.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tecnicosOptions.Name" xml:space="preserve">
+    <value>tecnicosOptions</value>
+  </data>
+  <data name="&gt;&gt;tecnicosOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tecnicosOptions.Parent" xml:space="preserve">
+    <value>barraLateral</value>
+  </data>
+  <data name="&gt;&gt;tecnicosOptions.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 411</value>
+  </data>
+  <data name="bunifuFlatButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 42</value>
+  </data>
+  <data name="bunifuFlatButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="bunifuFlatButton3.Text" xml:space="preserve">
+    <value>   Técnicos y Tiendas</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton3.Name" xml:space="preserve">
+    <value>bunifuFlatButton3</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton3.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton3.Parent" xml:space="preserve">
+    <value>barraLateral</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="bunifuFlatButton10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
@@ -1159,7 +562,7 @@
     <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
   </data>
   <data name="bunifuFlatButton10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 90</value>
+    <value>0, 60</value>
   </data>
   <data name="bunifuFlatButton10.Size" type="System.Drawing.Size, System.Drawing">
     <value>270, 30</value>
@@ -1168,7 +571,7 @@
     <value>6</value>
   </data>
   <data name="bunifuFlatButton10.Text" xml:space="preserve">
-    <value>             Consultar Asignaciones</value>
+    <value>            Administrar Asignaciones</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton10.Name" xml:space="preserve">
     <value>bunifuFlatButton10</value>
@@ -1181,39 +584,6 @@
   </data>
   <data name="&gt;&gt;bunifuFlatButton10.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="bunifuFlatButton11.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="bunifuFlatButton11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="bunifuFlatButton11.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
-  </data>
-  <data name="bunifuFlatButton11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 60</value>
-  </data>
-  <data name="bunifuFlatButton11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 30</value>
-  </data>
-  <data name="bunifuFlatButton11.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="bunifuFlatButton11.Text" xml:space="preserve">
-    <value>             Consultar Cotizaciones</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton11.Name" xml:space="preserve">
-    <value>bunifuFlatButton11</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton11.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton11.Parent" xml:space="preserve">
-    <value>recursosOptions</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton11.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="bunifuFlatButton12.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1246,7 +616,7 @@
     <value>recursosOptions</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton12.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="bunifuFlatButton13.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1279,7 +649,67 @@
     <value>recursosOptions</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton13.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
+  </data>
+  <data name="recursosOptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="recursosOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 325</value>
+  </data>
+  <data name="recursosOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 86</value>
+  </data>
+  <data name="recursosOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="recursosOptions.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;recursosOptions.Name" xml:space="preserve">
+    <value>recursosOptions</value>
+  </data>
+  <data name="&gt;&gt;recursosOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;recursosOptions.Parent" xml:space="preserve">
+    <value>barraLateral</value>
+  </data>
+  <data name="&gt;&gt;recursosOptions.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="bunifuFlatButton2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 283</value>
+  </data>
+  <data name="bunifuFlatButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 42</value>
+  </data>
+  <data name="bunifuFlatButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="bunifuFlatButton2.Text" xml:space="preserve">
+    <value>   Recursos y Asignación</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton2.Name" xml:space="preserve">
+    <value>bunifuFlatButton2</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton2.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton2.Parent" xml:space="preserve">
+    <value>barraLateral</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton2.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="bunifuFlatButton6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1413,6 +843,120 @@
   <data name="&gt;&gt;bunifuFlatButton8.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="registroOptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="registroOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 156</value>
+  </data>
+  <data name="registroOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 127</value>
+  </data>
+  <data name="registroOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="registroOptions.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;registroOptions.Name" xml:space="preserve">
+    <value>registroOptions</value>
+  </data>
+  <data name="&gt;&gt;registroOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;registroOptions.Parent" xml:space="preserve">
+    <value>barraLateral</value>
+  </data>
+  <data name="&gt;&gt;registroOptions.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="bunifuFlatButton1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 108</value>
+  </data>
+  <data name="bunifuFlatButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 48</value>
+  </data>
+  <data name="bunifuFlatButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="bunifuFlatButton1.Text" xml:space="preserve">
+    <value>   Registro y Agendación</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton1.Name" xml:space="preserve">
+    <value>bunifuFlatButton1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton1.Parent" xml:space="preserve">
+    <value>barraLateral</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="logo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="logo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="logo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="logo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 108</value>
+  </data>
+  <data name="logo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="logo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;logo.Name" xml:space="preserve">
+    <value>logo</value>
+  </data>
+  <data name="&gt;&gt;logo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;logo.Parent" xml:space="preserve">
+    <value>barraLateral</value>
+  </data>
+  <data name="&gt;&gt;logo.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="barraLateral.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="barraLateral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="barraLateral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 749</value>
+  </data>
+  <data name="barraLateral.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;barraLateral.Name" xml:space="preserve">
+    <value>barraLateral</value>
+  </data>
+  <data name="&gt;&gt;barraLateral.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;barraLateral.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barraLateral.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="descripcionPrincipal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -1426,7 +970,7 @@
     <value>NoControl</value>
   </data>
   <data name="descripcionPrincipal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 206</value>
+    <value>288, 319</value>
   </data>
   <data name="descripcionPrincipal.Size" type="System.Drawing.Size, System.Drawing">
     <value>252, 21</value>
@@ -1462,7 +1006,7 @@
     <value>NoControl</value>
   </data>
   <data name="tituloPrincipal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>291, 174</value>
+    <value>299, 287</value>
   </data>
   <data name="tituloPrincipal.Size" type="System.Drawing.Size, System.Drawing">
     <value>234, 32</value>
@@ -1492,7 +1036,7 @@
     <value>0, 77</value>
   </data>
   <data name="contenidoForms.Size" type="System.Drawing.Size, System.Drawing">
-    <value>790, 446</value>
+    <value>806, 672</value>
   </data>
   <data name="contenidoForms.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -1576,7 +1120,7 @@
     <value>NoControl</value>
   </data>
   <data name="minimizar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>726, 6</value>
+    <value>742, 6</value>
   </data>
   <data name="minimizar.Size" type="System.Drawing.Size, System.Drawing">
     <value>17, 16</value>
@@ -1606,7 +1150,7 @@
     <value>NoControl</value>
   </data>
   <data name="maximizar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>747, 6</value>
+    <value>763, 6</value>
   </data>
   <data name="maximizar.Size" type="System.Drawing.Size, System.Drawing">
     <value>17, 17</value>
@@ -1636,7 +1180,7 @@
     <value>NoControl</value>
   </data>
   <data name="bunifuImageButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>768, 5</value>
+    <value>784, 5</value>
   </data>
   <data name="bunifuImageButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>17, 18</value>
@@ -1666,7 +1210,7 @@
     <value>0, 0</value>
   </data>
   <data name="topHeader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>790, 28</value>
+    <value>806, 28</value>
   </data>
   <data name="topHeader.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1690,7 +1234,7 @@
     <value>0, 0</value>
   </data>
   <data name="header.Size" type="System.Drawing.Size, System.Drawing">
-    <value>790, 77</value>
+    <value>806, 77</value>
   </data>
   <data name="header.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1714,7 +1258,7 @@
     <value>270, 0</value>
   </data>
   <data name="contenido.Size" type="System.Drawing.Size, System.Drawing">
-    <value>790, 523</value>
+    <value>806, 749</value>
   </data>
   <data name="contenido.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1744,13 +1288,13 @@
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>67</value>
+    <value>72</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1060, 523</value>
+    <value>1076, 749</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>1076, 562</value>

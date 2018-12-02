@@ -117,10 +117,6 @@ namespace ERP_ServicioElPendulo
             if(validaciones() == true)
             {
                 bdOperations();
-               // PantallaPrincipal mainScreen = new PantallaPrincipal();
-                AgendarCita cita = new AgendarCita();
-                //mainScreen.Show();
-                cita.Show();
                 Hide();
             }
             else

@@ -29,29 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.lbl_Titulo = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_Asignar = new System.Windows.Forms.Button();
             this.btn_Cancelar = new System.Windows.Forms.Button();
-            this.list_Estatus = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.list_Tecnicos = new System.Windows.Forms.ComboBox();
-            this.txt_PQAtendio = new System.Windows.Forms.TextBox();
-            this.txtFecha = new System.Windows.Forms.TextBox();
-            this.txt_horaCita = new System.Windows.Forms.TextBox();
-            this.txt_Sucursal = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dataSetListaTecnicos = new ERP_ServicioElPendulo.dataSetListaTecnicos();
             this.tecnicosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataSetListaTecnicos = new ERP_ServicioElPendulo.dataSetListaTecnicos();
+            this.txt_PQAtendio = new System.Windows.Forms.TextBox();
+            this.txt_Sucursal = new System.Windows.Forms.TextBox();
             this.tecnicosTableAdapter = new ERP_ServicioElPendulo.dataSetListaTecnicosTableAdapters.TecnicosTableAdapter();
             this.tablaAsignacion = new System.Windows.Forms.DataGridView();
-            this.servicioElPenduloDataSet8 = new ERP_ServicioElPendulo.servicioElPenduloDataSet8();
-            this.citasAgendadasBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.citasAgendadasTableAdapter = new ERP_ServicioElPendulo.servicioElPenduloDataSet8TableAdapters.CitasAgendadasTableAdapter();
             this.iDCitaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sucursalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fechaAgendacionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -59,42 +44,42 @@
             this.horaCitaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.personaQueAtendioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.estatusCitaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txt_IDTecnico = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataSetListaTecnicos)).BeginInit();
+            this.citasAgendadasBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.servicioElPenduloDataSet8 = new ERP_ServicioElPendulo.servicioElPenduloDataSet8();
+            this.citasAgendadasTableAdapter = new ERP_ServicioElPendulo.servicioElPenduloDataSet8TableAdapters.CitasAgendadasTableAdapter();
+            this.idTrabajoText = new System.Windows.Forms.TextBox();
+            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
+            this.list_Tecnicos = new System.Windows.Forms.ComboBox();
+            this.tecnicosBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.tecnicosAsignacion = new ERP_ServicioElPendulo.tecnicosAsignacion();
+            this.txt_horaCita = new System.Windows.Forms.TextBox();
+            this.txtFecha = new System.Windows.Forms.TextBox();
+            this.servicioElPenduloDataSet9 = new ERP_ServicioElPendulo.servicioElPenduloDataSet9();
+            this.tecnicosBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.tecnicosTableAdapter1 = new ERP_ServicioElPendulo.servicioElPenduloDataSet9TableAdapters.TecnicosTableAdapter();
+            this.tecnicosTableAdapter2 = new ERP_ServicioElPendulo.tecnicosAsignacionTableAdapters.TecnicosTableAdapter();
+            this.txtIdTecnico = new System.Windows.Forms.TextBox();
+            this.list_Estatus = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.tecnicosBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSetListaTecnicos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tablaAsignacion)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.citasAgendadasBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tecnicosBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tecnicosAsignacion)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tecnicosBindingSource1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lbl_Titulo
-            // 
-            this.lbl_Titulo.AutoSize = true;
-            this.lbl_Titulo.BackColor = System.Drawing.Color.DodgerBlue;
-            this.lbl_Titulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.lbl_Titulo.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lbl_Titulo.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_Titulo.Location = new System.Drawing.Point(12, 9);
-            this.lbl_Titulo.Name = "lbl_Titulo";
-            this.lbl_Titulo.Size = new System.Drawing.Size(202, 25);
-            this.lbl_Titulo.TabIndex = 7;
-            this.lbl_Titulo.Text = "Asignar Actividades";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.pictureBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pictureBox1.Location = new System.Drawing.Point(1, -1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1299, 45);
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
             // 
             // btn_Asignar
             // 
-            this.btn_Asignar.Location = new System.Drawing.Point(990, 488);
+            this.btn_Asignar.Location = new System.Drawing.Point(1009, 488);
             this.btn_Asignar.Name = "btn_Asignar";
             this.btn_Asignar.Size = new System.Drawing.Size(75, 23);
             this.btn_Asignar.TabIndex = 9;
@@ -104,7 +89,7 @@
             // 
             // btn_Cancelar
             // 
-            this.btn_Cancelar.Location = new System.Drawing.Point(849, 488);
+            this.btn_Cancelar.Location = new System.Drawing.Point(897, 488);
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Size = new System.Drawing.Size(75, 23);
             this.btn_Cancelar.TabIndex = 10;
@@ -112,139 +97,33 @@
             this.btn_Cancelar.UseVisualStyleBackColor = true;
             this.btn_Cancelar.Click += new System.EventHandler(this.btn_Cancelar_Click);
             // 
-            // list_Estatus
+            // tecnicosBindingSource
             // 
-            this.list_Estatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.list_Estatus.FormattingEnabled = true;
-            this.list_Estatus.Items.AddRange(new object[] {
-            "Pendiente",
-            "Cancelado",
-            "Realizado",
-            "Queja",
-            "Reincidencia"});
-            this.list_Estatus.Location = new System.Drawing.Point(17, 390);
-            this.list_Estatus.Name = "list_Estatus";
-            this.list_Estatus.Size = new System.Drawing.Size(217, 28);
-            this.list_Estatus.TabIndex = 40;
-            this.list_Estatus.Text = "Pendiente";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(13, 358);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(139, 20);
-            this.label6.TabIndex = 39;
-            this.label6.Text = "Estatus Servicio";
-            // 
-            // list_Tecnicos
-            // 
-            this.list_Tecnicos.DataSource = this.tecnicosBindingSource;
-            this.list_Tecnicos.DisplayMember = "Nombres";
-            this.list_Tecnicos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.list_Tecnicos.FormattingEnabled = true;
-            this.list_Tecnicos.Location = new System.Drawing.Point(359, 488);
-            this.list_Tecnicos.Name = "list_Tecnicos";
-            this.list_Tecnicos.Size = new System.Drawing.Size(217, 28);
-            this.list_Tecnicos.TabIndex = 38;
-            this.list_Tecnicos.ValueMember = "Nombres";
-            // 
-            // txt_PQAtendio
-            // 
-            this.txt_PQAtendio.Enabled = false;
-            this.txt_PQAtendio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_PQAtendio.Location = new System.Drawing.Point(17, 314);
-            this.txt_PQAtendio.Name = "txt_PQAtendio";
-            this.txt_PQAtendio.Size = new System.Drawing.Size(217, 26);
-            this.txt_PQAtendio.TabIndex = 37;
-            // 
-            // txtFecha
-            // 
-            this.txtFecha.Enabled = false;
-            this.txtFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFecha.Location = new System.Drawing.Point(17, 161);
-            this.txtFecha.Name = "txtFecha";
-            this.txtFecha.Size = new System.Drawing.Size(217, 26);
-            this.txtFecha.TabIndex = 36;
-            // 
-            // txt_horaCita
-            // 
-            this.txt_horaCita.Enabled = false;
-            this.txt_horaCita.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_horaCita.Location = new System.Drawing.Point(17, 232);
-            this.txt_horaCita.Name = "txt_horaCita";
-            this.txt_horaCita.Size = new System.Drawing.Size(217, 26);
-            this.txt_horaCita.TabIndex = 35;
-            // 
-            // txt_Sucursal
-            // 
-            this.txt_Sucursal.Enabled = false;
-            this.txt_Sucursal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Sucursal.Location = new System.Drawing.Point(17, 75);
-            this.txt_Sucursal.Name = "txt_Sucursal";
-            this.txt_Sucursal.Size = new System.Drawing.Size(217, 26);
-            this.txt_Sucursal.TabIndex = 34;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(13, 124);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(121, 20);
-            this.label5.TabIndex = 33;
-            this.label5.Text = "Fecha de Cita";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(13, 277);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(221, 20);
-            this.label4.TabIndex = 32;
-            this.label4.Text = "Persona que realizo la cita";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(13, 198);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 20);
-            this.label3.TabIndex = 31;
-            this.label3.Text = "Hora de Cita";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(358, 462);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(157, 20);
-            this.label2.TabIndex = 30;
-            this.label2.Text = "Técnico a Asignar:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 52);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 20);
-            this.label1.TabIndex = 29;
-            this.label1.Text = "Sucursal";
+            this.tecnicosBindingSource.DataMember = "Tecnicos";
+            this.tecnicosBindingSource.DataSource = this.dataSetListaTecnicos;
             // 
             // dataSetListaTecnicos
             // 
             this.dataSetListaTecnicos.DataSetName = "dataSetListaTecnicos";
             this.dataSetListaTecnicos.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // tecnicosBindingSource
+            // txt_PQAtendio
             // 
-            this.tecnicosBindingSource.DataMember = "Tecnicos";
-            this.tecnicosBindingSource.DataSource = this.dataSetListaTecnicos;
+            this.txt_PQAtendio.Enabled = false;
+            this.txt_PQAtendio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_PQAtendio.Location = new System.Drawing.Point(15, 317);
+            this.txt_PQAtendio.Name = "txt_PQAtendio";
+            this.txt_PQAtendio.Size = new System.Drawing.Size(217, 26);
+            this.txt_PQAtendio.TabIndex = 37;
+            // 
+            // txt_Sucursal
+            // 
+            this.txt_Sucursal.Enabled = false;
+            this.txt_Sucursal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Sucursal.Location = new System.Drawing.Point(14, 110);
+            this.txt_Sucursal.Name = "txt_Sucursal";
+            this.txt_Sucursal.Size = new System.Drawing.Size(219, 26);
+            this.txt_Sucursal.TabIndex = 34;
             // 
             // tecnicosTableAdapter
             // 
@@ -265,26 +144,13 @@
             this.personaQueAtendioDataGridViewTextBoxColumn,
             this.estatusCitaDataGridViewTextBoxColumn});
             this.tablaAsignacion.DataSource = this.citasAgendadasBindingSource;
-            this.tablaAsignacion.Location = new System.Drawing.Point(359, 50);
+            this.tablaAsignacion.Location = new System.Drawing.Point(379, 50);
             this.tablaAsignacion.Name = "tablaAsignacion";
             this.tablaAsignacion.ReadOnly = true;
-            this.tablaAsignacion.Size = new System.Drawing.Size(706, 404);
+            this.tablaAsignacion.Size = new System.Drawing.Size(705, 404);
             this.tablaAsignacion.TabIndex = 41;
             this.tablaAsignacion.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaAsignacion_CellClick);
-            // 
-            // servicioElPenduloDataSet8
-            // 
-            this.servicioElPenduloDataSet8.DataSetName = "servicioElPenduloDataSet8";
-            this.servicioElPenduloDataSet8.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // citasAgendadasBindingSource
-            // 
-            this.citasAgendadasBindingSource.DataMember = "CitasAgendadas";
-            this.citasAgendadasBindingSource.DataSource = this.servicioElPenduloDataSet8;
-            // 
-            // citasAgendadasTableAdapter
-            // 
-            this.citasAgendadasTableAdapter.ClearBeforeFill = true;
+            this.tablaAsignacion.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaAsignacion_CellContentClick);
             // 
             // iDCitaDataGridViewTextBoxColumn
             // 
@@ -335,81 +201,264 @@
             this.estatusCitaDataGridViewTextBoxColumn.Name = "estatusCitaDataGridViewTextBoxColumn";
             this.estatusCitaDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // label7
+            // citasAgendadasBindingSource
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(13, 440);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(95, 20);
-            this.label7.TabIndex = 42;
-            this.label7.Text = "ID Tecnico";
+            this.citasAgendadasBindingSource.DataMember = "CitasAgendadas";
+            this.citasAgendadasBindingSource.DataSource = this.servicioElPenduloDataSet8;
             // 
-            // txt_IDTecnico
+            // servicioElPenduloDataSet8
             // 
-            this.txt_IDTecnico.Enabled = false;
-            this.txt_IDTecnico.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_IDTecnico.Location = new System.Drawing.Point(17, 462);
-            this.txt_IDTecnico.Name = "txt_IDTecnico";
-            this.txt_IDTecnico.Size = new System.Drawing.Size(217, 26);
-            this.txt_IDTecnico.TabIndex = 43;
+            this.servicioElPenduloDataSet8.DataSetName = "servicioElPenduloDataSet8";
+            this.servicioElPenduloDataSet8.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // citasAgendadasTableAdapter
+            // 
+            this.citasAgendadasTableAdapter.ClearBeforeFill = true;
+            // 
+            // idTrabajoText
+            // 
+            this.idTrabajoText.Enabled = false;
+            this.idTrabajoText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idTrabajoText.Location = new System.Drawing.Point(13, 50);
+            this.idTrabajoText.Name = "idTrabajoText";
+            this.idTrabajoText.Size = new System.Drawing.Size(220, 26);
+            this.idTrabajoText.TabIndex = 42;
+            // 
+            // materialLabel3
+            // 
+            this.materialLabel3.AutoSize = true;
+            this.materialLabel3.Depth = 0;
+            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.materialLabel3.Location = new System.Drawing.Point(9, 28);
+            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel3.Name = "materialLabel3";
+            this.materialLabel3.Size = new System.Drawing.Size(104, 19);
+            this.materialLabel3.TabIndex = 44;
+            this.materialLabel3.Text = "Clave Servicio";
+            // 
+            // materialLabel1
+            // 
+            this.materialLabel1.AutoSize = true;
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.materialLabel1.Location = new System.Drawing.Point(9, 88);
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Size = new System.Drawing.Size(67, 19);
+            this.materialLabel1.TabIndex = 45;
+            this.materialLabel1.Text = "Sucursal";
+            // 
+            // materialLabel2
+            // 
+            this.materialLabel2.AutoSize = true;
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.materialLabel2.Location = new System.Drawing.Point(9, 153);
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            this.materialLabel2.Size = new System.Drawing.Size(100, 19);
+            this.materialLabel2.TabIndex = 46;
+            this.materialLabel2.Text = "Fecha de Cita";
+            // 
+            // materialLabel4
+            // 
+            this.materialLabel4.AutoSize = true;
+            this.materialLabel4.Depth = 0;
+            this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.materialLabel4.Location = new System.Drawing.Point(9, 227);
+            this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel4.Name = "materialLabel4";
+            this.materialLabel4.Size = new System.Drawing.Size(93, 19);
+            this.materialLabel4.TabIndex = 47;
+            this.materialLabel4.Text = "Hora de Cita";
+            // 
+            // materialLabel5
+            // 
+            this.materialLabel5.AutoSize = true;
+            this.materialLabel5.Depth = 0;
+            this.materialLabel5.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.materialLabel5.Location = new System.Drawing.Point(9, 289);
+            this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel5.Name = "materialLabel5";
+            this.materialLabel5.Size = new System.Drawing.Size(175, 19);
+            this.materialLabel5.TabIndex = 48;
+            this.materialLabel5.Text = "Persona que Realizo cita";
+            // 
+            // materialLabel6
+            // 
+            this.materialLabel6.AutoSize = true;
+            this.materialLabel6.Depth = 0;
+            this.materialLabel6.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.materialLabel6.Location = new System.Drawing.Point(7, 347);
+            this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel6.Name = "materialLabel6";
+            this.materialLabel6.Size = new System.Drawing.Size(130, 19);
+            this.materialLabel6.TabIndex = 49;
+            this.materialLabel6.Text = "Técnico Asignado";
+            // 
+            // materialLabel7
+            // 
+            this.materialLabel7.AutoSize = true;
+            this.materialLabel7.Depth = 0;
+            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.materialLabel7.Location = new System.Drawing.Point(11, 437);
+            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel7.Name = "materialLabel7";
+            this.materialLabel7.Size = new System.Drawing.Size(141, 19);
+            this.materialLabel7.TabIndex = 50;
+            this.materialLabel7.Text = "Estatus del servicio";
+            // 
+            // list_Tecnicos
+            // 
+            this.list_Tecnicos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.list_Tecnicos.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.list_Tecnicos.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.list_Tecnicos.DataSource = this.tecnicosBindingSource2;
+            this.list_Tecnicos.DisplayMember = "Nombres";
+            this.list_Tecnicos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.list_Tecnicos.FormattingEnabled = true;
+            this.list_Tecnicos.Location = new System.Drawing.Point(13, 401);
+            this.list_Tecnicos.Name = "list_Tecnicos";
+            this.list_Tecnicos.Size = new System.Drawing.Size(220, 21);
+            this.list_Tecnicos.TabIndex = 51;
+            this.list_Tecnicos.ValueMember = "ID_Tecnico";
+            this.list_Tecnicos.SelectedIndexChanged += new System.EventHandler(this.list_Tecnicos_SelectedIndexChanged);
+            // 
+            // tecnicosBindingSource2
+            // 
+            this.tecnicosBindingSource2.DataMember = "Tecnicos";
+            this.tecnicosBindingSource2.DataSource = this.tecnicosAsignacion;
+            // 
+            // tecnicosAsignacion
+            // 
+            this.tecnicosAsignacion.DataSetName = "tecnicosAsignacion";
+            this.tecnicosAsignacion.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // txt_horaCita
+            // 
+            this.txt_horaCita.Enabled = false;
+            this.txt_horaCita.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_horaCita.Location = new System.Drawing.Point(16, 259);
+            this.txt_horaCita.Name = "txt_horaCita";
+            this.txt_horaCita.Size = new System.Drawing.Size(217, 26);
+            this.txt_horaCita.TabIndex = 35;
+            // 
+            // txtFecha
+            // 
+            this.txtFecha.Enabled = false;
+            this.txtFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFecha.Location = new System.Drawing.Point(16, 188);
+            this.txtFecha.Name = "txtFecha";
+            this.txtFecha.Size = new System.Drawing.Size(217, 26);
+            this.txtFecha.TabIndex = 36;
+            // 
+            // servicioElPenduloDataSet9
+            // 
+            this.servicioElPenduloDataSet9.DataSetName = "servicioElPenduloDataSet9";
+            this.servicioElPenduloDataSet9.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tecnicosBindingSource1
+            // 
+            this.tecnicosBindingSource1.DataMember = "Tecnicos";
+            this.tecnicosBindingSource1.DataSource = this.servicioElPenduloDataSet9;
+            // 
+            // tecnicosTableAdapter1
+            // 
+            this.tecnicosTableAdapter1.ClearBeforeFill = true;
+            // 
+            // tecnicosTableAdapter2
+            // 
+            this.tecnicosTableAdapter2.ClearBeforeFill = true;
+            // 
+            // txtIdTecnico
+            // 
+            this.txtIdTecnico.Enabled = false;
+            this.txtIdTecnico.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdTecnico.Location = new System.Drawing.Point(13, 369);
+            this.txtIdTecnico.Name = "txtIdTecnico";
+            this.txtIdTecnico.Size = new System.Drawing.Size(220, 26);
+            this.txtIdTecnico.TabIndex = 53;
+            // 
+            // list_Estatus
+            // 
+            this.list_Estatus.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.list_Estatus.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.list_Estatus.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.list_Estatus.DisplayMember = "0";
+            this.list_Estatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.list_Estatus.FormattingEnabled = true;
+            this.list_Estatus.Items.AddRange(new object[] {
+            "Agendado",
+            "Pendiente"});
+            this.list_Estatus.Location = new System.Drawing.Point(15, 459);
+            this.list_Estatus.Name = "list_Estatus";
+            this.list_Estatus.Size = new System.Drawing.Size(215, 21);
+            this.list_Estatus.TabIndex = 52;
+            this.list_Estatus.ValueMember = "0";
             // 
             // AsignarTrabajos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1076, 523);
-            this.Controls.Add(this.txt_IDTecnico);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.tablaAsignacion);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.ClientSize = new System.Drawing.Size(1106, 523);
+            this.Controls.Add(this.txtIdTecnico);
             this.Controls.Add(this.list_Estatus);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.list_Tecnicos);
+            this.Controls.Add(this.materialLabel7);
+            this.Controls.Add(this.materialLabel6);
+            this.Controls.Add(this.materialLabel5);
+            this.Controls.Add(this.materialLabel4);
+            this.Controls.Add(this.materialLabel2);
+            this.Controls.Add(this.materialLabel1);
+            this.Controls.Add(this.materialLabel3);
+            this.Controls.Add(this.idTrabajoText);
+            this.Controls.Add(this.tablaAsignacion);
             this.Controls.Add(this.txt_PQAtendio);
             this.Controls.Add(this.txtFecha);
             this.Controls.Add(this.txt_horaCita);
             this.Controls.Add(this.txt_Sucursal);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_Cancelar);
             this.Controls.Add(this.btn_Asignar);
-            this.Controls.Add(this.lbl_Titulo);
-            this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AsignarTrabajos";
             this.Text = "AsignarTrabajos";
             this.Load += new System.EventHandler(this.AsignarTrabajos_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataSetListaTecnicos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tecnicosBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSetListaTecnicos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tablaAsignacion)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.citasAgendadasBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tecnicosBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tecnicosAsignacion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tecnicosBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lbl_Titulo;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btn_Asignar;
         private System.Windows.Forms.Button btn_Cancelar;
-        private System.Windows.Forms.ComboBox list_Estatus;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox list_Tecnicos;
         private System.Windows.Forms.TextBox txt_PQAtendio;
-        private System.Windows.Forms.TextBox txtFecha;
-        private System.Windows.Forms.TextBox txt_horaCita;
         private System.Windows.Forms.TextBox txt_Sucursal;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private dataSetListaTecnicos dataSetListaTecnicos;
         private System.Windows.Forms.BindingSource tecnicosBindingSource;
         private dataSetListaTecnicosTableAdapters.TecnicosTableAdapter tecnicosTableAdapter;
@@ -424,7 +473,24 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn horaCitaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn personaQueAtendioDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn estatusCitaDataGridViewTextBoxColumn;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txt_IDTecnico;
+        private System.Windows.Forms.TextBox idTrabajoText;
+        private MaterialSkin.Controls.MaterialLabel materialLabel3;
+        private MaterialSkin.Controls.MaterialLabel materialLabel1;
+        private MaterialSkin.Controls.MaterialLabel materialLabel2;
+        private MaterialSkin.Controls.MaterialLabel materialLabel4;
+        private MaterialSkin.Controls.MaterialLabel materialLabel5;
+        private MaterialSkin.Controls.MaterialLabel materialLabel6;
+        private MaterialSkin.Controls.MaterialLabel materialLabel7;
+        private System.Windows.Forms.ComboBox list_Tecnicos;
+        private System.Windows.Forms.TextBox txt_horaCita;
+        private System.Windows.Forms.TextBox txtFecha;
+        private servicioElPenduloDataSet9 servicioElPenduloDataSet9;
+        private System.Windows.Forms.BindingSource tecnicosBindingSource1;
+        private servicioElPenduloDataSet9TableAdapters.TecnicosTableAdapter tecnicosTableAdapter1;
+        private tecnicosAsignacion tecnicosAsignacion;
+        private System.Windows.Forms.BindingSource tecnicosBindingSource2;
+        private tecnicosAsignacionTableAdapters.TecnicosTableAdapter tecnicosTableAdapter2;
+        private System.Windows.Forms.TextBox txtIdTecnico;
+        private System.Windows.Forms.ComboBox list_Estatus;
     }
 }

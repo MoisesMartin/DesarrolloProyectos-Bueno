@@ -305,6 +305,7 @@ namespace ERP_ServicioElPendulo
         private void bunifuFlatButton12_Click(object sender, EventArgs e)
         {
             ocultarInstruccion();
+            cambioPantalla("Asignación de Servicios");
             AsignarTrabajos asignarTrabajos = new AsignarTrabajos();
             asignarTrabajos.TopLevel = false;
             contenidoForms.Controls.Add(asignarTrabajos);
@@ -404,26 +405,46 @@ namespace ERP_ServicioElPendulo
         private void bunifuFlatButton10_Click(object sender, EventArgs e)
         {
             ocultarInstruccion();
+            cambioPantalla("Administrar Asignaciones de Servicios");
+            AdministrarAsignaciones adm_Asignaciones = new AdministrarAsignaciones();
+            adm_Asignaciones.TopLevel = false;
+            contenidoForms.Controls.Add(adm_Asignaciones);
+            adm_Asignaciones.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            adm_Asignaciones.Dock = DockStyle.Fill;
+            adm_Asignaciones.Show();
         }
 
         private void bunifuFlatButton16_Click(object sender, EventArgs e)
         {
             ocultarInstruccion();
+            cambioPantalla("Gestión de Sucursales");
+            GestionTiendas gestionT = new GestionTiendas();
+            gestionT.TopLevel = false;
+            contenidoForms.Controls.Add(gestionT);
+            gestionT.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            gestionT.Dock = DockStyle.Fill;
+            gestionT.Show();
         }
 
         private void bunifuFlatButton19_Click(object sender, EventArgs e)
         {
-            ocultarInstruccion();
+
         }
 
         private void bunifuFlatButton18_Click(object sender, EventArgs e)
         {
-            ocultarInstruccion();
         }
 
         private void bunifuFlatButton15_Click(object sender, EventArgs e)
         {
             ocultarInstruccion();
+            cambioPantalla("Quejas y Reincidencias");
+            QuejasReincidencias quejasR = new QuejasReincidencias();
+            quejasR.TopLevel = false;
+            contenidoForms.Controls.Add(quejasR);
+            quejasR.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            quejasR.Dock = DockStyle.Fill;
+            quejasR.Show();
         }
 
         private void bunifuFlatButton14_Click(object sender, EventArgs e)

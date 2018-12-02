@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdministrarAsignaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarAsignaciones.Designer.cs">
+      <DependentUpon>AdministrarAsignaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="AgendarCita.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +112,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ds_ContactosSolicitud.xsd</DependentUpon>
     </Compile>
+    <Compile Include="GestionTiendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionTiendas.Designer.cs">
+      <DependentUpon>GestionTiendas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +137,12 @@
     </Compile>
     <Compile Include="Proveedores.Designer.cs">
       <DependentUpon>Proveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuejasReincidencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuejasReincidencias.Designer.cs">
+      <DependentUpon>QuejasReincidencias.cs</DependentUpon>
     </Compile>
     <Compile Include="RegistrarTiendas.cs">
       <SubType>Form</SubType>
@@ -147,6 +165,16 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>servicioElPenduloDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="servicioElPenduloDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>servicioElPenduloDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="servicioElPenduloDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>servicioElPenduloDataSet11.xsd</DependentUpon>
     </Compile>
     <Compile Include="servicioElPenduloDataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -183,11 +211,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>servicioElPenduloDataSet8.xsd</DependentUpon>
     </Compile>
+    <Compile Include="servicioElPenduloDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>servicioElPenduloDataSet9.xsd</DependentUpon>
+    </Compile>
     <Compile Include="SolicitudServicio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SolicitudServicio.Designer.cs">
       <DependentUpon>SolicitudServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tecnicosAsignacion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tecnicosAsignacion.xsd</DependentUpon>
     </Compile>
     <Compile Include="UsuariosSistema.cs">
       <SubType>Form</SubType>
@@ -195,6 +233,9 @@
     <Compile Include="UsuariosSistema.Designer.cs">
       <DependentUpon>UsuariosSistema.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdministrarAsignaciones.resx">
+      <DependentUpon>AdministrarAsignaciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AgendarCita.es-419.resx">
       <DependentUpon>AgendarCita.cs</DependentUpon>
     </EmbeddedResource>
@@ -212,6 +253,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Correos.resx">
       <DependentUpon>Correos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionTiendas.resx">
+      <DependentUpon>GestionTiendas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -231,6 +275,9 @@
     </Compile>
     <EmbeddedResource Include="Proveedores.resx">
       <DependentUpon>Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuejasReincidencias.resx">
+      <DependentUpon>QuejasReincidencias.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistrarTiendas.resx">
       <DependentUpon>RegistrarTiendas.cs</DependentUpon>
@@ -312,6 +359,28 @@
     <None Include="servicioElPenduloDataSet1.xss">
       <DependentUpon>servicioElPenduloDataSet1.xsd</DependentUpon>
     </None>
+    <None Include="servicioElPenduloDataSet10.xsc">
+      <DependentUpon>servicioElPenduloDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>servicioElPenduloDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="servicioElPenduloDataSet10.xss">
+      <DependentUpon>servicioElPenduloDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet11.xsc">
+      <DependentUpon>servicioElPenduloDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>servicioElPenduloDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="servicioElPenduloDataSet11.xss">
+      <DependentUpon>servicioElPenduloDataSet11.xsd</DependentUpon>
+    </None>
     <None Include="servicioElPenduloDataSet2.xsc">
       <DependentUpon>servicioElPenduloDataSet2.xsd</DependentUpon>
     </None>
@@ -388,6 +457,28 @@
     </None>
     <None Include="servicioElPenduloDataSet8.xss">
       <DependentUpon>servicioElPenduloDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet9.xsc">
+      <DependentUpon>servicioElPenduloDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="servicioElPenduloDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>servicioElPenduloDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="servicioElPenduloDataSet9.xss">
+      <DependentUpon>servicioElPenduloDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="tecnicosAsignacion.xsc">
+      <DependentUpon>tecnicosAsignacion.xsd</DependentUpon>
+    </None>
+    <None Include="tecnicosAsignacion.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tecnicosAsignacion.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tecnicosAsignacion.xss">
+      <DependentUpon>tecnicosAsignacion.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

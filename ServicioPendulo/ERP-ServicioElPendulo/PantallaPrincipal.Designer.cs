@@ -30,21 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PantallaPrincipal));
-            BunifuAnimatorNS.Animation animation10 = new BunifuAnimatorNS.Animation();
-            BunifuAnimatorNS.Animation animation11 = new BunifuAnimatorNS.Animation();
-            BunifuAnimatorNS.Animation animation12 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation3 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
             this.barraLateral = new System.Windows.Forms.Panel();
             this.reporteOptions = new System.Windows.Forms.Panel();
             this.bunifuFlatButton20 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton21 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton22 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton23 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton5 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.quejasOptions = new System.Windows.Forms.Panel();
-            this.bunifuFlatButton14 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton15 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton18 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton19 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.tecnicosOptions = new System.Windows.Forms.Panel();
             this.bunifuFlatButton16 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -52,7 +46,6 @@
             this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.recursosOptions = new System.Windows.Forms.Panel();
             this.bunifuFlatButton10 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton11 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton12 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton13 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -122,9 +115,6 @@
             // reporteOptions
             // 
             this.reporteOptions.Controls.Add(this.bunifuFlatButton20);
-            this.reporteOptions.Controls.Add(this.bunifuFlatButton21);
-            this.reporteOptions.Controls.Add(this.bunifuFlatButton22);
-            this.reporteOptions.Controls.Add(this.bunifuFlatButton23);
             this.logoAnimation.SetDecoration(this.reporteOptions, BunifuAnimatorNS.DecorationType.None);
             this.sideBarAnimation.SetDecoration(this.reporteOptions, BunifuAnimatorNS.DecorationType.None);
             this.sideBarAnimation2.SetDecoration(this.reporteOptions, BunifuAnimatorNS.DecorationType.None);
@@ -137,7 +127,7 @@
             this.bunifuFlatButton20.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.bunifuFlatButton20, "bunifuFlatButton20");
             this.bunifuFlatButton20.BorderRadius = 0;
-            this.bunifuFlatButton20.ButtonText = "             Evidencias";
+            this.bunifuFlatButton20.ButtonText = "             Generar Orden de Servicio";
             this.bunifuFlatButton20.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton20, BunifuAnimatorNS.DecorationType.None);
             this.sideBarAnimation.SetDecoration(this.bunifuFlatButton20, BunifuAnimatorNS.DecorationType.None);
@@ -164,113 +154,13 @@
             this.bunifuFlatButton20.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton20.TextFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuFlatButton21
-            // 
-            this.bunifuFlatButton21.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton21.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuFlatButton21, "bunifuFlatButton21");
-            this.bunifuFlatButton21.BorderRadius = 0;
-            this.bunifuFlatButton21.ButtonText = "             Enviar Correos";
-            this.bunifuFlatButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton21, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation.SetDecoration(this.bunifuFlatButton21, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnimation.SetDecoration(this.bunifuFlatButton21, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton21.DisabledColor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton21.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton21.Iconimage = null;
-            this.bunifuFlatButton21.Iconimage_right = null;
-            this.bunifuFlatButton21.Iconimage_right_Selected = null;
-            this.bunifuFlatButton21.Iconimage_Selected = null;
-            this.bunifuFlatButton21.IconMarginLeft = 53;
-            this.bunifuFlatButton21.IconMarginRight = 0;
-            this.bunifuFlatButton21.IconRightVisible = true;
-            this.bunifuFlatButton21.IconRightZoom = 0D;
-            this.bunifuFlatButton21.IconVisible = false;
-            this.bunifuFlatButton21.IconZoom = 60D;
-            this.bunifuFlatButton21.IsTab = true;
-            this.bunifuFlatButton21.Name = "bunifuFlatButton21";
-            this.bunifuFlatButton21.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton21.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton21.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton21.selected = false;
-            this.bunifuFlatButton21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton21.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton21.TextFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton21.Click += new System.EventHandler(this.bunifuFlatButton21_Click);
-            // 
-            // bunifuFlatButton22
-            // 
-            this.bunifuFlatButton22.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton22.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuFlatButton22, "bunifuFlatButton22");
-            this.bunifuFlatButton22.BorderRadius = 0;
-            this.bunifuFlatButton22.ButtonText = "             Reporte de Gastos";
-            this.bunifuFlatButton22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton22, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation.SetDecoration(this.bunifuFlatButton22, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnimation.SetDecoration(this.bunifuFlatButton22, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton22.DisabledColor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton22.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton22.Iconimage = null;
-            this.bunifuFlatButton22.Iconimage_right = null;
-            this.bunifuFlatButton22.Iconimage_right_Selected = null;
-            this.bunifuFlatButton22.Iconimage_Selected = null;
-            this.bunifuFlatButton22.IconMarginLeft = 53;
-            this.bunifuFlatButton22.IconMarginRight = 0;
-            this.bunifuFlatButton22.IconRightVisible = true;
-            this.bunifuFlatButton22.IconRightZoom = 0D;
-            this.bunifuFlatButton22.IconVisible = false;
-            this.bunifuFlatButton22.IconZoom = 60D;
-            this.bunifuFlatButton22.IsTab = true;
-            this.bunifuFlatButton22.Name = "bunifuFlatButton22";
-            this.bunifuFlatButton22.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton22.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton22.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton22.selected = false;
-            this.bunifuFlatButton22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton22.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton22.TextFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // bunifuFlatButton23
-            // 
-            this.bunifuFlatButton23.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton23.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuFlatButton23, "bunifuFlatButton23");
-            this.bunifuFlatButton23.BorderRadius = 0;
-            this.bunifuFlatButton23.ButtonText = "             Reporte de Servicios Mensual";
-            this.bunifuFlatButton23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton23, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation.SetDecoration(this.bunifuFlatButton23, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnimation.SetDecoration(this.bunifuFlatButton23, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton23.DisabledColor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton23.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton23.Iconimage = null;
-            this.bunifuFlatButton23.Iconimage_right = null;
-            this.bunifuFlatButton23.Iconimage_right_Selected = null;
-            this.bunifuFlatButton23.Iconimage_Selected = null;
-            this.bunifuFlatButton23.IconMarginLeft = 53;
-            this.bunifuFlatButton23.IconMarginRight = 0;
-            this.bunifuFlatButton23.IconRightVisible = true;
-            this.bunifuFlatButton23.IconRightZoom = 0D;
-            this.bunifuFlatButton23.IconVisible = false;
-            this.bunifuFlatButton23.IconZoom = 60D;
-            this.bunifuFlatButton23.IsTab = true;
-            this.bunifuFlatButton23.Name = "bunifuFlatButton23";
-            this.bunifuFlatButton23.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton23.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton23.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton23.selected = false;
-            this.bunifuFlatButton23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton23.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton23.TextFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
             // bunifuFlatButton5
             // 
             this.bunifuFlatButton5.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
             this.bunifuFlatButton5.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.bunifuFlatButton5, "bunifuFlatButton5");
             this.bunifuFlatButton5.BorderRadius = 0;
-            this.bunifuFlatButton5.ButtonText = "   Generar Reporte";
+            this.bunifuFlatButton5.ButtonText = "   Orden de Servicio";
             this.bunifuFlatButton5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton5, BunifuAnimatorNS.DecorationType.None);
             this.sideBarAnimation.SetDecoration(this.bunifuFlatButton5, BunifuAnimatorNS.DecorationType.None);
@@ -300,49 +190,12 @@
             // 
             // quejasOptions
             // 
-            this.quejasOptions.Controls.Add(this.bunifuFlatButton14);
             this.quejasOptions.Controls.Add(this.bunifuFlatButton15);
-            this.quejasOptions.Controls.Add(this.bunifuFlatButton18);
-            this.quejasOptions.Controls.Add(this.bunifuFlatButton19);
             this.logoAnimation.SetDecoration(this.quejasOptions, BunifuAnimatorNS.DecorationType.None);
             this.sideBarAnimation.SetDecoration(this.quejasOptions, BunifuAnimatorNS.DecorationType.None);
             this.sideBarAnimation2.SetDecoration(this.quejasOptions, BunifuAnimatorNS.DecorationType.None);
             resources.ApplyResources(this.quejasOptions, "quejasOptions");
             this.quejasOptions.Name = "quejasOptions";
-            // 
-            // bunifuFlatButton14
-            // 
-            this.bunifuFlatButton14.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton14.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuFlatButton14, "bunifuFlatButton14");
-            this.bunifuFlatButton14.BorderRadius = 0;
-            this.bunifuFlatButton14.ButtonText = "             Gestionar Reincidencias";
-            this.bunifuFlatButton14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton14, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation.SetDecoration(this.bunifuFlatButton14, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnimation.SetDecoration(this.bunifuFlatButton14, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton14.DisabledColor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton14.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton14.Iconimage = null;
-            this.bunifuFlatButton14.Iconimage_right = null;
-            this.bunifuFlatButton14.Iconimage_right_Selected = null;
-            this.bunifuFlatButton14.Iconimage_Selected = null;
-            this.bunifuFlatButton14.IconMarginLeft = 53;
-            this.bunifuFlatButton14.IconMarginRight = 0;
-            this.bunifuFlatButton14.IconRightVisible = true;
-            this.bunifuFlatButton14.IconRightZoom = 0D;
-            this.bunifuFlatButton14.IconVisible = false;
-            this.bunifuFlatButton14.IconZoom = 60D;
-            this.bunifuFlatButton14.IsTab = true;
-            this.bunifuFlatButton14.Name = "bunifuFlatButton14";
-            this.bunifuFlatButton14.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton14.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton14.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton14.selected = false;
-            this.bunifuFlatButton14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton14.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton14.TextFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton14.Click += new System.EventHandler(this.bunifuFlatButton14_Click);
             // 
             // bunifuFlatButton15
             // 
@@ -350,7 +203,7 @@
             this.bunifuFlatButton15.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.bunifuFlatButton15, "bunifuFlatButton15");
             this.bunifuFlatButton15.BorderRadius = 0;
-            this.bunifuFlatButton15.ButtonText = "             Gestionar Quejas";
+            this.bunifuFlatButton15.ButtonText = "            Ver Quejas y Reincidencias";
             this.bunifuFlatButton15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton15, BunifuAnimatorNS.DecorationType.None);
             this.sideBarAnimation.SetDecoration(this.bunifuFlatButton15, BunifuAnimatorNS.DecorationType.None);
@@ -377,74 +230,6 @@
             this.bunifuFlatButton15.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton15.TextFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton15.Click += new System.EventHandler(this.bunifuFlatButton15_Click);
-            // 
-            // bunifuFlatButton18
-            // 
-            this.bunifuFlatButton18.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton18.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuFlatButton18, "bunifuFlatButton18");
-            this.bunifuFlatButton18.BorderRadius = 0;
-            this.bunifuFlatButton18.ButtonText = "             Nueva Reincidencia";
-            this.bunifuFlatButton18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton18, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation.SetDecoration(this.bunifuFlatButton18, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnimation.SetDecoration(this.bunifuFlatButton18, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton18.DisabledColor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton18.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton18.Iconimage = null;
-            this.bunifuFlatButton18.Iconimage_right = null;
-            this.bunifuFlatButton18.Iconimage_right_Selected = null;
-            this.bunifuFlatButton18.Iconimage_Selected = null;
-            this.bunifuFlatButton18.IconMarginLeft = 53;
-            this.bunifuFlatButton18.IconMarginRight = 0;
-            this.bunifuFlatButton18.IconRightVisible = true;
-            this.bunifuFlatButton18.IconRightZoom = 0D;
-            this.bunifuFlatButton18.IconVisible = false;
-            this.bunifuFlatButton18.IconZoom = 60D;
-            this.bunifuFlatButton18.IsTab = true;
-            this.bunifuFlatButton18.Name = "bunifuFlatButton18";
-            this.bunifuFlatButton18.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton18.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton18.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton18.selected = false;
-            this.bunifuFlatButton18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton18.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton18.TextFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton18.Click += new System.EventHandler(this.bunifuFlatButton18_Click);
-            // 
-            // bunifuFlatButton19
-            // 
-            this.bunifuFlatButton19.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton19.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuFlatButton19, "bunifuFlatButton19");
-            this.bunifuFlatButton19.BorderRadius = 0;
-            this.bunifuFlatButton19.ButtonText = "             Nueva Queja";
-            this.bunifuFlatButton19.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton19, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation.SetDecoration(this.bunifuFlatButton19, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnimation.SetDecoration(this.bunifuFlatButton19, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton19.DisabledColor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton19.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton19.Iconimage = null;
-            this.bunifuFlatButton19.Iconimage_right = null;
-            this.bunifuFlatButton19.Iconimage_right_Selected = null;
-            this.bunifuFlatButton19.Iconimage_Selected = null;
-            this.bunifuFlatButton19.IconMarginLeft = 53;
-            this.bunifuFlatButton19.IconMarginRight = 0;
-            this.bunifuFlatButton19.IconRightVisible = true;
-            this.bunifuFlatButton19.IconRightZoom = 0D;
-            this.bunifuFlatButton19.IconVisible = false;
-            this.bunifuFlatButton19.IconZoom = 60D;
-            this.bunifuFlatButton19.IsTab = true;
-            this.bunifuFlatButton19.Name = "bunifuFlatButton19";
-            this.bunifuFlatButton19.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton19.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton19.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton19.selected = false;
-            this.bunifuFlatButton19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton19.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton19.TextFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton19.Click += new System.EventHandler(this.bunifuFlatButton19_Click);
             // 
             // bunifuFlatButton4
             // 
@@ -595,7 +380,6 @@
             // recursosOptions
             // 
             this.recursosOptions.Controls.Add(this.bunifuFlatButton10);
-            this.recursosOptions.Controls.Add(this.bunifuFlatButton11);
             this.recursosOptions.Controls.Add(this.bunifuFlatButton12);
             this.recursosOptions.Controls.Add(this.bunifuFlatButton13);
             this.logoAnimation.SetDecoration(this.recursosOptions, BunifuAnimatorNS.DecorationType.None);
@@ -610,7 +394,7 @@
             this.bunifuFlatButton10.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.bunifuFlatButton10, "bunifuFlatButton10");
             this.bunifuFlatButton10.BorderRadius = 0;
-            this.bunifuFlatButton10.ButtonText = "             Consultar Asignaciones";
+            this.bunifuFlatButton10.ButtonText = "            Administrar Asignaciones";
             this.bunifuFlatButton10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton10, BunifuAnimatorNS.DecorationType.None);
             this.sideBarAnimation.SetDecoration(this.bunifuFlatButton10, BunifuAnimatorNS.DecorationType.None);
@@ -637,40 +421,6 @@
             this.bunifuFlatButton10.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton10.TextFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton10.Click += new System.EventHandler(this.bunifuFlatButton10_Click);
-            // 
-            // bunifuFlatButton11
-            // 
-            this.bunifuFlatButton11.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton11.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuFlatButton11, "bunifuFlatButton11");
-            this.bunifuFlatButton11.BorderRadius = 0;
-            this.bunifuFlatButton11.ButtonText = "             Consultar Cotizaciones";
-            this.bunifuFlatButton11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton11, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation.SetDecoration(this.bunifuFlatButton11, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnimation.SetDecoration(this.bunifuFlatButton11, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton11.DisabledColor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton11.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton11.Iconimage = null;
-            this.bunifuFlatButton11.Iconimage_right = null;
-            this.bunifuFlatButton11.Iconimage_right_Selected = null;
-            this.bunifuFlatButton11.Iconimage_Selected = null;
-            this.bunifuFlatButton11.IconMarginLeft = 53;
-            this.bunifuFlatButton11.IconMarginRight = 0;
-            this.bunifuFlatButton11.IconRightVisible = true;
-            this.bunifuFlatButton11.IconRightZoom = 0D;
-            this.bunifuFlatButton11.IconVisible = false;
-            this.bunifuFlatButton11.IconZoom = 60D;
-            this.bunifuFlatButton11.IsTab = true;
-            this.bunifuFlatButton11.Name = "bunifuFlatButton11";
-            this.bunifuFlatButton11.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton11.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton11.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton11.selected = false;
-            this.bunifuFlatButton11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton11.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton11.TextFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton11.Click += new System.EventHandler(this.bunifuFlatButton11_Click);
             // 
             // bunifuFlatButton12
             // 
@@ -1116,65 +866,65 @@
             // 
             this.logoAnimation.AnimationType = BunifuAnimatorNS.AnimationType.ScaleAndRotate;
             this.logoAnimation.Cursor = null;
-            animation10.AnimateOnlyDifferences = true;
-            animation10.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation10.BlindCoeff")));
-            animation10.LeafCoeff = 0F;
-            animation10.MaxTime = 1F;
-            animation10.MinTime = 0F;
-            animation10.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation10.MosaicCoeff")));
-            animation10.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation10.MosaicShift")));
-            animation10.MosaicSize = 0;
-            animation10.Padding = new System.Windows.Forms.Padding(30);
-            animation10.RotateCoeff = 0.5F;
-            animation10.RotateLimit = 0.2F;
-            animation10.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation10.ScaleCoeff")));
-            animation10.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation10.SlideCoeff")));
-            animation10.TimeCoeff = 0F;
-            animation10.TransparencyCoeff = 0F;
-            this.logoAnimation.DefaultAnimation = animation10;
+            animation3.AnimateOnlyDifferences = true;
+            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
+            animation3.LeafCoeff = 0F;
+            animation3.MaxTime = 1F;
+            animation3.MinTime = 0F;
+            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
+            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
+            animation3.MosaicSize = 0;
+            animation3.Padding = new System.Windows.Forms.Padding(30);
+            animation3.RotateCoeff = 0.5F;
+            animation3.RotateLimit = 0.2F;
+            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
+            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
+            animation3.TimeCoeff = 0F;
+            animation3.TransparencyCoeff = 0F;
+            this.logoAnimation.DefaultAnimation = animation3;
             this.logoAnimation.MaxAnimationTime = 1000;
             // 
             // sideBarAnimation
             // 
             this.sideBarAnimation.AnimationType = BunifuAnimatorNS.AnimationType.Particles;
             this.sideBarAnimation.Cursor = null;
-            animation11.AnimateOnlyDifferences = true;
-            animation11.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation11.BlindCoeff")));
-            animation11.LeafCoeff = 0F;
-            animation11.MaxTime = 1F;
-            animation11.MinTime = 0F;
-            animation11.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation11.MosaicCoeff")));
-            animation11.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation11.MosaicShift")));
-            animation11.MosaicSize = 1;
-            animation11.Padding = new System.Windows.Forms.Padding(100, 50, 100, 150);
-            animation11.RotateCoeff = 0F;
-            animation11.RotateLimit = 0F;
-            animation11.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation11.ScaleCoeff")));
-            animation11.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation11.SlideCoeff")));
-            animation11.TimeCoeff = 2F;
-            animation11.TransparencyCoeff = 0F;
-            this.sideBarAnimation.DefaultAnimation = animation11;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 1;
+            animation2.Padding = new System.Windows.Forms.Padding(100, 50, 100, 150);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 2F;
+            animation2.TransparencyCoeff = 0F;
+            this.sideBarAnimation.DefaultAnimation = animation2;
             // 
             // sideBarAnimation2
             // 
             this.sideBarAnimation2.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide;
             this.sideBarAnimation2.Cursor = null;
-            animation12.AnimateOnlyDifferences = true;
-            animation12.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation12.BlindCoeff")));
-            animation12.LeafCoeff = 0F;
-            animation12.MaxTime = 1F;
-            animation12.MinTime = 0F;
-            animation12.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation12.MosaicCoeff")));
-            animation12.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation12.MosaicShift")));
-            animation12.MosaicSize = 0;
-            animation12.Padding = new System.Windows.Forms.Padding(0);
-            animation12.RotateCoeff = 0F;
-            animation12.RotateLimit = 0F;
-            animation12.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation12.ScaleCoeff")));
-            animation12.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation12.SlideCoeff")));
-            animation12.TimeCoeff = 0F;
-            animation12.TransparencyCoeff = 0F;
-            this.sideBarAnimation2.DefaultAnimation = animation12;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.sideBarAnimation2.DefaultAnimation = animation1;
             // 
             // timer1
             // 
@@ -1191,6 +941,7 @@
             this.logoAnimation.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
             this.sideBarAnimation2.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "PantallaPrincipal";
@@ -1241,7 +992,6 @@
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton3;
         private System.Windows.Forms.Panel recursosOptions;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton10;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton11;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton12;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton13;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton4;
@@ -1250,15 +1000,9 @@
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton17;
         private System.Windows.Forms.Panel reporteOptions;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton20;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton21;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton22;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton23;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton5;
         private System.Windows.Forms.Panel quejasOptions;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton14;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton15;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton18;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton19;
         private System.Windows.Forms.Panel contenidoForms;
         private Bunifu.Framework.UI.BunifuImageButton maximizar;
         private Bunifu.Framework.UI.BunifuImageButton minimizar;

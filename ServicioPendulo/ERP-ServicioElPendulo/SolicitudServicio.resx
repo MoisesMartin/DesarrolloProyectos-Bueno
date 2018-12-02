@@ -283,7 +283,7 @@
     <value>10000, 200</value>
   </data>
   <data name="textBox_Descripcion.MaxLength" type="System.Int32, mscorlib">
-    <value>255</value>
+    <value>250</value>
   </data>
   <data name="textBox_Descripcion.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -569,6 +569,9 @@
   </data>
   <data name="fecha_Solicitud.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
+  </data>
+  <data name="fecha_Solicitud.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="fecha_Solicitud.Location" type="System.Drawing.Point, System.Drawing">
     <value>304, 48</value>

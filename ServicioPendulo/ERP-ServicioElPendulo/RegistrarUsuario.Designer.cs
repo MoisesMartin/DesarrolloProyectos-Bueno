@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.lbl_Opc = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.gestionTecnicos = new System.Windows.Forms.TabControl();
             this.btn_CancelarReg = new System.Windows.Forms.TabPage();
             this.txt_claveT = new System.Windows.Forms.TextBox();
@@ -93,7 +91,6 @@
             this.apellidoPaternoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombresDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.iDTecnicoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.gestionTecnicos.SuspendLayout();
             this.btn_CancelarReg.SuspendLayout();
             this.txtPaterno.SuspendLayout();
@@ -102,35 +99,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet7)).BeginInit();
             this.SuspendLayout();
             // 
-            // lbl_Opc
-            // 
-            this.lbl_Opc.AutoSize = true;
-            this.lbl_Opc.BackColor = System.Drawing.Color.DodgerBlue;
-            this.lbl_Opc.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Opc.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbl_Opc.Location = new System.Drawing.Point(13, 13);
-            this.lbl_Opc.Name = "lbl_Opc";
-            this.lbl_Opc.Size = new System.Drawing.Size(173, 24);
-            this.lbl_Opc.TabIndex = 0;
-            this.lbl_Opc.Text = "Gestionar Técnicos";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1065, 50);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            // 
             // gestionTecnicos
             // 
             this.gestionTecnicos.Controls.Add(this.btn_CancelarReg);
             this.gestionTecnicos.Controls.Add(this.txtPaterno);
-            this.gestionTecnicos.Location = new System.Drawing.Point(0, 56);
+            this.gestionTecnicos.Location = new System.Drawing.Point(0, 12);
             this.gestionTecnicos.Name = "gestionTecnicos";
             this.gestionTecnicos.SelectedIndex = 0;
-            this.gestionTecnicos.Size = new System.Drawing.Size(1065, 430);
+            this.gestionTecnicos.Size = new System.Drawing.Size(1065, 485);
             this.gestionTecnicos.TabIndex = 6;
             // 
             // btn_CancelarReg
@@ -155,7 +131,7 @@
             this.btn_CancelarReg.Location = new System.Drawing.Point(4, 22);
             this.btn_CancelarReg.Name = "btn_CancelarReg";
             this.btn_CancelarReg.Padding = new System.Windows.Forms.Padding(3);
-            this.btn_CancelarReg.Size = new System.Drawing.Size(1057, 404);
+            this.btn_CancelarReg.Size = new System.Drawing.Size(1057, 459);
             this.btn_CancelarReg.TabIndex = 1;
             this.btn_CancelarReg.Text = "Registrar Tecnicos";
             this.btn_CancelarReg.UseVisualStyleBackColor = true;
@@ -179,7 +155,7 @@
             // 
             // btn_Registrar
             // 
-            this.btn_Registrar.Location = new System.Drawing.Point(177, 359);
+            this.btn_Registrar.Location = new System.Drawing.Point(177, 414);
             this.btn_Registrar.Name = "btn_Registrar";
             this.btn_Registrar.Size = new System.Drawing.Size(75, 23);
             this.btn_Registrar.TabIndex = 21;
@@ -189,7 +165,7 @@
             // 
             // btn_Cancelar
             // 
-            this.btn_Cancelar.Location = new System.Drawing.Point(13, 359);
+            this.btn_Cancelar.Location = new System.Drawing.Point(14, 414);
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Size = new System.Drawing.Size(75, 23);
             this.btn_Cancelar.TabIndex = 22;
@@ -344,7 +320,7 @@
             this.txtPaterno.Location = new System.Drawing.Point(4, 22);
             this.txtPaterno.Name = "txtPaterno";
             this.txtPaterno.Padding = new System.Windows.Forms.Padding(3);
-            this.txtPaterno.Size = new System.Drawing.Size(1057, 404);
+            this.txtPaterno.Size = new System.Drawing.Size(1057, 459);
             this.txtPaterno.TabIndex = 2;
             this.txtPaterno.Text = "Editar Tecnicos";
             this.txtPaterno.UseVisualStyleBackColor = true;
@@ -353,7 +329,7 @@
             // btn_ActualizarI
             // 
             this.btn_ActualizarI.Enabled = false;
-            this.btn_ActualizarI.Location = new System.Drawing.Point(13, 375);
+            this.btn_ActualizarI.Location = new System.Drawing.Point(16, 410);
             this.btn_ActualizarI.Name = "btn_ActualizarI";
             this.btn_ActualizarI.Size = new System.Drawing.Size(133, 23);
             this.btn_ActualizarI.TabIndex = 51;
@@ -363,7 +339,7 @@
             // 
             // btn_Back
             // 
-            this.btn_Back.Location = new System.Drawing.Point(968, 375);
+            this.btn_Back.Location = new System.Drawing.Point(960, 410);
             this.btn_Back.Name = "btn_Back";
             this.btn_Back.Size = new System.Drawing.Size(75, 23);
             this.btn_Back.TabIndex = 50;
@@ -377,7 +353,7 @@
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(333, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(163, 16);
+            this.label21.Size = new System.Drawing.Size(161, 16);
             this.label21.TabIndex = 49;
             this.label21.Text = "Técnicos Registrados";
             // 
@@ -401,7 +377,7 @@
             this.tablaTec.ReadOnly = true;
             this.tablaTec.Size = new System.Drawing.Size(699, 331);
             this.tablaTec.TabIndex = 48;
-            this.tablaTec.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaTec_CellContentClick);
+            this.tablaTec.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaTec_CellClick);
             // 
             // iDTecnicoDataGridViewTextBoxColumn1
             // 
@@ -646,7 +622,7 @@
             // 
             // btn_Eliminar
             // 
-            this.btn_Eliminar.Location = new System.Drawing.Point(175, 375);
+            this.btn_Eliminar.Location = new System.Drawing.Point(178, 410);
             this.btn_Eliminar.Name = "btn_Eliminar";
             this.btn_Eliminar.Size = new System.Drawing.Size(155, 23);
             this.btn_Eliminar.TabIndex = 23;
@@ -713,12 +689,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 498);
             this.Controls.Add(this.gestionTecnicos);
-            this.Controls.Add(this.lbl_Opc);
-            this.Controls.Add(this.pictureBox1);
             this.Name = "OperacionesUsuarios";
             this.Text = "GestionUsuarios";
             this.Load += new System.EventHandler(this.OperacionesUsuarios_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.gestionTecnicos.ResumeLayout(false);
             this.btn_CancelarReg.ResumeLayout(false);
             this.btn_CancelarReg.PerformLayout();
@@ -728,14 +701,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.tecnicosBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet7)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lbl_Opc;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TabControl gestionTecnicos;
         private System.Windows.Forms.TabPage btn_CancelarReg;
         private System.Windows.Forms.TextBox txt_Email;

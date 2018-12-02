@@ -228,3 +228,6 @@ C:\Users\Adrián\Source\Repos\MoisesMartin\DesarrolloProyectos-Bueno\ServicioPen
 C:\Users\Adrián\Source\Repos\MoisesMartin\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.csproj.CopyComplete
 C:\Users\Adrián\Source\Repos\MoisesMartin\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.exe
 C:\Users\Adrián\Source\Repos\MoisesMartin\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.pdb
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.AdministrarAsignaciones.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.QuejasReincidencias.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.GestionTiendas.resources
