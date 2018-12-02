@@ -41,7 +41,7 @@
             this.txt_IDGeneral = new System.Windows.Forms.TextBox();
             this.txtDT = new System.Windows.Forms.NumericUpDown();
             this.txt_NombreSucursal = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.fijo = new System.Windows.Forms.TextBox();
             this.txtCelular = new System.Windows.Forms.TextBox();
             this.txt_DelegacionMunicipio = new System.Windows.Forms.TextBox();
             this.txtCalle = new System.Windows.Forms.TextBox();
@@ -52,23 +52,23 @@
             this.tab_Registro = new System.Windows.Forms.TabPage();
             this.tab_Modificar = new System.Windows.Forms.TabPage();
             this.materialLabel10 = new MaterialSkin.Controls.MaterialLabel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCP = new System.Windows.Forms.TextBox();
             this.materialLabel11 = new MaterialSkin.Controls.MaterialLabel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_Colonia = new System.Windows.Forms.TextBox();
             this.materialLabel12 = new MaterialSkin.Controls.MaterialLabel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt_Calle = new System.Windows.Forms.TextBox();
             this.materialLabel13 = new MaterialSkin.Controls.MaterialLabel();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txt_DelMun = new System.Windows.Forms.TextBox();
             this.materialLabel14 = new MaterialSkin.Controls.MaterialLabel();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txt_Celu = new System.Windows.Forms.TextBox();
             this.materialLabel15 = new MaterialSkin.Controls.MaterialLabel();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txt_telFijo = new System.Windows.Forms.TextBox();
             this.materialLabel16 = new MaterialSkin.Controls.MaterialLabel();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txt_Nombre = new System.Windows.Forms.TextBox();
             this.materialLabel17 = new MaterialSkin.Controls.MaterialLabel();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.txt_DT = new System.Windows.Forms.NumericUpDown();
             this.materialLabel18 = new MaterialSkin.Controls.MaterialLabel();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtID1 = new System.Windows.Forms.TextBox();
             this.tablaSucursales = new System.Windows.Forms.DataGridView();
             this.servicioElPenduloDataSet11 = new ERP_ServicioElPendulo.servicioElPenduloDataSet11();
             this.sucursalBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -82,11 +82,14 @@
             this.coloniaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.delegacionMunicipioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.codigoPostalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btn_Modificar = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.check_Operacion = new Bunifu.Framework.UI.BunifuCheckbox();
+            this.materialLabel19 = new MaterialSkin.Controls.MaterialLabel();
             ((System.ComponentModel.ISupportInitialize)(this.txtDT)).BeginInit();
             this.sucursal.SuspendLayout();
             this.tab_Registro.SuspendLayout();
             this.tab_Modificar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_DT)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tablaSucursales)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sucursalBindingSource)).BeginInit();
@@ -251,13 +254,13 @@
             this.txt_NombreSucursal.Size = new System.Drawing.Size(200, 20);
             this.txt_NombreSucursal.TabIndex = 58;
             // 
-            // textBox2
+            // fijo
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Location = new System.Drawing.Point(6, 195);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(200, 20);
-            this.textBox2.TabIndex = 59;
+            this.fijo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.fijo.Location = new System.Drawing.Point(6, 195);
+            this.fijo.Name = "fijo";
+            this.fijo.Size = new System.Drawing.Size(200, 20);
+            this.fijo.TabIndex = 59;
             // 
             // txtCelular
             // 
@@ -304,14 +307,15 @@
             this.btn_Aceptar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Aceptar.Depth = 0;
             this.btn_Aceptar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_Aceptar.Location = new System.Drawing.Point(276, 448);
+            this.btn_Aceptar.Location = new System.Drawing.Point(326, 449);
             this.btn_Aceptar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_Aceptar.Name = "btn_Aceptar";
             this.btn_Aceptar.Primary = true;
-            this.btn_Aceptar.Size = new System.Drawing.Size(86, 32);
+            this.btn_Aceptar.Size = new System.Drawing.Size(96, 32);
             this.btn_Aceptar.TabIndex = 65;
             this.btn_Aceptar.Text = "Registrar";
             this.btn_Aceptar.UseVisualStyleBackColor = true;
+            this.btn_Aceptar.Click += new System.EventHandler(this.btn_Aceptar_Click);
             // 
             // sucursal
             // 
@@ -338,7 +342,7 @@
             this.tab_Registro.Controls.Add(this.materialLabel5);
             this.tab_Registro.Controls.Add(this.txtCelular);
             this.tab_Registro.Controls.Add(this.materialLabel6);
-            this.tab_Registro.Controls.Add(this.textBox2);
+            this.tab_Registro.Controls.Add(this.fijo);
             this.tab_Registro.Controls.Add(this.materialLabel7);
             this.tab_Registro.Controls.Add(this.txt_NombreSucursal);
             this.tab_Registro.Controls.Add(this.materialLabel8);
@@ -355,25 +359,28 @@
             // tab_Modificar
             // 
             this.tab_Modificar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.tab_Modificar.Controls.Add(this.materialLabel19);
+            this.tab_Modificar.Controls.Add(this.check_Operacion);
+            this.tab_Modificar.Controls.Add(this.btn_Modificar);
             this.tab_Modificar.Controls.Add(this.tablaSucursales);
             this.tab_Modificar.Controls.Add(this.materialLabel10);
-            this.tab_Modificar.Controls.Add(this.textBox1);
+            this.tab_Modificar.Controls.Add(this.txtCP);
             this.tab_Modificar.Controls.Add(this.materialLabel11);
-            this.tab_Modificar.Controls.Add(this.textBox3);
+            this.tab_Modificar.Controls.Add(this.txt_Colonia);
             this.tab_Modificar.Controls.Add(this.materialLabel12);
-            this.tab_Modificar.Controls.Add(this.textBox4);
+            this.tab_Modificar.Controls.Add(this.txt_Calle);
             this.tab_Modificar.Controls.Add(this.materialLabel13);
-            this.tab_Modificar.Controls.Add(this.textBox5);
+            this.tab_Modificar.Controls.Add(this.txt_DelMun);
             this.tab_Modificar.Controls.Add(this.materialLabel14);
-            this.tab_Modificar.Controls.Add(this.textBox6);
+            this.tab_Modificar.Controls.Add(this.txt_Celu);
             this.tab_Modificar.Controls.Add(this.materialLabel15);
-            this.tab_Modificar.Controls.Add(this.textBox7);
+            this.tab_Modificar.Controls.Add(this.txt_telFijo);
             this.tab_Modificar.Controls.Add(this.materialLabel16);
-            this.tab_Modificar.Controls.Add(this.textBox8);
+            this.tab_Modificar.Controls.Add(this.txt_Nombre);
             this.tab_Modificar.Controls.Add(this.materialLabel17);
-            this.tab_Modificar.Controls.Add(this.numericUpDown1);
+            this.tab_Modificar.Controls.Add(this.txt_DT);
             this.tab_Modificar.Controls.Add(this.materialLabel18);
-            this.tab_Modificar.Controls.Add(this.textBox9);
+            this.tab_Modificar.Controls.Add(this.txtID1);
             this.tab_Modificar.Location = new System.Drawing.Point(4, 22);
             this.tab_Modificar.Name = "tab_Modificar";
             this.tab_Modificar.Padding = new System.Windows.Forms.Padding(3);
@@ -388,7 +395,7 @@
             this.materialLabel10.AutoSize = true;
             this.materialLabel10.Depth = 0;
             this.materialLabel10.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel10.ForeColor = System.Drawing.Color.White;
+            this.materialLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel10.Location = new System.Drawing.Point(6, 9);
             this.materialLabel10.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel10.Name = "materialLabel10";
@@ -396,14 +403,14 @@
             this.materialLabel10.TabIndex = 65;
             this.materialLabel10.Text = "ID General";
             // 
-            // textBox1
+            // txtCP
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(6, 459);
-            this.textBox1.MaxLength = 50;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 20);
-            this.textBox1.TabIndex = 82;
+            this.txtCP.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtCP.Location = new System.Drawing.Point(6, 459);
+            this.txtCP.MaxLength = 50;
+            this.txtCP.Name = "txtCP";
+            this.txtCP.Size = new System.Drawing.Size(200, 20);
+            this.txtCP.TabIndex = 82;
             // 
             // materialLabel11
             // 
@@ -412,7 +419,7 @@
             this.materialLabel11.AutoSize = true;
             this.materialLabel11.Depth = 0;
             this.materialLabel11.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel11.ForeColor = System.Drawing.Color.White;
+            this.materialLabel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel11.Location = new System.Drawing.Point(6, 65);
             this.materialLabel11.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel11.Name = "materialLabel11";
@@ -420,14 +427,14 @@
             this.materialLabel11.TabIndex = 66;
             this.materialLabel11.Text = "DT";
             // 
-            // textBox3
+            // txt_Colonia
             // 
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.Location = new System.Drawing.Point(6, 404);
-            this.textBox3.MaxLength = 50;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(200, 20);
-            this.textBox3.TabIndex = 81;
+            this.txt_Colonia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_Colonia.Location = new System.Drawing.Point(6, 404);
+            this.txt_Colonia.MaxLength = 50;
+            this.txt_Colonia.Name = "txt_Colonia";
+            this.txt_Colonia.Size = new System.Drawing.Size(200, 20);
+            this.txt_Colonia.TabIndex = 81;
             // 
             // materialLabel12
             // 
@@ -436,7 +443,7 @@
             this.materialLabel12.AutoSize = true;
             this.materialLabel12.Depth = 0;
             this.materialLabel12.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel12.ForeColor = System.Drawing.Color.White;
+            this.materialLabel12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel12.Location = new System.Drawing.Point(6, 170);
             this.materialLabel12.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel12.Name = "materialLabel12";
@@ -444,14 +451,14 @@
             this.materialLabel12.TabIndex = 67;
             this.materialLabel12.Text = "Telefono Fijo";
             // 
-            // textBox4
+            // txt_Calle
             // 
-            this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox4.Location = new System.Drawing.Point(6, 351);
-            this.textBox4.MaxLength = 50;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(200, 20);
-            this.textBox4.TabIndex = 80;
+            this.txt_Calle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_Calle.Location = new System.Drawing.Point(6, 351);
+            this.txt_Calle.MaxLength = 50;
+            this.txt_Calle.Name = "txt_Calle";
+            this.txt_Calle.Size = new System.Drawing.Size(200, 20);
+            this.txt_Calle.TabIndex = 80;
             // 
             // materialLabel13
             // 
@@ -460,7 +467,7 @@
             this.materialLabel13.AutoSize = true;
             this.materialLabel13.Depth = 0;
             this.materialLabel13.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel13.ForeColor = System.Drawing.Color.White;
+            this.materialLabel13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel13.Location = new System.Drawing.Point(6, 325);
             this.materialLabel13.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel13.Name = "materialLabel13";
@@ -468,14 +475,14 @@
             this.materialLabel13.TabIndex = 68;
             this.materialLabel13.Text = "Calle";
             // 
-            // textBox5
+            // txt_DelMun
             // 
-            this.textBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox5.Location = new System.Drawing.Point(6, 301);
-            this.textBox5.MaxLength = 50;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(200, 20);
-            this.textBox5.TabIndex = 79;
+            this.txt_DelMun.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_DelMun.Location = new System.Drawing.Point(6, 301);
+            this.txt_DelMun.MaxLength = 50;
+            this.txt_DelMun.Name = "txt_DelMun";
+            this.txt_DelMun.Size = new System.Drawing.Size(200, 20);
+            this.txt_DelMun.TabIndex = 79;
             // 
             // materialLabel14
             // 
@@ -484,7 +491,7 @@
             this.materialLabel14.AutoSize = true;
             this.materialLabel14.Depth = 0;
             this.materialLabel14.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel14.ForeColor = System.Drawing.Color.White;
+            this.materialLabel14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel14.Location = new System.Drawing.Point(6, 224);
             this.materialLabel14.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel14.Name = "materialLabel14";
@@ -492,14 +499,14 @@
             this.materialLabel14.TabIndex = 69;
             this.materialLabel14.Text = "Telefono Celular";
             // 
-            // textBox6
+            // txt_Celu
             // 
-            this.textBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox6.Location = new System.Drawing.Point(6, 250);
-            this.textBox6.MaxLength = 15;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(200, 20);
-            this.textBox6.TabIndex = 78;
+            this.txt_Celu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_Celu.Location = new System.Drawing.Point(6, 250);
+            this.txt_Celu.MaxLength = 15;
+            this.txt_Celu.Name = "txt_Celu";
+            this.txt_Celu.Size = new System.Drawing.Size(200, 20);
+            this.txt_Celu.TabIndex = 78;
             // 
             // materialLabel15
             // 
@@ -508,7 +515,7 @@
             this.materialLabel15.AutoSize = true;
             this.materialLabel15.Depth = 0;
             this.materialLabel15.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel15.ForeColor = System.Drawing.Color.White;
+            this.materialLabel15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel15.Location = new System.Drawing.Point(6, 375);
             this.materialLabel15.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel15.Name = "materialLabel15";
@@ -516,14 +523,14 @@
             this.materialLabel15.TabIndex = 70;
             this.materialLabel15.Text = "Colonia";
             // 
-            // textBox7
+            // txt_telFijo
             // 
-            this.textBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox7.Location = new System.Drawing.Point(6, 194);
-            this.textBox7.MaxLength = 15;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(200, 20);
-            this.textBox7.TabIndex = 77;
+            this.txt_telFijo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_telFijo.Location = new System.Drawing.Point(6, 194);
+            this.txt_telFijo.MaxLength = 15;
+            this.txt_telFijo.Name = "txt_telFijo";
+            this.txt_telFijo.Size = new System.Drawing.Size(200, 20);
+            this.txt_telFijo.TabIndex = 77;
             // 
             // materialLabel16
             // 
@@ -532,7 +539,7 @@
             this.materialLabel16.AutoSize = true;
             this.materialLabel16.Depth = 0;
             this.materialLabel16.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel16.ForeColor = System.Drawing.Color.White;
+            this.materialLabel16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel16.Location = new System.Drawing.Point(6, 275);
             this.materialLabel16.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel16.Name = "materialLabel16";
@@ -540,14 +547,14 @@
             this.materialLabel16.TabIndex = 71;
             this.materialLabel16.Text = "Delegacion Municipio";
             // 
-            // textBox8
+            // txt_Nombre
             // 
-            this.textBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox8.Location = new System.Drawing.Point(6, 135);
-            this.textBox8.MaxLength = 50;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(200, 20);
-            this.textBox8.TabIndex = 76;
+            this.txt_Nombre.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_Nombre.Location = new System.Drawing.Point(6, 135);
+            this.txt_Nombre.MaxLength = 50;
+            this.txt_Nombre.Name = "txt_Nombre";
+            this.txt_Nombre.Size = new System.Drawing.Size(200, 20);
+            this.txt_Nombre.TabIndex = 76;
             // 
             // materialLabel17
             // 
@@ -556,7 +563,7 @@
             this.materialLabel17.AutoSize = true;
             this.materialLabel17.Depth = 0;
             this.materialLabel17.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel17.ForeColor = System.Drawing.Color.White;
+            this.materialLabel17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel17.Location = new System.Drawing.Point(6, 433);
             this.materialLabel17.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel17.Name = "materialLabel17";
@@ -565,17 +572,17 @@
             this.materialLabel17.TabIndex = 72;
             this.materialLabel17.Text = "Codigo Postal";
             // 
-            // numericUpDown1
+            // txt_DT
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(6, 87);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
+            this.txt_DT.Location = new System.Drawing.Point(6, 87);
+            this.txt_DT.Maximum = new decimal(new int[] {
             99999,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(200, 20);
-            this.numericUpDown1.TabIndex = 75;
+            this.txt_DT.Name = "txt_DT";
+            this.txt_DT.Size = new System.Drawing.Size(200, 20);
+            this.txt_DT.TabIndex = 75;
             // 
             // materialLabel18
             // 
@@ -584,7 +591,7 @@
             this.materialLabel18.AutoSize = true;
             this.materialLabel18.Depth = 0;
             this.materialLabel18.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel18.ForeColor = System.Drawing.Color.White;
+            this.materialLabel18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel18.Location = new System.Drawing.Point(6, 113);
             this.materialLabel18.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel18.Name = "materialLabel18";
@@ -592,14 +599,14 @@
             this.materialLabel18.TabIndex = 73;
             this.materialLabel18.Text = "Nombre";
             // 
-            // textBox9
+            // txtID1
             // 
-            this.textBox9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox9.Location = new System.Drawing.Point(6, 31);
-            this.textBox9.MaxLength = 10;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(200, 20);
-            this.textBox9.TabIndex = 74;
+            this.txtID1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtID1.Location = new System.Drawing.Point(6, 31);
+            this.txtID1.MaxLength = 10;
+            this.txtID1.Name = "txtID1";
+            this.txtID1.Size = new System.Drawing.Size(200, 20);
+            this.txtID1.TabIndex = 74;
             // 
             // tablaSucursales
             // 
@@ -616,10 +623,12 @@
             this.delegacionMunicipioDataGridViewTextBoxColumn,
             this.codigoPostalDataGridViewTextBoxColumn});
             this.tablaSucursales.DataSource = this.sucursalBindingSource;
-            this.tablaSucursales.Location = new System.Drawing.Point(212, 31);
+            this.tablaSucursales.Location = new System.Drawing.Point(212, 9);
             this.tablaSucursales.Name = "tablaSucursales";
+            this.tablaSucursales.ReadOnly = true;
             this.tablaSucursales.Size = new System.Drawing.Size(835, 290);
             this.tablaSucursales.TabIndex = 83;
+            this.tablaSucursales.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaSucursales_CellContentClick);
             // 
             // servicioElPenduloDataSet11
             // 
@@ -640,54 +649,105 @@
             this.iDGeneralDataGridViewTextBoxColumn.DataPropertyName = "ID_General";
             this.iDGeneralDataGridViewTextBoxColumn.HeaderText = "ID_General";
             this.iDGeneralDataGridViewTextBoxColumn.Name = "iDGeneralDataGridViewTextBoxColumn";
+            this.iDGeneralDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // dTDataGridViewTextBoxColumn
             // 
             this.dTDataGridViewTextBoxColumn.DataPropertyName = "DT";
             this.dTDataGridViewTextBoxColumn.HeaderText = "DT";
             this.dTDataGridViewTextBoxColumn.Name = "dTDataGridViewTextBoxColumn";
+            this.dTDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // nombreDataGridViewTextBoxColumn
             // 
             this.nombreDataGridViewTextBoxColumn.DataPropertyName = "Nombre";
             this.nombreDataGridViewTextBoxColumn.HeaderText = "Nombre";
             this.nombreDataGridViewTextBoxColumn.Name = "nombreDataGridViewTextBoxColumn";
+            this.nombreDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // telefonoFijoDataGridViewTextBoxColumn
             // 
             this.telefonoFijoDataGridViewTextBoxColumn.DataPropertyName = "TelefonoFijo";
             this.telefonoFijoDataGridViewTextBoxColumn.HeaderText = "TelefonoFijo";
             this.telefonoFijoDataGridViewTextBoxColumn.Name = "telefonoFijoDataGridViewTextBoxColumn";
+            this.telefonoFijoDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // telefonoCelularDataGridViewTextBoxColumn
             // 
             this.telefonoCelularDataGridViewTextBoxColumn.DataPropertyName = "TelefonoCelular";
             this.telefonoCelularDataGridViewTextBoxColumn.HeaderText = "TelefonoCelular";
             this.telefonoCelularDataGridViewTextBoxColumn.Name = "telefonoCelularDataGridViewTextBoxColumn";
+            this.telefonoCelularDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // calleDataGridViewTextBoxColumn
             // 
             this.calleDataGridViewTextBoxColumn.DataPropertyName = "Calle";
             this.calleDataGridViewTextBoxColumn.HeaderText = "Calle";
             this.calleDataGridViewTextBoxColumn.Name = "calleDataGridViewTextBoxColumn";
+            this.calleDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // coloniaDataGridViewTextBoxColumn
             // 
             this.coloniaDataGridViewTextBoxColumn.DataPropertyName = "Colonia";
             this.coloniaDataGridViewTextBoxColumn.HeaderText = "Colonia";
             this.coloniaDataGridViewTextBoxColumn.Name = "coloniaDataGridViewTextBoxColumn";
+            this.coloniaDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // delegacionMunicipioDataGridViewTextBoxColumn
             // 
             this.delegacionMunicipioDataGridViewTextBoxColumn.DataPropertyName = "DelegacionMunicipio";
             this.delegacionMunicipioDataGridViewTextBoxColumn.HeaderText = "DelegacionMunicipio";
             this.delegacionMunicipioDataGridViewTextBoxColumn.Name = "delegacionMunicipioDataGridViewTextBoxColumn";
+            this.delegacionMunicipioDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // codigoPostalDataGridViewTextBoxColumn
             // 
             this.codigoPostalDataGridViewTextBoxColumn.DataPropertyName = "CodigoPostal";
             this.codigoPostalDataGridViewTextBoxColumn.HeaderText = "CodigoPostal";
             this.codigoPostalDataGridViewTextBoxColumn.Name = "codigoPostalDataGridViewTextBoxColumn";
+            this.codigoPostalDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // btn_Modificar
+            // 
+            this.btn_Modificar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Modificar.Depth = 0;
+            this.btn_Modificar.Location = new System.Drawing.Point(326, 449);
+            this.btn_Modificar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_Modificar.Name = "btn_Modificar";
+            this.btn_Modificar.Primary = true;
+            this.btn_Modificar.Size = new System.Drawing.Size(99, 38);
+            this.btn_Modificar.TabIndex = 84;
+            this.btn_Modificar.Text = "Actualizar";
+            this.btn_Modificar.UseVisualStyleBackColor = true;
+            this.btn_Modificar.Click += new System.EventHandler(this.btn_Modificar_Click);
+            // 
+            // check_Operacion
+            // 
+            this.check_Operacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(205)))), ((int)(((byte)(117)))));
+            this.check_Operacion.ChechedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
+            this.check_Operacion.Checked = true;
+            this.check_Operacion.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(205)))), ((int)(((byte)(117)))));
+            this.check_Operacion.ForeColor = System.Drawing.Color.White;
+            this.check_Operacion.Location = new System.Drawing.Point(326, 417);
+            this.check_Operacion.Name = "check_Operacion";
+            this.check_Operacion.Size = new System.Drawing.Size(20, 20);
+            this.check_Operacion.TabIndex = 86;
+            this.check_Operacion.OnChange += new System.EventHandler(this.check_Operacion_OnChange);
+            // 
+            // materialLabel19
+            // 
+            this.materialLabel19.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.materialLabel19.AutoSize = true;
+            this.materialLabel19.Depth = 0;
+            this.materialLabel19.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel19.Location = new System.Drawing.Point(352, 418);
+            this.materialLabel19.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel19.Name = "materialLabel19";
+            this.materialLabel19.Size = new System.Drawing.Size(137, 19);
+            this.materialLabel19.TabIndex = 87;
+            this.materialLabel19.Text = "Actualizar/Eliminar";
             // 
             // GestionTiendas
             // 
@@ -706,7 +766,7 @@
             this.tab_Registro.PerformLayout();
             this.tab_Modificar.ResumeLayout(false);
             this.tab_Modificar.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_DT)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tablaSucursales)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sucursalBindingSource)).EndInit();
@@ -728,7 +788,7 @@
         private System.Windows.Forms.TextBox txt_IDGeneral;
         private System.Windows.Forms.NumericUpDown txtDT;
         private System.Windows.Forms.TextBox txt_NombreSucursal;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox fijo;
         private System.Windows.Forms.TextBox txtCelular;
         private System.Windows.Forms.TextBox txt_DelegacionMunicipio;
         private System.Windows.Forms.TextBox txtCalle;
@@ -739,23 +799,23 @@
         private System.Windows.Forms.TabPage tab_Registro;
         private System.Windows.Forms.TabPage tab_Modificar;
         private MaterialSkin.Controls.MaterialLabel materialLabel10;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCP;
         private MaterialSkin.Controls.MaterialLabel materialLabel11;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_Colonia;
         private MaterialSkin.Controls.MaterialLabel materialLabel12;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txt_Calle;
         private MaterialSkin.Controls.MaterialLabel materialLabel13;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txt_DelMun;
         private MaterialSkin.Controls.MaterialLabel materialLabel14;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txt_Celu;
         private MaterialSkin.Controls.MaterialLabel materialLabel15;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txt_telFijo;
         private MaterialSkin.Controls.MaterialLabel materialLabel16;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txt_Nombre;
         private MaterialSkin.Controls.MaterialLabel materialLabel17;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown txt_DT;
         private MaterialSkin.Controls.MaterialLabel materialLabel18;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtID1;
         private System.Windows.Forms.DataGridView tablaSucursales;
         private servicioElPenduloDataSet11 servicioElPenduloDataSet11;
         private System.Windows.Forms.BindingSource sucursalBindingSource;
@@ -769,5 +829,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn coloniaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn delegacionMunicipioDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn codigoPostalDataGridViewTextBoxColumn;
+        private MaterialSkin.Controls.MaterialRaisedButton btn_Modificar;
+        private Bunifu.Framework.UI.BunifuCheckbox check_Operacion;
+        private MaterialSkin.Controls.MaterialLabel materialLabel19;
     }
 }

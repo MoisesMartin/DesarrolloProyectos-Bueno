@@ -471,5 +471,17 @@ namespace ERP_ServicioElPendulo
         {
 
         }
+
+        private void bunifuFlatButton20_Click(object sender, EventArgs e)
+        {
+            ocultarInstruccion();
+            cambioPantalla("Generar Orden de Servicio");
+            OrdenServicio orden = new OrdenServicio();
+            orden.TopLevel = false;
+            contenidoForms.Controls.Add(orden);
+            orden.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            orden.Dock = DockStyle.Fill;
+            orden.Show();
+        }
     }
 }

@@ -37,13 +37,6 @@
             this.txt_Sucursal = new System.Windows.Forms.TextBox();
             this.tecnicosTableAdapter = new ERP_ServicioElPendulo.dataSetListaTecnicosTableAdapters.TecnicosTableAdapter();
             this.tablaAsignacion = new System.Windows.Forms.DataGridView();
-            this.iDCitaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sucursalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fechaAgendacionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fechaCitaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.horaCitaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.personaQueAtendioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.estatusCitaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.citasAgendadasBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.servicioElPenduloDataSet8 = new ERP_ServicioElPendulo.servicioElPenduloDataSet8();
             this.citasAgendadasTableAdapter = new ERP_ServicioElPendulo.servicioElPenduloDataSet8TableAdapters.CitasAgendadasTableAdapter();
@@ -66,6 +59,13 @@
             this.tecnicosTableAdapter2 = new ERP_ServicioElPendulo.tecnicosAsignacionTableAdapters.TecnicosTableAdapter();
             this.txtIdTecnico = new System.Windows.Forms.TextBox();
             this.list_Estatus = new System.Windows.Forms.ComboBox();
+            this.iDCitaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sucursalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fechaAgendacionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fechaCitaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.horaCitaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.personaQueAtendioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.estatusCitaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.tecnicosBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSetListaTecnicos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tablaAsignacion)).BeginInit();
@@ -144,62 +144,13 @@
             this.personaQueAtendioDataGridViewTextBoxColumn,
             this.estatusCitaDataGridViewTextBoxColumn});
             this.tablaAsignacion.DataSource = this.citasAgendadasBindingSource;
-            this.tablaAsignacion.Location = new System.Drawing.Point(379, 50);
+            this.tablaAsignacion.Location = new System.Drawing.Point(256, 50);
             this.tablaAsignacion.Name = "tablaAsignacion";
             this.tablaAsignacion.ReadOnly = true;
-            this.tablaAsignacion.Size = new System.Drawing.Size(705, 404);
+            this.tablaAsignacion.Size = new System.Drawing.Size(828, 404);
             this.tablaAsignacion.TabIndex = 41;
             this.tablaAsignacion.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaAsignacion_CellClick);
             this.tablaAsignacion.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaAsignacion_CellContentClick);
-            // 
-            // iDCitaDataGridViewTextBoxColumn
-            // 
-            this.iDCitaDataGridViewTextBoxColumn.DataPropertyName = "ID_Cita";
-            this.iDCitaDataGridViewTextBoxColumn.HeaderText = "ID_Cita";
-            this.iDCitaDataGridViewTextBoxColumn.Name = "iDCitaDataGridViewTextBoxColumn";
-            this.iDCitaDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // sucursalDataGridViewTextBoxColumn
-            // 
-            this.sucursalDataGridViewTextBoxColumn.DataPropertyName = "Sucursal";
-            this.sucursalDataGridViewTextBoxColumn.HeaderText = "Sucursal";
-            this.sucursalDataGridViewTextBoxColumn.Name = "sucursalDataGridViewTextBoxColumn";
-            this.sucursalDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // fechaAgendacionDataGridViewTextBoxColumn
-            // 
-            this.fechaAgendacionDataGridViewTextBoxColumn.DataPropertyName = "FechaAgendacion";
-            this.fechaAgendacionDataGridViewTextBoxColumn.HeaderText = "FechaAgendacion";
-            this.fechaAgendacionDataGridViewTextBoxColumn.Name = "fechaAgendacionDataGridViewTextBoxColumn";
-            this.fechaAgendacionDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // fechaCitaDataGridViewTextBoxColumn
-            // 
-            this.fechaCitaDataGridViewTextBoxColumn.DataPropertyName = "FechaCita";
-            this.fechaCitaDataGridViewTextBoxColumn.HeaderText = "FechaCita";
-            this.fechaCitaDataGridViewTextBoxColumn.Name = "fechaCitaDataGridViewTextBoxColumn";
-            this.fechaCitaDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // horaCitaDataGridViewTextBoxColumn
-            // 
-            this.horaCitaDataGridViewTextBoxColumn.DataPropertyName = "HoraCita";
-            this.horaCitaDataGridViewTextBoxColumn.HeaderText = "HoraCita";
-            this.horaCitaDataGridViewTextBoxColumn.Name = "horaCitaDataGridViewTextBoxColumn";
-            this.horaCitaDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // personaQueAtendioDataGridViewTextBoxColumn
-            // 
-            this.personaQueAtendioDataGridViewTextBoxColumn.DataPropertyName = "PersonaQueAtendio";
-            this.personaQueAtendioDataGridViewTextBoxColumn.HeaderText = "PersonaQueAtendio";
-            this.personaQueAtendioDataGridViewTextBoxColumn.Name = "personaQueAtendioDataGridViewTextBoxColumn";
-            this.personaQueAtendioDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // estatusCitaDataGridViewTextBoxColumn
-            // 
-            this.estatusCitaDataGridViewTextBoxColumn.DataPropertyName = "EstatusCita";
-            this.estatusCitaDataGridViewTextBoxColumn.HeaderText = "EstatusCita";
-            this.estatusCitaDataGridViewTextBoxColumn.Name = "estatusCitaDataGridViewTextBoxColumn";
-            this.estatusCitaDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // citasAgendadasBindingSource
             // 
@@ -408,9 +359,59 @@
             "Pendiente"});
             this.list_Estatus.Location = new System.Drawing.Point(15, 459);
             this.list_Estatus.Name = "list_Estatus";
-            this.list_Estatus.Size = new System.Drawing.Size(215, 21);
+            this.list_Estatus.Size = new System.Drawing.Size(218, 21);
             this.list_Estatus.TabIndex = 52;
             this.list_Estatus.ValueMember = "0";
+            // 
+            // iDCitaDataGridViewTextBoxColumn
+            // 
+            this.iDCitaDataGridViewTextBoxColumn.DataPropertyName = "ID_Cita";
+            this.iDCitaDataGridViewTextBoxColumn.HeaderText = "ID_Cita";
+            this.iDCitaDataGridViewTextBoxColumn.Name = "iDCitaDataGridViewTextBoxColumn";
+            this.iDCitaDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // sucursalDataGridViewTextBoxColumn
+            // 
+            this.sucursalDataGridViewTextBoxColumn.DataPropertyName = "Sucursal";
+            this.sucursalDataGridViewTextBoxColumn.HeaderText = "Sucursal";
+            this.sucursalDataGridViewTextBoxColumn.Name = "sucursalDataGridViewTextBoxColumn";
+            this.sucursalDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // fechaAgendacionDataGridViewTextBoxColumn
+            // 
+            this.fechaAgendacionDataGridViewTextBoxColumn.DataPropertyName = "FechaAgendacion";
+            this.fechaAgendacionDataGridViewTextBoxColumn.HeaderText = "FechaAgendacion";
+            this.fechaAgendacionDataGridViewTextBoxColumn.Name = "fechaAgendacionDataGridViewTextBoxColumn";
+            this.fechaAgendacionDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // fechaCitaDataGridViewTextBoxColumn
+            // 
+            this.fechaCitaDataGridViewTextBoxColumn.DataPropertyName = "FechaCita";
+            this.fechaCitaDataGridViewTextBoxColumn.HeaderText = "FechaCita";
+            this.fechaCitaDataGridViewTextBoxColumn.Name = "fechaCitaDataGridViewTextBoxColumn";
+            this.fechaCitaDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // horaCitaDataGridViewTextBoxColumn
+            // 
+            this.horaCitaDataGridViewTextBoxColumn.DataPropertyName = "HoraCita";
+            this.horaCitaDataGridViewTextBoxColumn.HeaderText = "HoraCita";
+            this.horaCitaDataGridViewTextBoxColumn.Name = "horaCitaDataGridViewTextBoxColumn";
+            this.horaCitaDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // personaQueAtendioDataGridViewTextBoxColumn
+            // 
+            this.personaQueAtendioDataGridViewTextBoxColumn.DataPropertyName = "PersonaQueAtendio";
+            this.personaQueAtendioDataGridViewTextBoxColumn.HeaderText = "PersonaQueAtendio";
+            this.personaQueAtendioDataGridViewTextBoxColumn.Name = "personaQueAtendioDataGridViewTextBoxColumn";
+            this.personaQueAtendioDataGridViewTextBoxColumn.ReadOnly = true;
+            this.personaQueAtendioDataGridViewTextBoxColumn.Width = 200;
+            // 
+            // estatusCitaDataGridViewTextBoxColumn
+            // 
+            this.estatusCitaDataGridViewTextBoxColumn.DataPropertyName = "EstatusCita";
+            this.estatusCitaDataGridViewTextBoxColumn.HeaderText = "EstatusCita";
+            this.estatusCitaDataGridViewTextBoxColumn.Name = "estatusCitaDataGridViewTextBoxColumn";
+            this.estatusCitaDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // AsignarTrabajos
             // 
@@ -466,13 +467,6 @@
         private servicioElPenduloDataSet8 servicioElPenduloDataSet8;
         private System.Windows.Forms.BindingSource citasAgendadasBindingSource;
         private servicioElPenduloDataSet8TableAdapters.CitasAgendadasTableAdapter citasAgendadasTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDCitaDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sucursalDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn fechaAgendacionDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn fechaCitaDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn horaCitaDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn personaQueAtendioDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn estatusCitaDataGridViewTextBoxColumn;
         private System.Windows.Forms.TextBox idTrabajoText;
         private MaterialSkin.Controls.MaterialLabel materialLabel3;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
@@ -492,5 +486,12 @@
         private tecnicosAsignacionTableAdapters.TecnicosTableAdapter tecnicosTableAdapter2;
         private System.Windows.Forms.TextBox txtIdTecnico;
         private System.Windows.Forms.ComboBox list_Estatus;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDCitaDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sucursalDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fechaAgendacionDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fechaCitaDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn horaCitaDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn personaQueAtendioDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn estatusCitaDataGridViewTextBoxColumn;
     }
 }

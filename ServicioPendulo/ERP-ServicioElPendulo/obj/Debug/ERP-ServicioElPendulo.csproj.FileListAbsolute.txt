@@ -157,7 +157,6 @@ C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\Desarro
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.PantallaPrincipal.resources
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.Properties.Resources.resources
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.Proveedores.resources
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.RegistrarTiendas.resources
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.OperacionesUsuarios.resources
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.SolicitudServicio.resources
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.form_UsrSistema.resources
@@ -231,3 +230,4 @@ C:\Users\Adrián\Source\Repos\MoisesMartin\DesarrolloProyectos-Bueno\ServicioPen
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.AdministrarAsignaciones.resources
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.QuejasReincidencias.resources
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.GestionTiendas.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.OrdenServicio.resources

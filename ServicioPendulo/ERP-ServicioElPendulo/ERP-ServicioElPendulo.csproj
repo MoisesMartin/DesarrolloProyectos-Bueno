@@ -124,6 +124,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="OrdenServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrdenServicio.Designer.cs">
+      <DependentUpon>OrdenServicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="PantallaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,12 +149,6 @@
     </Compile>
     <Compile Include="QuejasReincidencias.Designer.cs">
       <DependentUpon>QuejasReincidencias.cs</DependentUpon>
-    </Compile>
-    <Compile Include="RegistrarTiendas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="RegistrarTiendas.Designer.cs">
-      <DependentUpon>RegistrarTiendas.cs</DependentUpon>
     </Compile>
     <Compile Include="RegistrarUsuario.cs">
       <SubType>Form</SubType>
@@ -260,6 +260,9 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OrdenServicio.resx">
+      <DependentUpon>OrdenServicio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PantallaPrincipal.resx">
       <DependentUpon>PantallaPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -278,9 +281,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="QuejasReincidencias.resx">
       <DependentUpon>QuejasReincidencias.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RegistrarTiendas.resx">
-      <DependentUpon>RegistrarTiendas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistrarUsuario.resx">
       <DependentUpon>RegistrarUsuario.cs</DependentUpon>
