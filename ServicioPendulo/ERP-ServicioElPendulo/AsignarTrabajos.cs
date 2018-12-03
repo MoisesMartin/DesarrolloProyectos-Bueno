@@ -29,17 +29,46 @@ namespace ERP_ServicioElPendulo
             Hide();
         }
 
+        private void llenarTabla()
+        {
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "SELECT * FROM Asignaciones";
+                //
+                cmd.ExecuteNonQuery();
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable consulta = new DataTable();
+                da.Fill(consulta);
+                tablaAsignacion.DataSource = consulta;
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("No se pudieron obtener los datos", "Error");
+            }
+        }
+
         private void AsignarTrabajos_Load(object sender, EventArgs e)
         {
-            // TODO: esta línea de código carga datos en la tabla 'tecnicosAsignacion.Tecnicos' Puede moverla o quitarla según sea necesario.
-            this.tecnicosTableAdapter2.Fill(this.tecnicosAsignacion.Tecnicos);
-            // TODO: esta línea de código carga datos en la tabla 'servicioElPenduloDataSet9.Tecnicos' Puede moverla o quitarla según sea necesario.
-            this.tecnicosTableAdapter1.Fill(this.servicioElPenduloDataSet9.Tecnicos);
-            // TODO: esta línea de código carga datos en la tabla 'servicioElPenduloDataSet8.CitasAgendadas' Puede moverla o quitarla según sea necesario.
-            this.citasAgendadasTableAdapter.Fill(this.servicioElPenduloDataSet8.CitasAgendadas);
-            // TODO: esta línea de código carga datos en la tabla 'dataSetListaTecnicos.Tecnicos' Puede moverla o quitarla según sea necesario.
-            this.tecnicosTableAdapter.Fill(this.dataSetListaTecnicos.Tecnicos);
-
+            llenarTabla();
+            try
+            {
+                // TODO: esta línea de código carga datos en la tabla 'tecnicosAsignacion.Tecnicos' Puede moverla o quitarla según sea necesario.
+                this.tecnicosTableAdapter2.Fill(this.tecnicosAsignacion.Tecnicos);
+                // TODO: esta línea de código carga datos en la tabla 'servicioElPenduloDataSet9.Tecnicos' Puede moverla o quitarla según sea necesario.
+                this.tecnicosTableAdapter1.Fill(this.servicioElPenduloDataSet9.Tecnicos);
+                // TODO: esta línea de código carga datos en la tabla 'servicioElPenduloDataSet8.CitasAgendadas' Puede moverla o quitarla según sea necesario.
+                this.citasAgendadasTableAdapter.Fill(this.servicioElPenduloDataSet8.CitasAgendadas);
+                // TODO: esta línea de código carga datos en la tabla 'dataSetListaTecnicos.Tecnicos' Puede moverla o quitarla según sea necesario.
+                this.tecnicosTableAdapter.Fill(this.dataSetListaTecnicos.Tecnicos);
+            }catch(Exception ex)
+            {
+                MessageBox.Show("No se pudo conectar a la base de datos","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
+           
             list_Tecnicos.SelectedIndex = 0;
             txtIdTecnico.Text = list_Tecnicos.SelectedValue.ToString();
             list_Estatus.SelectedIndex = 0;
@@ -67,7 +96,7 @@ namespace ERP_ServicioElPendulo
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Error");
+                MessageBox.Show("MIX"+ex.Message, "Error");
             }
         }
 
@@ -173,11 +202,6 @@ namespace ERP_ServicioElPendulo
             {
                 return;
             } 
-        }
-
-        private void tablaAsignacion_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }

@@ -111,6 +111,7 @@
             // 
             // btn_CancelarReg
             // 
+            this.btn_CancelarReg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.btn_CancelarReg.Controls.Add(this.txt_claveT);
             this.btn_CancelarReg.Controls.Add(this.lbl_claveT);
             this.btn_CancelarReg.Controls.Add(this.btn_Registrar);
@@ -134,7 +135,6 @@
             this.btn_CancelarReg.Size = new System.Drawing.Size(1057, 459);
             this.btn_CancelarReg.TabIndex = 1;
             this.btn_CancelarReg.Text = "Registrar Tecnicos";
-            this.btn_CancelarReg.UseVisualStyleBackColor = true;
             // 
             // txt_claveT
             // 
@@ -292,6 +292,7 @@
             // 
             // txtPaterno
             // 
+            this.txtPaterno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.txtPaterno.Controls.Add(this.btn_ActualizarI);
             this.txtPaterno.Controls.Add(this.btn_Back);
             this.txtPaterno.Controls.Add(this.label21);
@@ -323,7 +324,6 @@
             this.txtPaterno.Size = new System.Drawing.Size(1057, 459);
             this.txtPaterno.TabIndex = 2;
             this.txtPaterno.Text = "Editar Tecnicos";
-            this.txtPaterno.UseVisualStyleBackColor = true;
             this.txtPaterno.Click += new System.EventHandler(this.txtPaterno_Click);
             // 
             // btn_ActualizarI
@@ -351,6 +351,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.White;
             this.label21.Location = new System.Drawing.Point(333, 0);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(161, 16);
@@ -375,7 +376,7 @@
             this.tablaTec.Location = new System.Drawing.Point(336, 19);
             this.tablaTec.Name = "tablaTec";
             this.tablaTec.ReadOnly = true;
-            this.tablaTec.Size = new System.Drawing.Size(699, 331);
+            this.tablaTec.Size = new System.Drawing.Size(699, 363);
             this.tablaTec.TabIndex = 48;
             this.tablaTec.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaTec_CellClick);
             // 
@@ -453,6 +454,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.White;
             this.label20.Location = new System.Drawing.Point(16, 314);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(130, 13);
@@ -463,6 +465,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.White;
             this.label19.Location = new System.Drawing.Point(16, 257);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(37, 13);
@@ -473,6 +476,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.White;
             this.label18.Location = new System.Drawing.Point(16, 192);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(102, 13);
@@ -483,6 +487,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.White;
             this.label17.Location = new System.Drawing.Point(16, 127);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(96, 13);
@@ -493,6 +498,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.White;
             this.label16.Location = new System.Drawing.Point(13, 66);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(56, 13);
@@ -503,6 +509,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.White;
             this.label15.Location = new System.Drawing.Point(13, 15);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(39, 13);
@@ -687,8 +694,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(1067, 498);
             this.Controls.Add(this.gestionTecnicos);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "OperacionesUsuarios";
             this.Text = "GestionUsuarios";
             this.Load += new System.EventHandler(this.OperacionesUsuarios_Load);
