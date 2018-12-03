@@ -53,7 +53,7 @@ namespace ERP_ServicioElPendulo
 
         private void AsignarTrabajos_Load(object sender, EventArgs e)
         {
-            llenarTabla();
+            //llenarTabla();
             try
             {
                 // TODO: esta línea de código carga datos en la tabla 'tecnicosAsignacion.Tecnicos' Puede moverla o quitarla según sea necesario.

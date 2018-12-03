@@ -139,34 +139,6 @@ C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\ERP_PenduloResBueno\Desa
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\ERP_PenduloResBueno\DesarrolloProyectos\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.exe
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\ERP_PenduloResBueno\DesarrolloProyectos\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.pdb
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\ERP_PenduloResBueno\DesarrolloProyectos\ERP-ServicioElPendulo\bin\Debug\itextsharp.dll
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\ERP-ServicioElPendulo.exe.config
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\ERP-ServicioElPendulo.exe
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\ERP-ServicioElPendulo.pdb
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\es-419\ERP-ServicioElPendulo.resources.dll
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\itextsharp.dll
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\MaterialSkin.dll
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\MiLibreria.dll
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\MiLibreria.pdb
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.csprojResolveAssemblyReference.cache
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.AgendarCita.resources
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.AsignarTrabajos.resources
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.rd_BuscarTodo.resources
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.ConsultaSolicitudes.resources
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.Correos.resources
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.form_Login.resources
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.PantallaPrincipal.resources
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.Properties.Resources.resources
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.Proveedores.resources
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.OperacionesUsuarios.resources
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.SolicitudServicio.resources
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.form_UsrSistema.resources
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.AgendarCita.es-419.resources
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.SolicitudServicio.es-419.resources
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.csproj.GenerateResource.Cache
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.csproj.CoreCompileInputs.cache
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\es-419\ERP-ServicioElPendulo.resources.dll
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.exe
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.pdb
 E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.csprojAssemblyReference.cache
 E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.AgendarCita.resources
 E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.AsignarTrabajos.resources
@@ -228,6 +200,34 @@ C:\Users\Adrián\Source\Repos\MoisesMartin\DesarrolloProyectos-Bueno\ServicioPen
 C:\Users\Adrián\Source\Repos\MoisesMartin\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.exe
 C:\Users\Adrián\Source\Repos\MoisesMartin\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.pdb
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.AdministrarAsignaciones.resources
-C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.QuejasReincidencias.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.AgendarCita.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.AsignarTrabajos.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.rd_BuscarTodo.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.ConsultaSolicitudes.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.Correos.resources
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.GestionTiendas.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.form_Login.resources
 C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.OrdenServicio.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.PantallaPrincipal.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.Properties.Resources.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.Proveedores.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.QuejasReincidencias.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.OperacionesUsuarios.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.SolicitudServicio.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.form_UsrSistema.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.AgendarCita.es-419.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP_ServicioElPendulo.SolicitudServicio.es-419.resources
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.csproj.GenerateResource.Cache
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.csproj.CoreCompileInputs.cache
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\ERP-ServicioElPendulo.exe.config
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\ERP-ServicioElPendulo.exe
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\ERP-ServicioElPendulo.pdb
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\es-419\ERP-ServicioElPendulo.resources.dll
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\itextsharp.dll
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\MaterialSkin.dll
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\MiLibreria.dll
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\bin\Debug\MiLibreria.pdb
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.csprojResolveAssemblyReference.cache
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\es-419\ERP-ServicioElPendulo.resources.dll
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.exe
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\ERP-ServicioElPendulo\obj\Debug\ERP-ServicioElPendulo.pdb

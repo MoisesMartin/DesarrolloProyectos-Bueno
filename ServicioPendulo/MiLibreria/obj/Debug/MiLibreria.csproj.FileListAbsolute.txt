@@ -10,3 +10,8 @@ E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos\MiLibreria\obj\Debug\MiLibreria.
 E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos\MiLibreria\obj\Debug\MiLibreria.csproj.CoreCompileInputs.cache
 E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos\MiLibreria\obj\Debug\MiLibreria.dll
 E:\School\DDP\PROYECTO\Repo\DesarrolloProyectos\MiLibreria\obj\Debug\MiLibreria.pdb
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\MiLibreria\bin\Debug\MiLibreria.dll
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\MiLibreria\bin\Debug\MiLibreria.pdb
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\MiLibreria\obj\Debug\MiLibreria.csproj.CoreCompileInputs.cache
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\MiLibreria\obj\Debug\MiLibreria.dll
+C:\Users\Moises Martin Campos\Desktop\CuatrimestreFinal\REPO-ServPendulo\DesarrolloProyectos-Bueno\ServicioPendulo\MiLibreria\obj\Debug\MiLibreria.pdb
