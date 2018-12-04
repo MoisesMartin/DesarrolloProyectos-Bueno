@@ -30,6 +30,16 @@
         {
             this.components = new System.ComponentModel.Container();
             this.tablaAsignaciones = new System.Windows.Forms.DataGridView();
+            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.iDTrabajoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sucursalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.iDTecnicoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombreTecnicoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fechaCitaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombreCitanteDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.estatusTrabajoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.asignacionesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.servicioElPenduloDataSet10 = new ERP_ServicioElPendulo.servicioElPenduloDataSet10();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
@@ -44,17 +54,7 @@
             this.txt_NTecnico = new System.Windows.Forms.TextBox();
             this.txt_Sucursal = new System.Windows.Forms.TextBox();
             this.list_Estatus = new System.Windows.Forms.ComboBox();
-            this.servicioElPenduloDataSet10 = new ERP_ServicioElPendulo.servicioElPenduloDataSet10();
-            this.asignacionesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.asignacionesTableAdapter = new ERP_ServicioElPendulo.servicioElPenduloDataSet10TableAdapters.AsignacionesTableAdapter();
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.iDTrabajoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sucursalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.iDTecnicoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombreTecnicoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fechaCitaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombreCitanteDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.estatusTrabajoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btn_Aceptar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.generarPDF = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
@@ -63,8 +63,8 @@
             this.rd_FiltrarEstatus = new MaterialSkin.Controls.MaterialRadioButton();
             this.list_filtrarEstatus = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.tablaAsignaciones)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.asignacionesBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet10)).BeginInit();
             this.SuspendLayout();
             // 
             // tablaAsignaciones
@@ -87,6 +87,73 @@
             this.tablaAsignaciones.Size = new System.Drawing.Size(842, 390);
             this.tablaAsignaciones.TabIndex = 0;
             this.tablaAsignaciones.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaAsignaciones_CellClick);
+            this.tablaAsignaciones.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaAsignaciones_CellContentClick);
+            // 
+            // iDDataGridViewTextBoxColumn
+            // 
+            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // iDTrabajoDataGridViewTextBoxColumn
+            // 
+            this.iDTrabajoDataGridViewTextBoxColumn.DataPropertyName = "ID_Trabajo";
+            this.iDTrabajoDataGridViewTextBoxColumn.HeaderText = "ID_Trabajo";
+            this.iDTrabajoDataGridViewTextBoxColumn.Name = "iDTrabajoDataGridViewTextBoxColumn";
+            this.iDTrabajoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // sucursalDataGridViewTextBoxColumn
+            // 
+            this.sucursalDataGridViewTextBoxColumn.DataPropertyName = "Sucursal";
+            this.sucursalDataGridViewTextBoxColumn.HeaderText = "Sucursal";
+            this.sucursalDataGridViewTextBoxColumn.Name = "sucursalDataGridViewTextBoxColumn";
+            this.sucursalDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // iDTecnicoDataGridViewTextBoxColumn
+            // 
+            this.iDTecnicoDataGridViewTextBoxColumn.DataPropertyName = "ID_Tecnico";
+            this.iDTecnicoDataGridViewTextBoxColumn.HeaderText = "ID_Tecnico";
+            this.iDTecnicoDataGridViewTextBoxColumn.Name = "iDTecnicoDataGridViewTextBoxColumn";
+            this.iDTecnicoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // nombreTecnicoDataGridViewTextBoxColumn
+            // 
+            this.nombreTecnicoDataGridViewTextBoxColumn.DataPropertyName = "NombreTecnico";
+            this.nombreTecnicoDataGridViewTextBoxColumn.HeaderText = "NombreTecnico";
+            this.nombreTecnicoDataGridViewTextBoxColumn.Name = "nombreTecnicoDataGridViewTextBoxColumn";
+            this.nombreTecnicoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // fechaCitaDataGridViewTextBoxColumn
+            // 
+            this.fechaCitaDataGridViewTextBoxColumn.DataPropertyName = "FechaCita";
+            this.fechaCitaDataGridViewTextBoxColumn.HeaderText = "FechaCita";
+            this.fechaCitaDataGridViewTextBoxColumn.Name = "fechaCitaDataGridViewTextBoxColumn";
+            this.fechaCitaDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // nombreCitanteDataGridViewTextBoxColumn
+            // 
+            this.nombreCitanteDataGridViewTextBoxColumn.DataPropertyName = "NombreCitante";
+            this.nombreCitanteDataGridViewTextBoxColumn.HeaderText = "NombreCitante";
+            this.nombreCitanteDataGridViewTextBoxColumn.Name = "nombreCitanteDataGridViewTextBoxColumn";
+            this.nombreCitanteDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // estatusTrabajoDataGridViewTextBoxColumn
+            // 
+            this.estatusTrabajoDataGridViewTextBoxColumn.DataPropertyName = "EstatusTrabajo";
+            this.estatusTrabajoDataGridViewTextBoxColumn.HeaderText = "EstatusTrabajo";
+            this.estatusTrabajoDataGridViewTextBoxColumn.Name = "estatusTrabajoDataGridViewTextBoxColumn";
+            this.estatusTrabajoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // asignacionesBindingSource
+            // 
+            this.asignacionesBindingSource.DataMember = "Asignaciones";
+            this.asignacionesBindingSource.DataSource = this.servicioElPenduloDataSet10;
+            // 
+            // servicioElPenduloDataSet10
+            // 
+            this.servicioElPenduloDataSet10.DataSetName = "servicioElPenduloDataSet10";
+            this.servicioElPenduloDataSet10.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // materialLabel3
             // 
@@ -261,75 +328,9 @@
             this.list_Estatus.TabIndex = 61;
             this.list_Estatus.ValueMember = "0";
             // 
-            // servicioElPenduloDataSet10
-            // 
-            this.servicioElPenduloDataSet10.DataSetName = "servicioElPenduloDataSet10";
-            this.servicioElPenduloDataSet10.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // asignacionesBindingSource
-            // 
-            this.asignacionesBindingSource.DataMember = "Asignaciones";
-            this.asignacionesBindingSource.DataSource = this.servicioElPenduloDataSet10;
-            // 
             // asignacionesTableAdapter
             // 
             this.asignacionesTableAdapter.ClearBeforeFill = true;
-            // 
-            // iDDataGridViewTextBoxColumn
-            // 
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // iDTrabajoDataGridViewTextBoxColumn
-            // 
-            this.iDTrabajoDataGridViewTextBoxColumn.DataPropertyName = "ID_Trabajo";
-            this.iDTrabajoDataGridViewTextBoxColumn.HeaderText = "ID_Trabajo";
-            this.iDTrabajoDataGridViewTextBoxColumn.Name = "iDTrabajoDataGridViewTextBoxColumn";
-            this.iDTrabajoDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // sucursalDataGridViewTextBoxColumn
-            // 
-            this.sucursalDataGridViewTextBoxColumn.DataPropertyName = "Sucursal";
-            this.sucursalDataGridViewTextBoxColumn.HeaderText = "Sucursal";
-            this.sucursalDataGridViewTextBoxColumn.Name = "sucursalDataGridViewTextBoxColumn";
-            this.sucursalDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // iDTecnicoDataGridViewTextBoxColumn
-            // 
-            this.iDTecnicoDataGridViewTextBoxColumn.DataPropertyName = "ID_Tecnico";
-            this.iDTecnicoDataGridViewTextBoxColumn.HeaderText = "ID_Tecnico";
-            this.iDTecnicoDataGridViewTextBoxColumn.Name = "iDTecnicoDataGridViewTextBoxColumn";
-            this.iDTecnicoDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nombreTecnicoDataGridViewTextBoxColumn
-            // 
-            this.nombreTecnicoDataGridViewTextBoxColumn.DataPropertyName = "NombreTecnico";
-            this.nombreTecnicoDataGridViewTextBoxColumn.HeaderText = "NombreTecnico";
-            this.nombreTecnicoDataGridViewTextBoxColumn.Name = "nombreTecnicoDataGridViewTextBoxColumn";
-            this.nombreTecnicoDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // fechaCitaDataGridViewTextBoxColumn
-            // 
-            this.fechaCitaDataGridViewTextBoxColumn.DataPropertyName = "FechaCita";
-            this.fechaCitaDataGridViewTextBoxColumn.HeaderText = "FechaCita";
-            this.fechaCitaDataGridViewTextBoxColumn.Name = "fechaCitaDataGridViewTextBoxColumn";
-            this.fechaCitaDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nombreCitanteDataGridViewTextBoxColumn
-            // 
-            this.nombreCitanteDataGridViewTextBoxColumn.DataPropertyName = "NombreCitante";
-            this.nombreCitanteDataGridViewTextBoxColumn.HeaderText = "NombreCitante";
-            this.nombreCitanteDataGridViewTextBoxColumn.Name = "nombreCitanteDataGridViewTextBoxColumn";
-            this.nombreCitanteDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // estatusTrabajoDataGridViewTextBoxColumn
-            // 
-            this.estatusTrabajoDataGridViewTextBoxColumn.DataPropertyName = "EstatusTrabajo";
-            this.estatusTrabajoDataGridViewTextBoxColumn.HeaderText = "EstatusTrabajo";
-            this.estatusTrabajoDataGridViewTextBoxColumn.Name = "estatusTrabajoDataGridViewTextBoxColumn";
-            this.estatusTrabajoDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // btn_Aceptar
             // 
@@ -390,6 +391,7 @@
             this.rd_BuscarTodo.Ripple = true;
             this.rd_BuscarTodo.Size = new System.Drawing.Size(25, 30);
             this.rd_BuscarTodo.TabIndex = 64;
+            this.rd_BuscarTodo.TabStop = true;
             this.rd_BuscarTodo.UseVisualStyleBackColor = true;
             this.rd_BuscarTodo.CheckedChanged += new System.EventHandler(this.rd_BuscarTodo_CheckedChanged);
             // 
@@ -480,8 +482,8 @@
             this.Text = "AdministrarAsignaciones";
             this.Load += new System.EventHandler(this.AdministrarAsignaciones_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tablaAsignaciones)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.asignacionesBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet10)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

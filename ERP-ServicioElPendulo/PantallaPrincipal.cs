@@ -160,6 +160,7 @@ namespace ERP_ServicioElPendulo
         private void bunifuImageButton2_Click_1(object sender, EventArgs e)
         {
             this.Close();
+            Application.Exit();
         }
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)

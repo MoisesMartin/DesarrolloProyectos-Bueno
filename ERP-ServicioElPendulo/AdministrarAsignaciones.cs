@@ -122,5 +122,10 @@ namespace ERP_ServicioElPendulo
                 llenarTabla();
             }
         }
+
+        private void tablaAsignaciones_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
