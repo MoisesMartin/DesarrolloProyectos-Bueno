@@ -271,6 +271,7 @@ namespace ERP_ServicioElPendulo
 
         private void bunifuFlatButton9_Click(object sender, EventArgs e)
         {
+            contenidoForms.Controls.Clear();
             cambioPantalla("Solicitudes de Servicio Registradas");
             ConsultaSolicitudes solicitudes = new ConsultaSolicitudes();
             solicitudes.TopLevel = false;

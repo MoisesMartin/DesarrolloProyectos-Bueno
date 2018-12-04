@@ -237,7 +237,7 @@ namespace ERP_ServicioElPendulo
             clCU.BorderWidth = 0;
             clCU.BorderWidthBottom = 0.75f;
             //
-            PdfPCell clCT = new PdfPCell(new Phrase("Proveedor", _standardFont));
+            PdfPCell clCT = new PdfPCell(new Phrase("CostoTotal", _standardFont));
             clCT.BorderWidth = 0;
             clCT.BorderWidthBottom = 0.75f;       
             //

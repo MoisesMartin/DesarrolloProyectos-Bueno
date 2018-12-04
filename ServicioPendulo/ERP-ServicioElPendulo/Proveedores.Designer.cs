@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tab_Proveedores = new System.Windows.Forms.TabControl();
             this.fechaCotizacion = new System.Windows.Forms.TabPage();
             this.cantidadItems = new System.Windows.Forms.NumericUpDown();
@@ -80,7 +78,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.sumaArticulos = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tab_Proveedores.SuspendLayout();
             this.fechaCotizacion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cantidadItems)).BeginInit();
@@ -93,29 +90,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet5)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label1.Location = new System.Drawing.Point(16, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(118, 24);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Proveedores";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.pictureBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pictureBox1.Location = new System.Drawing.Point(0, -2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1251, 50);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
             // tab_Proveedores
             // 
             this.tab_Proveedores.Controls.Add(this.fechaCotizacion);
@@ -126,7 +100,7 @@
             this.tab_Proveedores.Controls.Add(this.tab_Aguila);
             this.tab_Proveedores.Controls.Add(this.tab_COMEX);
             this.tab_Proveedores.Controls.Add(this.tabPage1);
-            this.tab_Proveedores.Location = new System.Drawing.Point(0, 48);
+            this.tab_Proveedores.Location = new System.Drawing.Point(4, 12);
             this.tab_Proveedores.Name = "tab_Proveedores";
             this.tab_Proveedores.SelectedIndex = 0;
             this.tab_Proveedores.Size = new System.Drawing.Size(493, 391);
@@ -238,6 +212,7 @@
             this.btn_gest_Ballena.TabIndex = 9;
             this.btn_gest_Ballena.Text = "Gestionar Proveedor";
             this.btn_gest_Ballena.UseVisualStyleBackColor = true;
+            this.btn_gest_Ballena.Visible = false;
             // 
             // totalProv
             // 
@@ -439,7 +414,7 @@
             // 
             // btn_PDF
             // 
-            this.btn_PDF.Location = new System.Drawing.Point(901, 436);
+            this.btn_PDF.Location = new System.Drawing.Point(905, 466);
             this.btn_PDF.Name = "btn_PDF";
             this.btn_PDF.Size = new System.Drawing.Size(164, 23);
             this.btn_PDF.TabIndex = 5;
@@ -449,7 +424,7 @@
             // 
             // btn_Volver
             // 
-            this.btn_Volver.Location = new System.Drawing.Point(807, 436);
+            this.btn_Volver.Location = new System.Drawing.Point(799, 466);
             this.btn_Volver.Name = "btn_Volver";
             this.btn_Volver.Size = new System.Drawing.Size(75, 23);
             this.btn_Volver.TabIndex = 6;
@@ -497,7 +472,7 @@
             this.costoUnitarioDataGridViewTextBoxColumn,
             this.costoTotalDataGridViewTextBoxColumn});
             this.tablaCotizaciones.DataSource = this.cotizacionesBindingSource;
-            this.tablaCotizaciones.Location = new System.Drawing.Point(503, 75);
+            this.tablaCotizaciones.Location = new System.Drawing.Point(507, 40);
             this.tablaCotizaciones.Name = "tablaCotizaciones";
             this.tablaCotizaciones.ReadOnly = true;
             this.tablaCotizaciones.Size = new System.Drawing.Size(562, 299);
@@ -565,7 +540,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(499, 48);
+            this.label2.Location = new System.Drawing.Point(503, 12);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(196, 24);
             this.label2.TabIndex = 20;
@@ -617,12 +592,9 @@
             this.Controls.Add(this.label11);
             this.Controls.Add(this.btn_PDF);
             this.Controls.Add(this.tab_Proveedores);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
             this.Name = "Proveedores";
             this.Text = "Proveedores";
             this.Load += new System.EventHandler(this.Proveedores_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tab_Proveedores.ResumeLayout(false);
             this.fechaCotizacion.ResumeLayout(false);
             this.fechaCotizacion.PerformLayout();
@@ -640,9 +612,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TabControl tab_Proveedores;
         private System.Windows.Forms.TabPage fechaCotizacion;
         private System.Windows.Forms.TabPage tab_canfra;

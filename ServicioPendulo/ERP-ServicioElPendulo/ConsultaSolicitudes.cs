@@ -119,27 +119,27 @@ namespace ERP_ServicioElPendulo
             doc.Add(new Paragraph("Reporte de Solicitudes de Servicio"));
             doc.Add(Chunk.NEWLINE);
             //Creando tabla y estableciendo un tamaño para cada una de las celdas
-            PdfPTable tblSolicitudes = new PdfPTable(6);
-            tblSolicitudes.WidthPercentage = 50;
+            PdfPTable tblSolicitudes = new PdfPTable(5);
+            tblSolicitudes.WidthPercentage = 100;
             //
             PdfPCell clID = new PdfPCell(new Phrase("ID de Solicitud", _standardFont));
-            clID.BorderWidth = 0;
+            clID.BorderWidth = 1;
             clID.BorderWidthBottom = 0.75f;
             //
             PdfPCell clContacto = new PdfPCell(new Phrase("Contacto Solicitante", _standardFont));
-            clID.BorderWidth = 0;
+            clID.BorderWidth = 1;
             clID.BorderWidthBottom = 0.75f;
             //
             PdfPCell clTServicio = new PdfPCell(new Phrase("Tipo de Servicio", _standardFont));
-            clTServicio.BorderWidth = 0;
+            clTServicio.BorderWidth = 1;
             clTServicio.BorderWidthBottom = 0.75f;
             //
             PdfPCell clSucursal = new PdfPCell(new Phrase("Sucursal", _standardFont));
-            clSucursal.BorderWidth = 0;
+            clSucursal.BorderWidth = 1;
             clSucursal.BorderWidthBottom = 0.75f;
             //
             PdfPCell clFechaCaptura = new PdfPCell(new Phrase("Fecha de Captura", _standardFont));
-            clFechaCaptura.BorderWidth = 0;
+            clFechaCaptura.BorderWidth = 1;
             clFechaCaptura.BorderWidthBottom = 0.75f;
             //Añadiendo las celdas
             tblSolicitudes.AddCell(clID);
@@ -147,6 +147,30 @@ namespace ERP_ServicioElPendulo
             tblSolicitudes.AddCell(clTServicio);
             tblSolicitudes.AddCell(clSucursal);
             tblSolicitudes.AddCell(clFechaCaptura);
+            //Llenando la tabla
+            foreach (DataGridViewRow Row in dt_SolicitudesR.Rows)
+            {
+                String strFila = Row.Index.ToString();
+                if (!Row.IsNewRow)
+                {
+                    clID = new PdfPCell(new Phrase(Convert.ToString(dt_SolicitudesR.Rows[Convert.ToInt32(strFila)].Cells[0].Value.ToString()), _standardFont));
+                    clID.BorderWidth = 0;
+                    clContacto = new PdfPCell(new Phrase(Convert.ToString(dt_SolicitudesR.Rows[Convert.ToInt32(strFila)].Cells[1].Value.ToString()), _standardFont));
+                    clContacto.BorderWidth = 0;
+                    clTServicio = new PdfPCell(new Phrase(Convert.ToString(dt_SolicitudesR.Rows[Convert.ToInt32(strFila)].Cells[2].Value.ToString()), _standardFont));
+                    clTServicio.BorderWidth = 0;
+                    clSucursal = new PdfPCell(new Phrase(Convert.ToString(dt_SolicitudesR.Rows[Convert.ToInt32(strFila)].Cells[3].Value.ToString()), _standardFont));
+                    clSucursal.BorderWidth = 0;
+                    clFechaCaptura = new PdfPCell(new Phrase(Convert.ToString(dt_SolicitudesR.Rows[Convert.ToInt32(strFila)].Cells[4].Value.ToString()), _standardFont));
+                    clFechaCaptura.BorderWidth = 0;
+                    //
+                    tblSolicitudes.AddCell(clID);
+                    tblSolicitudes.AddCell(clSucursal);
+                    tblSolicitudes.AddCell(clTServicio);
+                    tblSolicitudes.AddCell(clSucursal);
+                    tblSolicitudes.AddCell(clFechaCaptura);
+                }
+            }
             //Añadiendo la tabla 
             doc.Add(tblSolicitudes);
             //Cerrando la edición del Archivo
@@ -258,7 +282,6 @@ namespace ERP_ServicioElPendulo
             else if (rd_porFecha.Checked)
             {
                 string fecha = date_buscarPorFecha.Text;
-                label1.Text = fecha;
                 dt_SolicitudesR.DataSource = null;
                 dt_SolicitudesR.Update();
                 dt_SolicitudesR.Refresh();

@@ -56,11 +56,10 @@
             this.btn_GenerarPDF = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btn_Back = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btn_Filtrar = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.date_buscarPorFecha = new Bunifu.Framework.UI.BunifuDatepicker();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.date_buscarPorFecha = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.contactosInnovaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.contactosInnova)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet)).BeginInit();
@@ -341,19 +340,6 @@
             this.btn_Filtrar.UseVisualStyleBackColor = true;
             this.btn_Filtrar.Click += new System.EventHandler(this.btn_Filtrar_Click);
             // 
-            // date_buscarPorFecha
-            // 
-            this.date_buscarPorFecha.BackColor = System.Drawing.Color.SeaGreen;
-            this.date_buscarPorFecha.BorderRadius = 0;
-            this.date_buscarPorFecha.ForeColor = System.Drawing.Color.White;
-            this.date_buscarPorFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.date_buscarPorFecha.FormatCustom = null;
-            this.date_buscarPorFecha.Location = new System.Drawing.Point(136, 120);
-            this.date_buscarPorFecha.Name = "date_buscarPorFecha";
-            this.date_buscarPorFecha.Size = new System.Drawing.Size(184, 27);
-            this.date_buscarPorFecha.TabIndex = 53;
-            this.date_buscarPorFecha.Value = new System.DateTime(2018, 11, 28, 2, 34, 2, 0);
-            // 
             // materialLabel2
             // 
             this.materialLabel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -399,14 +385,13 @@
             this.materialLabel4.TabIndex = 57;
             this.materialLabel4.Text = "Mostrar todo";
             // 
-            // label1
+            // date_buscarPorFecha
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(390, 121);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 58;
-            this.label1.Text = "label1";
+            this.date_buscarPorFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.date_buscarPorFecha.Location = new System.Drawing.Point(136, 125);
+            this.date_buscarPorFecha.Name = "date_buscarPorFecha";
+            this.date_buscarPorFecha.Size = new System.Drawing.Size(184, 20);
+            this.date_buscarPorFecha.TabIndex = 59;
             // 
             // ConsultaSolicitudes
             // 
@@ -414,11 +399,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(756, 536);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.date_buscarPorFecha);
             this.Controls.Add(this.materialLabel4);
             this.Controls.Add(this.materialLabel3);
             this.Controls.Add(this.materialLabel2);
-            this.Controls.Add(this.date_buscarPorFecha);
             this.Controls.Add(this.btn_Filtrar);
             this.Controls.Add(this.btn_Back);
             this.Controls.Add(this.btn_GenerarPDF);
@@ -474,10 +458,9 @@
         private MaterialSkin.Controls.MaterialRaisedButton btn_GenerarPDF;
         private MaterialSkin.Controls.MaterialRaisedButton btn_Back;
         private MaterialSkin.Controls.MaterialRaisedButton btn_Filtrar;
-        private Bunifu.Framework.UI.BunifuDatepicker date_buscarPorFecha;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
         private MaterialSkin.Controls.MaterialLabel materialLabel3;
         private MaterialSkin.Controls.MaterialLabel materialLabel4;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DateTimePicker date_buscarPorFecha;
     }
 }
