@@ -36,6 +36,7 @@ namespace ERP_ServicioElPendulo
 
             if (resultado == DialogResult.Yes)
             {
+                Application.Exit();
                 return true;
             }
             else
