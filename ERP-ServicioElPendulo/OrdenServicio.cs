@@ -16,5 +16,11 @@ namespace ERP_ServicioElPendulo
         {
             InitializeComponent();
         }
+
+        private void materialLabel1_Click(object sender, EventArgs e)
+        {
+
+
+        }
     }
 }

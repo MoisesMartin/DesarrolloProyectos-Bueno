@@ -119,8 +119,8 @@ namespace ERP_ServicioElPendulo
             doc.Add(new Paragraph("Reporte de Solicitudes de Servicio"));
             doc.Add(Chunk.NEWLINE);
             //Creando tabla y estableciendo un tamaño para cada una de las celdas
-            PdfPTable tblSolicitudes = new PdfPTable(6);
-            tblSolicitudes.WidthPercentage = 50;
+            PdfPTable tblSolicitudes = new PdfPTable(5);
+            tblSolicitudes.WidthPercentage = 100;
             //
             PdfPCell clID = new PdfPCell(new Phrase("ID de Solicitud", _standardFont));
             clID.BorderWidth = 0;
@@ -162,7 +162,7 @@ namespace ERP_ServicioElPendulo
                     clTServicio.BorderWidth = 0;
                     clSucursal = new PdfPCell(new Phrase(Convert.ToString(dt_SolicitudesR.Rows[Convert.ToInt32(strFila)].Cells[3].Value.ToString()), _standardFont));
                     clSucursal.BorderWidth = 0;
-                    clFechaCaptura = new PdfPCell(new Phrase(Convert.ToString(dt_SolicitudesR.Rows[Convert.ToInt32(strFila)].Cells[4].Value.ToString()), _standardFont));
+                    clFechaCaptura = new PdfPCell(new Phrase(Convert.ToString(dt_SolicitudesR.Rows[Convert.ToInt32(strFila)].Cells[5].Value.ToString()), _standardFont));
                     clFechaCaptura.BorderWidth = 0;
                     //
                     tblSolicitudes.AddCell(clID);
