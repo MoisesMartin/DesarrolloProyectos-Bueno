@@ -136,6 +136,7 @@
             // 
             this.rdBuscarTodo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.rdBuscarTodo.AutoSize = true;
+            this.rdBuscarTodo.Checked = true;
             this.rdBuscarTodo.Depth = 0;
             this.rdBuscarTodo.Font = new System.Drawing.Font("Roboto", 10F);
             this.rdBuscarTodo.Location = new System.Drawing.Point(860, 117);
@@ -163,7 +164,6 @@
             this.porFechaC.Ripple = true;
             this.porFechaC.Size = new System.Drawing.Size(119, 30);
             this.porFechaC.TabIndex = 70;
-            this.porFechaC.TabStop = true;
             this.porFechaC.Text = "Por Fecha Cita";
             this.porFechaC.UseVisualStyleBackColor = true;
             // 
@@ -180,7 +180,6 @@
             this.porFechaA.Ripple = true;
             this.porFechaA.Size = new System.Drawing.Size(168, 30);
             this.porFechaA.TabIndex = 69;
-            this.porFechaA.TabStop = true;
             this.porFechaA.Text = "Por Fecha Agendación";
             this.porFechaA.UseVisualStyleBackColor = true;
             // 
@@ -197,7 +196,6 @@
             this.filtrarEstatus.Ripple = true;
             this.filtrarEstatus.Size = new System.Drawing.Size(100, 30);
             this.filtrarEstatus.TabIndex = 68;
-            this.filtrarEstatus.TabStop = true;
             this.filtrarEstatus.Text = "Por estatus";
             this.filtrarEstatus.UseVisualStyleBackColor = true;
             // 

@@ -241,6 +241,7 @@
             this.check_isAdmin.TabIndex = 31;
             this.check_isAdmin.Text = "Usuario Administrador";
             this.check_isAdmin.UseVisualStyleBackColor = true;
+            this.check_isAdmin.Visible = false;
             // 
             // form_UsrSistema
             // 
