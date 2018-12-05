@@ -125,10 +125,13 @@
   <data name="txt_PersonaAtiende.Location" type="System.Drawing.Point, System.Drawing">
     <value>471, 55</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txt_PersonaAtiende.MaxLength" type="System.Int32, mscorlib">
+    <value>300</value>
+  </data>
   <data name="txt_PersonaAtiende.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 20</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="txt_PersonaAtiende.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
@@ -649,7 +652,7 @@
     <value>True</value>
   </data>
   <data name="materialLabel7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 11pt</value>
   </data>
   <data name="materialLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -658,7 +661,7 @@
     <value>495, 128</value>
   </data>
   <data name="materialLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 17</value>
+    <value>85, 19</value>
   </data>
   <data name="materialLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -685,7 +688,7 @@
     <value>True</value>
   </data>
   <data name="materialLabel8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 11pt</value>
   </data>
   <data name="materialLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -694,7 +697,7 @@
     <value>495, 158</value>
   </data>
   <data name="materialLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 17</value>
+    <value>76, 19</value>
   </data>
   <data name="materialLabel8.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>

@@ -11,10 +11,13 @@ using System.Data.SqlClient;
 using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
+using MaterialSkin;
+using MaterialSkin.Animations;
+using MaterialSkin.Controls;
 
 namespace ERP_ServicioElPendulo
 {
-    public partial class Proveedores : Form
+    public partial class Proveedores : MaterialForm
     {
         public static string conexionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=servicioElPendulo;Integrated Security=True";
         SqlConnection con = new SqlConnection(conexionString);
@@ -22,6 +25,10 @@ namespace ERP_ServicioElPendulo
         public Proveedores()
         {
             InitializeComponent();
+            MaterialSkinManager sm = MaterialSkinManager.Instance;
+            sm.AddFormToManage(this);
+            sm.Theme = MaterialSkinManager.Themes.DARK;
+            sm.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.BlueGrey500, Accent.Green700, TextShade.WHITE);
         }
 
         private void btn_Volver_Click(object sender, EventArgs e)

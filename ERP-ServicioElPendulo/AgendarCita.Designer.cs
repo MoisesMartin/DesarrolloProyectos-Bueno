@@ -59,6 +59,7 @@
             resources.ApplyResources(this.list_Sucursales, "list_Sucursales");
             this.list_Sucursales.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.list_Sucursales.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.list_Sucursales.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.list_Sucursales.FormattingEnabled = true;
             this.list_Sucursales.Items.AddRange(new object[] {
             resources.GetString("list_Sucursales.Items"),

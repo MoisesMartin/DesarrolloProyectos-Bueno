@@ -283,7 +283,7 @@
     <value>10000, 200</value>
   </data>
   <data name="textBox_Descripcion.MaxLength" type="System.Int32, mscorlib">
-    <value>250</value>
+    <value>300</value>
   </data>
   <data name="textBox_Descripcion.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
