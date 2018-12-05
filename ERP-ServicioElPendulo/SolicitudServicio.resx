@@ -160,7 +160,7 @@
     <value>Top, Right</value>
   </data>
   <data name="textBox_Descripcion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>246, 48</value>
+    <value>272, 48</value>
   </data>
   <data name="textBox_Descripcion.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>10000, 200</value>
@@ -199,7 +199,7 @@
     <value>Segoe UI Semilight, 9.75pt</value>
   </data>
   <data name="link_help.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 240</value>
+    <value>13, 299</value>
   </data>
   <data name="link_help.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 17</value>
@@ -235,7 +235,7 @@
     <value>18, 26</value>
   </data>
   <data name="materialLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 19</value>
+    <value>194, 19</value>
   </data>
   <data name="materialLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -268,7 +268,7 @@
     <value>20, 88</value>
   </data>
   <data name="materialLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 19</value>
+    <value>116, 19</value>
   </data>
   <data name="materialLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -301,7 +301,7 @@
     <value>20, 145</value>
   </data>
   <data name="materialLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 19</value>
+    <value>66, 19</value>
   </data>
   <data name="materialLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -334,10 +334,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>240, 26</value>
+    <value>266, 26</value>
   </data>
   <data name="materialLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 19</value>
+    <value>179, 19</value>
   </data>
   <data name="materialLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -370,10 +370,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>265, 257</value>
+    <value>291, 257</value>
   </data>
   <data name="materialLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 19</value>
+    <value>159, 19</value>
   </data>
   <data name="materialLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -403,7 +403,7 @@
     <value>NoControl</value>
   </data>
   <data name="btn_Aceptar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>542, 220</value>
+    <value>568, 279</value>
   </data>
   <data name="btn_Aceptar.Size" type="System.Drawing.Size, System.Drawing">
     <value>84, 32</value>
@@ -433,7 +433,7 @@
     <value>False</value>
   </data>
   <data name="fecha_Solicitud.Location" type="System.Drawing.Point, System.Drawing">
-    <value>269, 279</value>
+    <value>295, 279</value>
   </data>
   <data name="fecha_Solicitud.Size" type="System.Drawing.Size, System.Drawing">
     <value>186, 33</value>
@@ -463,7 +463,7 @@
     <value>22, 48</value>
   </data>
   <data name="list_ContactoSolicitante.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 25</value>
+    <value>217, 25</value>
   </data>
   <data name="list_ContactoSolicitante.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -487,7 +487,7 @@
     <value>22, 110</value>
   </data>
   <data name="list_TipoServicio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 25</value>
+    <value>217, 25</value>
   </data>
   <data name="list_TipoServicio.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -511,7 +511,7 @@
     <value>22, 167</value>
   </data>
   <data name="list_Sucursal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 25</value>
+    <value>217, 25</value>
   </data>
   <data name="list_Sucursal.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
@@ -535,7 +535,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>642, 266</value>
+    <value>668, 325</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>  Formulario de Solicitud de Servicio</value>

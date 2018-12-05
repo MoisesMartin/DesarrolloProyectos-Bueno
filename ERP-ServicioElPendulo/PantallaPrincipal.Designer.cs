@@ -36,58 +36,58 @@
             this.barraLateral = new System.Windows.Forms.Panel();
             this.reporteOptions = new System.Windows.Forms.Panel();
             this.bunifuFlatButton20 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuFlatButton5 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.quejasOptions = new System.Windows.Forms.Panel();
             this.bunifuFlatButton15 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.tecnicosOptions = new System.Windows.Forms.Panel();
             this.bunifuFlatButton16 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton17 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.recursosOptions = new System.Windows.Forms.Panel();
             this.bunifuFlatButton10 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton12 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton13 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.registroOptions = new System.Windows.Forms.Panel();
             this.bunifuFlatButton6 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton9 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton7 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton8 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.logo = new System.Windows.Forms.PictureBox();
             this.contenido = new System.Windows.Forms.Panel();
             this.contenidoForms = new System.Windows.Forms.Panel();
             this.descripcionPrincipal = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.tituloPrincipal = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.header = new System.Windows.Forms.Panel();
             this.TituloOpcion = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.menuButton = new Bunifu.Framework.UI.BunifuImageButton();
             this.topHeader = new System.Windows.Forms.Panel();
+            this.minimizar = new Bunifu.Framework.UI.BunifuImageButton();
+            this.maximizar = new Bunifu.Framework.UI.BunifuImageButton();
+            this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.logoAnimation = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.sideBarAnimation = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.sideBarAnimation2 = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.menuButton = new Bunifu.Framework.UI.BunifuImageButton();
-            this.minimizar = new Bunifu.Framework.UI.BunifuImageButton();
-            this.maximizar = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuFlatButton5 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.logo = new System.Windows.Forms.PictureBox();
             this.barraLateral.SuspendLayout();
             this.reporteOptions.SuspendLayout();
             this.quejasOptions.SuspendLayout();
             this.tecnicosOptions.SuspendLayout();
             this.recursosOptions.SuspendLayout();
             this.registroOptions.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.contenido.SuspendLayout();
             this.contenidoForms.SuspendLayout();
             this.header.SuspendLayout();
-            this.topHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).BeginInit();
+            this.topHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.minimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.maximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.SuspendLayout();
             // 
             // barraLateral
@@ -155,6 +155,40 @@
             this.bunifuFlatButton20.TextFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton20.Click += new System.EventHandler(this.bunifuFlatButton20_Click);
             // 
+            // bunifuFlatButton5
+            // 
+            this.bunifuFlatButton5.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
+            this.bunifuFlatButton5.BackColor = System.Drawing.Color.DimGray;
+            resources.ApplyResources(this.bunifuFlatButton5, "bunifuFlatButton5");
+            this.bunifuFlatButton5.BorderRadius = 0;
+            this.bunifuFlatButton5.ButtonText = "   Orden de Servicio";
+            this.bunifuFlatButton5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton5, BunifuAnimatorNS.DecorationType.None);
+            this.sideBarAnimation.SetDecoration(this.bunifuFlatButton5, BunifuAnimatorNS.DecorationType.None);
+            this.logoAnimation.SetDecoration(this.bunifuFlatButton5, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuFlatButton5.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuFlatButton5.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton5.Iconimage = global::ERP_ServicioElPendulo.Properties.Resources.Document_52px;
+            this.bunifuFlatButton5.Iconimage_right = null;
+            this.bunifuFlatButton5.Iconimage_right_Selected = null;
+            this.bunifuFlatButton5.Iconimage_Selected = null;
+            this.bunifuFlatButton5.IconMarginLeft = 10;
+            this.bunifuFlatButton5.IconMarginRight = 0;
+            this.bunifuFlatButton5.IconRightVisible = true;
+            this.bunifuFlatButton5.IconRightZoom = 0D;
+            this.bunifuFlatButton5.IconVisible = true;
+            this.bunifuFlatButton5.IconZoom = 60D;
+            this.bunifuFlatButton5.IsTab = true;
+            this.bunifuFlatButton5.Name = "bunifuFlatButton5";
+            this.bunifuFlatButton5.Normalcolor = System.Drawing.Color.DimGray;
+            this.bunifuFlatButton5.OnHovercolor = System.Drawing.SystemColors.GrayText;
+            this.bunifuFlatButton5.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton5.selected = false;
+            this.bunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton5.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton5.TextFont = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
+            this.bunifuFlatButton5.Click += new System.EventHandler(this.bunifuFlatButton5_Click);
+            // 
             // quejasOptions
             // 
             this.quejasOptions.Controls.Add(this.bunifuFlatButton15);
@@ -197,6 +231,40 @@
             this.bunifuFlatButton15.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton15.TextFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton15.Click += new System.EventHandler(this.bunifuFlatButton15_Click);
+            // 
+            // bunifuFlatButton4
+            // 
+            this.bunifuFlatButton4.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
+            this.bunifuFlatButton4.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.bunifuFlatButton4, "bunifuFlatButton4");
+            this.bunifuFlatButton4.BorderRadius = 0;
+            this.bunifuFlatButton4.ButtonText = "   Quejas y Reincidencias";
+            this.bunifuFlatButton4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton4, BunifuAnimatorNS.DecorationType.None);
+            this.sideBarAnimation.SetDecoration(this.bunifuFlatButton4, BunifuAnimatorNS.DecorationType.None);
+            this.logoAnimation.SetDecoration(this.bunifuFlatButton4, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuFlatButton4.DisabledColor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton4.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton4.Iconimage = global::ERP_ServicioElPendulo.Properties.Resources.Error_52px;
+            this.bunifuFlatButton4.Iconimage_right = null;
+            this.bunifuFlatButton4.Iconimage_right_Selected = null;
+            this.bunifuFlatButton4.Iconimage_Selected = null;
+            this.bunifuFlatButton4.IconMarginLeft = 10;
+            this.bunifuFlatButton4.IconMarginRight = 0;
+            this.bunifuFlatButton4.IconRightVisible = true;
+            this.bunifuFlatButton4.IconRightZoom = 0D;
+            this.bunifuFlatButton4.IconVisible = true;
+            this.bunifuFlatButton4.IconZoom = 60D;
+            this.bunifuFlatButton4.IsTab = true;
+            this.bunifuFlatButton4.Name = "bunifuFlatButton4";
+            this.bunifuFlatButton4.Normalcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton4.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
+            this.bunifuFlatButton4.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton4.selected = false;
+            this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton4.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
+            this.bunifuFlatButton4.Click += new System.EventHandler(this.bunifuFlatButton4_Click);
             // 
             // tecnicosOptions
             // 
@@ -275,6 +343,40 @@
             this.bunifuFlatButton17.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton17.TextFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton17.Click += new System.EventHandler(this.bunifuFlatButton17_Click);
+            // 
+            // bunifuFlatButton3
+            // 
+            this.bunifuFlatButton3.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
+            this.bunifuFlatButton3.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.bunifuFlatButton3, "bunifuFlatButton3");
+            this.bunifuFlatButton3.BorderRadius = 0;
+            this.bunifuFlatButton3.ButtonText = "   Técnicos y Tiendas";
+            this.bunifuFlatButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton3, BunifuAnimatorNS.DecorationType.None);
+            this.sideBarAnimation.SetDecoration(this.bunifuFlatButton3, BunifuAnimatorNS.DecorationType.None);
+            this.logoAnimation.SetDecoration(this.bunifuFlatButton3, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuFlatButton3.DisabledColor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton3.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton3.Iconimage = global::ERP_ServicioElPendulo.Properties.Resources.User_50px;
+            this.bunifuFlatButton3.Iconimage_right = null;
+            this.bunifuFlatButton3.Iconimage_right_Selected = null;
+            this.bunifuFlatButton3.Iconimage_Selected = null;
+            this.bunifuFlatButton3.IconMarginLeft = 10;
+            this.bunifuFlatButton3.IconMarginRight = 0;
+            this.bunifuFlatButton3.IconRightVisible = true;
+            this.bunifuFlatButton3.IconRightZoom = 0D;
+            this.bunifuFlatButton3.IconVisible = true;
+            this.bunifuFlatButton3.IconZoom = 60D;
+            this.bunifuFlatButton3.IsTab = true;
+            this.bunifuFlatButton3.Name = "bunifuFlatButton3";
+            this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
+            this.bunifuFlatButton3.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton3.selected = false;
+            this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton3.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
+            this.bunifuFlatButton3.Click += new System.EventHandler(this.bunifuFlatButton3_Click);
             // 
             // recursosOptions
             // 
@@ -388,6 +490,40 @@
             this.bunifuFlatButton13.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton13.TextFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton13.Click += new System.EventHandler(this.bunifuFlatButton13_Click);
+            // 
+            // bunifuFlatButton2
+            // 
+            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
+            this.bunifuFlatButton2.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.bunifuFlatButton2, "bunifuFlatButton2");
+            this.bunifuFlatButton2.BorderRadius = 0;
+            this.bunifuFlatButton2.ButtonText = "   Recursos y Asignación";
+            this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton2, BunifuAnimatorNS.DecorationType.None);
+            this.sideBarAnimation.SetDecoration(this.bunifuFlatButton2, BunifuAnimatorNS.DecorationType.None);
+            this.logoAnimation.SetDecoration(this.bunifuFlatButton2, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton2.Iconimage = global::ERP_ServicioElPendulo.Properties.Resources.Brick_Wall_50px;
+            this.bunifuFlatButton2.Iconimage_right = null;
+            this.bunifuFlatButton2.Iconimage_right_Selected = null;
+            this.bunifuFlatButton2.Iconimage_Selected = null;
+            this.bunifuFlatButton2.IconMarginLeft = 10;
+            this.bunifuFlatButton2.IconMarginRight = 0;
+            this.bunifuFlatButton2.IconRightVisible = true;
+            this.bunifuFlatButton2.IconRightZoom = 0D;
+            this.bunifuFlatButton2.IconVisible = true;
+            this.bunifuFlatButton2.IconZoom = 60D;
+            this.bunifuFlatButton2.IsTab = true;
+            this.bunifuFlatButton2.Name = "bunifuFlatButton2";
+            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
+            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton2.selected = false;
+            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
+            this.bunifuFlatButton2.Click += new System.EventHandler(this.bunifuFlatButton2_Click);
             // 
             // registroOptions
             // 
@@ -537,6 +673,50 @@
             this.bunifuFlatButton8.TextFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton8.Click += new System.EventHandler(this.bunifuFlatButton8_Click);
             // 
+            // bunifuFlatButton1
+            // 
+            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
+            this.bunifuFlatButton1.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.bunifuFlatButton1, "bunifuFlatButton1");
+            this.bunifuFlatButton1.BorderRadius = 0;
+            this.bunifuFlatButton1.ButtonText = "   Registro y Agendación";
+            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton1, BunifuAnimatorNS.DecorationType.None);
+            this.sideBarAnimation.SetDecoration(this.bunifuFlatButton1, BunifuAnimatorNS.DecorationType.None);
+            this.logoAnimation.SetDecoration(this.bunifuFlatButton1, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton1.Iconimage = global::ERP_ServicioElPendulo.Properties.Resources.Schedule_52px;
+            this.bunifuFlatButton1.Iconimage_right = null;
+            this.bunifuFlatButton1.Iconimage_right_Selected = null;
+            this.bunifuFlatButton1.Iconimage_Selected = null;
+            this.bunifuFlatButton1.IconMarginLeft = 10;
+            this.bunifuFlatButton1.IconMarginRight = 0;
+            this.bunifuFlatButton1.IconRightVisible = true;
+            this.bunifuFlatButton1.IconRightZoom = 0D;
+            this.bunifuFlatButton1.IconVisible = true;
+            this.bunifuFlatButton1.IconZoom = 60D;
+            this.bunifuFlatButton1.IsTab = true;
+            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
+            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
+            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton1.selected = false;
+            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
+            this.bunifuFlatButton1.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
+            // 
+            // logo
+            // 
+            this.sideBarAnimation2.SetDecoration(this.logo, BunifuAnimatorNS.DecorationType.None);
+            this.sideBarAnimation.SetDecoration(this.logo, BunifuAnimatorNS.DecorationType.None);
+            this.logoAnimation.SetDecoration(this.logo, BunifuAnimatorNS.DecorationType.None);
+            resources.ApplyResources(this.logo, "logo");
+            this.logo.Image = global::ERP_ServicioElPendulo.Properties.Resources.icons8_Customer_96px;
+            this.logo.Name = "logo";
+            this.logo.TabStop = false;
+            // 
             // contenido
             // 
             this.contenido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
@@ -599,6 +779,21 @@
             this.TituloOpcion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.TituloOpcion.Name = "TituloOpcion";
             // 
+            // menuButton
+            // 
+            this.menuButton.BackColor = System.Drawing.Color.Transparent;
+            this.menuButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.logoAnimation.SetDecoration(this.menuButton, BunifuAnimatorNS.DecorationType.None);
+            this.sideBarAnimation.SetDecoration(this.menuButton, BunifuAnimatorNS.DecorationType.None);
+            this.sideBarAnimation2.SetDecoration(this.menuButton, BunifuAnimatorNS.DecorationType.None);
+            this.menuButton.Image = global::ERP_ServicioElPendulo.Properties.Resources.Menu_48px;
+            this.menuButton.ImageActive = null;
+            resources.ApplyResources(this.menuButton, "menuButton");
+            this.menuButton.Name = "menuButton";
+            this.menuButton.TabStop = false;
+            this.menuButton.Zoom = 10;
+            this.menuButton.Click += new System.EventHandler(this.menuButton_Click);
+            // 
             // topHeader
             // 
             this.topHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(60)))));
@@ -611,6 +806,48 @@
             resources.ApplyResources(this.topHeader, "topHeader");
             this.topHeader.Name = "topHeader";
             this.topHeader.Paint += new System.Windows.Forms.PaintEventHandler(this.topHeader_Paint);
+            // 
+            // minimizar
+            // 
+            resources.ApplyResources(this.minimizar, "minimizar");
+            this.minimizar.BackColor = System.Drawing.Color.Transparent;
+            this.logoAnimation.SetDecoration(this.minimizar, BunifuAnimatorNS.DecorationType.None);
+            this.sideBarAnimation.SetDecoration(this.minimizar, BunifuAnimatorNS.DecorationType.None);
+            this.sideBarAnimation2.SetDecoration(this.minimizar, BunifuAnimatorNS.DecorationType.None);
+            this.minimizar.Image = global::ERP_ServicioElPendulo.Properties.Resources.Minimize_Window_52px;
+            this.minimizar.ImageActive = null;
+            this.minimizar.Name = "minimizar";
+            this.minimizar.TabStop = false;
+            this.minimizar.Zoom = 10;
+            this.minimizar.Click += new System.EventHandler(this.minimizar_Click);
+            // 
+            // maximizar
+            // 
+            resources.ApplyResources(this.maximizar, "maximizar");
+            this.maximizar.BackColor = System.Drawing.Color.Transparent;
+            this.logoAnimation.SetDecoration(this.maximizar, BunifuAnimatorNS.DecorationType.None);
+            this.sideBarAnimation.SetDecoration(this.maximizar, BunifuAnimatorNS.DecorationType.None);
+            this.sideBarAnimation2.SetDecoration(this.maximizar, BunifuAnimatorNS.DecorationType.None);
+            this.maximizar.Image = global::ERP_ServicioElPendulo.Properties.Resources.Maximize_Window_52px;
+            this.maximizar.ImageActive = null;
+            this.maximizar.Name = "maximizar";
+            this.maximizar.TabStop = false;
+            this.maximizar.Zoom = 10;
+            this.maximizar.Click += new System.EventHandler(this.maximizar_Click);
+            // 
+            // bunifuImageButton2
+            // 
+            resources.ApplyResources(this.bunifuImageButton2, "bunifuImageButton2");
+            this.bunifuImageButton2.BackColor = System.Drawing.Color.Transparent;
+            this.logoAnimation.SetDecoration(this.bunifuImageButton2, BunifuAnimatorNS.DecorationType.None);
+            this.sideBarAnimation.SetDecoration(this.bunifuImageButton2, BunifuAnimatorNS.DecorationType.None);
+            this.sideBarAnimation2.SetDecoration(this.bunifuImageButton2, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuImageButton2.Image = global::ERP_ServicioElPendulo.Properties.Resources.Close_Window_52px;
+            this.bunifuImageButton2.ImageActive = null;
+            this.bunifuImageButton2.Name = "bunifuImageButton2";
+            this.bunifuImageButton2.TabStop = false;
+            this.bunifuImageButton2.Zoom = 10;
+            this.bunifuImageButton2.Click += new System.EventHandler(this.bunifuImageButton2_Click_1);
             // 
             // bunifuDragControl1
             // 
@@ -694,243 +931,6 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // menuButton
-            // 
-            this.menuButton.BackColor = System.Drawing.Color.Transparent;
-            this.menuButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.logoAnimation.SetDecoration(this.menuButton, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation.SetDecoration(this.menuButton, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation2.SetDecoration(this.menuButton, BunifuAnimatorNS.DecorationType.None);
-            this.menuButton.Image = global::ERP_ServicioElPendulo.Properties.Resources.Menu_48px;
-            this.menuButton.ImageActive = null;
-            resources.ApplyResources(this.menuButton, "menuButton");
-            this.menuButton.Name = "menuButton";
-            this.menuButton.TabStop = false;
-            this.menuButton.Zoom = 10;
-            this.menuButton.Click += new System.EventHandler(this.menuButton_Click);
-            // 
-            // minimizar
-            // 
-            resources.ApplyResources(this.minimizar, "minimizar");
-            this.minimizar.BackColor = System.Drawing.Color.Transparent;
-            this.logoAnimation.SetDecoration(this.minimizar, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation.SetDecoration(this.minimizar, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation2.SetDecoration(this.minimizar, BunifuAnimatorNS.DecorationType.None);
-            this.minimizar.Image = global::ERP_ServicioElPendulo.Properties.Resources.Minimize_Window_52px;
-            this.minimizar.ImageActive = null;
-            this.minimizar.Name = "minimizar";
-            this.minimizar.TabStop = false;
-            this.minimizar.Zoom = 10;
-            this.minimizar.Click += new System.EventHandler(this.minimizar_Click);
-            // 
-            // maximizar
-            // 
-            resources.ApplyResources(this.maximizar, "maximizar");
-            this.maximizar.BackColor = System.Drawing.Color.Transparent;
-            this.logoAnimation.SetDecoration(this.maximizar, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation.SetDecoration(this.maximizar, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation2.SetDecoration(this.maximizar, BunifuAnimatorNS.DecorationType.None);
-            this.maximizar.Image = global::ERP_ServicioElPendulo.Properties.Resources.Maximize_Window_52px;
-            this.maximizar.ImageActive = null;
-            this.maximizar.Name = "maximizar";
-            this.maximizar.TabStop = false;
-            this.maximizar.Zoom = 10;
-            this.maximizar.Click += new System.EventHandler(this.maximizar_Click);
-            // 
-            // bunifuImageButton2
-            // 
-            resources.ApplyResources(this.bunifuImageButton2, "bunifuImageButton2");
-            this.bunifuImageButton2.BackColor = System.Drawing.Color.Transparent;
-            this.logoAnimation.SetDecoration(this.bunifuImageButton2, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation.SetDecoration(this.bunifuImageButton2, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation2.SetDecoration(this.bunifuImageButton2, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuImageButton2.Image = global::ERP_ServicioElPendulo.Properties.Resources.Close_Window_52px;
-            this.bunifuImageButton2.ImageActive = null;
-            this.bunifuImageButton2.Name = "bunifuImageButton2";
-            this.bunifuImageButton2.TabStop = false;
-            this.bunifuImageButton2.Zoom = 10;
-            this.bunifuImageButton2.Click += new System.EventHandler(this.bunifuImageButton2_Click_1);
-            // 
-            // bunifuFlatButton5
-            // 
-            this.bunifuFlatButton5.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton5.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuFlatButton5, "bunifuFlatButton5");
-            this.bunifuFlatButton5.BorderRadius = 0;
-            this.bunifuFlatButton5.ButtonText = "   Orden de Servicio";
-            this.bunifuFlatButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton5, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation.SetDecoration(this.bunifuFlatButton5, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnimation.SetDecoration(this.bunifuFlatButton5, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton5.DisabledColor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton5.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton5.Iconimage = global::ERP_ServicioElPendulo.Properties.Resources.Document_52px;
-            this.bunifuFlatButton5.Iconimage_right = null;
-            this.bunifuFlatButton5.Iconimage_right_Selected = null;
-            this.bunifuFlatButton5.Iconimage_Selected = null;
-            this.bunifuFlatButton5.IconMarginLeft = 10;
-            this.bunifuFlatButton5.IconMarginRight = 0;
-            this.bunifuFlatButton5.IconRightVisible = true;
-            this.bunifuFlatButton5.IconRightZoom = 0D;
-            this.bunifuFlatButton5.IconVisible = true;
-            this.bunifuFlatButton5.IconZoom = 60D;
-            this.bunifuFlatButton5.IsTab = true;
-            this.bunifuFlatButton5.Name = "bunifuFlatButton5";
-            this.bunifuFlatButton5.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton5.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton5.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton5.selected = false;
-            this.bunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton5.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton5.TextFont = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
-            this.bunifuFlatButton5.Click += new System.EventHandler(this.bunifuFlatButton5_Click);
-            // 
-            // bunifuFlatButton4
-            // 
-            this.bunifuFlatButton4.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton4.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuFlatButton4, "bunifuFlatButton4");
-            this.bunifuFlatButton4.BorderRadius = 0;
-            this.bunifuFlatButton4.ButtonText = "   Quejas y Reincidencias";
-            this.bunifuFlatButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton4, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation.SetDecoration(this.bunifuFlatButton4, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnimation.SetDecoration(this.bunifuFlatButton4, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton4.DisabledColor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton4.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton4.Iconimage = global::ERP_ServicioElPendulo.Properties.Resources.Error_52px;
-            this.bunifuFlatButton4.Iconimage_right = null;
-            this.bunifuFlatButton4.Iconimage_right_Selected = null;
-            this.bunifuFlatButton4.Iconimage_Selected = null;
-            this.bunifuFlatButton4.IconMarginLeft = 10;
-            this.bunifuFlatButton4.IconMarginRight = 0;
-            this.bunifuFlatButton4.IconRightVisible = true;
-            this.bunifuFlatButton4.IconRightZoom = 0D;
-            this.bunifuFlatButton4.IconVisible = true;
-            this.bunifuFlatButton4.IconZoom = 60D;
-            this.bunifuFlatButton4.IsTab = true;
-            this.bunifuFlatButton4.Name = "bunifuFlatButton4";
-            this.bunifuFlatButton4.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton4.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton4.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton4.selected = false;
-            this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton4.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
-            this.bunifuFlatButton4.Click += new System.EventHandler(this.bunifuFlatButton4_Click);
-            // 
-            // bunifuFlatButton3
-            // 
-            this.bunifuFlatButton3.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton3.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuFlatButton3, "bunifuFlatButton3");
-            this.bunifuFlatButton3.BorderRadius = 0;
-            this.bunifuFlatButton3.ButtonText = "   Técnicos y Tiendas";
-            this.bunifuFlatButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton3, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation.SetDecoration(this.bunifuFlatButton3, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnimation.SetDecoration(this.bunifuFlatButton3, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton3.DisabledColor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton3.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton3.Iconimage = global::ERP_ServicioElPendulo.Properties.Resources.User_50px;
-            this.bunifuFlatButton3.Iconimage_right = null;
-            this.bunifuFlatButton3.Iconimage_right_Selected = null;
-            this.bunifuFlatButton3.Iconimage_Selected = null;
-            this.bunifuFlatButton3.IconMarginLeft = 10;
-            this.bunifuFlatButton3.IconMarginRight = 0;
-            this.bunifuFlatButton3.IconRightVisible = true;
-            this.bunifuFlatButton3.IconRightZoom = 0D;
-            this.bunifuFlatButton3.IconVisible = true;
-            this.bunifuFlatButton3.IconZoom = 60D;
-            this.bunifuFlatButton3.IsTab = true;
-            this.bunifuFlatButton3.Name = "bunifuFlatButton3";
-            this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton3.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton3.selected = false;
-            this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton3.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
-            this.bunifuFlatButton3.Click += new System.EventHandler(this.bunifuFlatButton3_Click);
-            // 
-            // bunifuFlatButton2
-            // 
-            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton2.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuFlatButton2, "bunifuFlatButton2");
-            this.bunifuFlatButton2.BorderRadius = 0;
-            this.bunifuFlatButton2.ButtonText = "   Recursos y Asignación";
-            this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton2, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation.SetDecoration(this.bunifuFlatButton2, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnimation.SetDecoration(this.bunifuFlatButton2, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.Iconimage = global::ERP_ServicioElPendulo.Properties.Resources.Brick_Wall_50px;
-            this.bunifuFlatButton2.Iconimage_right = null;
-            this.bunifuFlatButton2.Iconimage_right_Selected = null;
-            this.bunifuFlatButton2.Iconimage_Selected = null;
-            this.bunifuFlatButton2.IconMarginLeft = 10;
-            this.bunifuFlatButton2.IconMarginRight = 0;
-            this.bunifuFlatButton2.IconRightVisible = true;
-            this.bunifuFlatButton2.IconRightZoom = 0D;
-            this.bunifuFlatButton2.IconVisible = true;
-            this.bunifuFlatButton2.IconZoom = 60D;
-            this.bunifuFlatButton2.IsTab = true;
-            this.bunifuFlatButton2.Name = "bunifuFlatButton2";
-            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
-            this.bunifuFlatButton2.Click += new System.EventHandler(this.bunifuFlatButton2_Click);
-            // 
-            // bunifuFlatButton1
-            // 
-            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuFlatButton1, "bunifuFlatButton1");
-            this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "   Registro y Agendación";
-            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sideBarAnimation2.SetDecoration(this.bunifuFlatButton1, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation.SetDecoration(this.bunifuFlatButton1, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnimation.SetDecoration(this.bunifuFlatButton1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.Iconimage = global::ERP_ServicioElPendulo.Properties.Resources.Schedule_52px;
-            this.bunifuFlatButton1.Iconimage_right = null;
-            this.bunifuFlatButton1.Iconimage_right_Selected = null;
-            this.bunifuFlatButton1.Iconimage_Selected = null;
-            this.bunifuFlatButton1.IconMarginLeft = 10;
-            this.bunifuFlatButton1.IconMarginRight = 0;
-            this.bunifuFlatButton1.IconRightVisible = true;
-            this.bunifuFlatButton1.IconRightZoom = 0D;
-            this.bunifuFlatButton1.IconVisible = true;
-            this.bunifuFlatButton1.IconZoom = 60D;
-            this.bunifuFlatButton1.IsTab = true;
-            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.selected = false;
-            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
-            this.bunifuFlatButton1.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
-            // 
-            // logo
-            // 
-            this.sideBarAnimation2.SetDecoration(this.logo, BunifuAnimatorNS.DecorationType.None);
-            this.sideBarAnimation.SetDecoration(this.logo, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnimation.SetDecoration(this.logo, BunifuAnimatorNS.DecorationType.None);
-            resources.ApplyResources(this.logo, "logo");
-            this.logo.Image = global::ERP_ServicioElPendulo.Properties.Resources.icons8_Customer_96px;
-            this.logo.Name = "logo";
-            this.logo.TabStop = false;
-            // 
             // PantallaPrincipal
             // 
             resources.ApplyResources(this, "$this");
@@ -954,17 +954,17 @@
             this.tecnicosOptions.ResumeLayout(false);
             this.recursosOptions.ResumeLayout(false);
             this.registroOptions.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.contenido.ResumeLayout(false);
             this.contenidoForms.ResumeLayout(false);
             this.contenidoForms.PerformLayout();
             this.header.ResumeLayout(false);
             this.header.PerformLayout();
-            this.topHeader.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).EndInit();
+            this.topHeader.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.minimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.maximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.ResumeLayout(false);
 
         }

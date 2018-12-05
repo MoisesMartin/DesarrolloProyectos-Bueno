@@ -36,12 +36,12 @@
             this.materialDivider1 = new MaterialSkin.Controls.MaterialDivider();
             this.input_Usuario = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.input_Password = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // link_Registrar
@@ -63,12 +63,12 @@
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.BackColor = System.Drawing.Color.Transparent;
             this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel1.Location = new System.Drawing.Point(12, 92);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(80, 18);
+            this.materialLabel1.Size = new System.Drawing.Size(82, 19);
             this.materialLabel1.TabIndex = 11;
             this.materialLabel1.Text = "Bienvenido";
             // 
@@ -76,12 +76,12 @@
             // 
             this.materialLabel3.AutoSize = true;
             this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel3.Location = new System.Drawing.Point(13, 117);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(319, 18);
+            this.materialLabel3.Size = new System.Drawing.Size(326, 19);
             this.materialLabel3.TabIndex = 13;
             this.materialLabel3.Text = "Por favor, inicie sesión para acceder al sistema";
             // 
@@ -117,6 +117,7 @@
             this.input_Usuario.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.input_Usuario.Depth = 0;
+            this.input_Usuario.ForeColor = System.Drawing.Color.White;
             this.input_Usuario.Hint = "Usuario";
             this.input_Usuario.Location = new System.Drawing.Point(51, 170);
             this.input_Usuario.MouseState = MaterialSkin.MouseState.HOVER;
@@ -134,6 +135,7 @@
             this.input_Password.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.input_Password.Depth = 0;
+            this.input_Password.ForeColor = System.Drawing.Color.White;
             this.input_Password.Hint = "Contraseña";
             this.input_Password.Location = new System.Drawing.Point(51, 224);
             this.input_Password.MouseState = MaterialSkin.MouseState.HOVER;
@@ -145,6 +147,15 @@
             this.input_Password.Size = new System.Drawing.Size(283, 23);
             this.input_Password.TabIndex = 20;
             this.input_Password.UseSystemPasswordChar = true;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::ERP_ServicioElPendulo.Properties.Resources.padlock;
+            this.pictureBox3.Location = new System.Drawing.Point(20, 227);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox3.TabIndex = 22;
+            this.pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -166,15 +177,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::ERP_ServicioElPendulo.Properties.Resources.padlock;
-            this.pictureBox3.Location = new System.Drawing.Point(20, 227);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox3.TabIndex = 22;
-            this.pictureBox3.TabStop = false;
             // 
             // form_Login
             // 
@@ -198,9 +200,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IniciarSesión";
             this.Load += new System.EventHandler(this.form_Login_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

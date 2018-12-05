@@ -92,6 +92,8 @@
             // 
             // tab_Proveedores
             // 
+            this.tab_Proveedores.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.tab_Proveedores.Controls.Add(this.fechaCotizacion);
             this.tab_Proveedores.Controls.Add(this.tab_canfra);
             this.tab_Proveedores.Controls.Add(this.tab_Artur);
@@ -446,7 +448,8 @@
             this.tablaCotizaciones.AllowUserToDeleteRows = false;
             this.tablaCotizaciones.AllowUserToOrderColumns = true;
             this.tablaCotizaciones.AllowUserToResizeRows = false;
-            this.tablaCotizaciones.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.tablaCotizaciones.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tablaCotizaciones.AutoGenerateColumns = false;
             this.tablaCotizaciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tablaCotizaciones.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -457,10 +460,10 @@
             this.costoUnitarioDataGridViewTextBoxColumn,
             this.costoTotalDataGridViewTextBoxColumn});
             this.tablaCotizaciones.DataSource = this.cotizacionesBindingSource;
-            this.tablaCotizaciones.Location = new System.Drawing.Point(609, 113);
+            this.tablaCotizaciones.Location = new System.Drawing.Point(580, 113);
             this.tablaCotizaciones.Name = "tablaCotizaciones";
             this.tablaCotizaciones.ReadOnly = true;
-            this.tablaCotizaciones.Size = new System.Drawing.Size(562, 299);
+            this.tablaCotizaciones.Size = new System.Drawing.Size(591, 299);
             this.tablaCotizaciones.TabIndex = 19;
             this.tablaCotizaciones.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaCotizaciones_CellContentClick);
             // 
@@ -564,7 +567,7 @@
             this.label2.Location = new System.Drawing.Point(605, 86);
             this.label2.MouseState = MaterialSkin.MouseState.HOVER;
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(158, 19);
+            this.label2.Size = new System.Drawing.Size(157, 19);
             this.label2.TabIndex = 24;
             this.label2.Text = "Tabla de Cotizaciones";
             // 

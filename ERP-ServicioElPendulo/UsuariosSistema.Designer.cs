@@ -38,6 +38,8 @@
             this.txt_ApellidoMaterno = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.txt_Password = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.txt_RepeatPass = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.txtbox_usu = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.txtbox_pw = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.SuspendLayout();
             // 
             // lbl_Opc
@@ -55,7 +57,7 @@
             // 
             this.btn_Registrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Registrar.Depth = 0;
-            this.btn_Registrar.Location = new System.Drawing.Point(333, 239);
+            this.btn_Registrar.Location = new System.Drawing.Point(339, 311);
             this.btn_Registrar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_Registrar.Name = "btn_Registrar";
             this.btn_Registrar.Primary = true;
@@ -69,7 +71,7 @@
             // 
             this.btn_Cancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Cancelar.Depth = 0;
-            this.btn_Cancelar.Location = new System.Drawing.Point(228, 239);
+            this.btn_Cancelar.Location = new System.Drawing.Point(234, 311);
             this.btn_Cancelar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Primary = true;
@@ -87,10 +89,10 @@
             this.materialLabel6.Depth = 0;
             this.materialLabel6.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel6.Location = new System.Drawing.Point(43, 254);
+            this.materialLabel6.Location = new System.Drawing.Point(43, 326);
             this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel6.Name = "materialLabel6";
-            this.materialLabel6.Size = new System.Drawing.Size(38, 19);
+            this.materialLabel6.Size = new System.Drawing.Size(37, 19);
             this.materialLabel6.TabIndex = 30;
             this.materialLabel6.Text = "Más";
             this.materialLabel6.Visible = false;
@@ -102,7 +104,7 @@
             this.check_isAdmin.AutoSize = true;
             this.check_isAdmin.Depth = 0;
             this.check_isAdmin.Font = new System.Drawing.Font("Roboto", 10F);
-            this.check_isAdmin.Location = new System.Drawing.Point(17, 226);
+            this.check_isAdmin.Location = new System.Drawing.Point(17, 298);
             this.check_isAdmin.Margin = new System.Windows.Forms.Padding(0);
             this.check_isAdmin.MouseLocation = new System.Drawing.Point(-1, -1);
             this.check_isAdmin.MouseState = MaterialSkin.MouseState.HOVER;
@@ -117,6 +119,7 @@
             // txt_NombreUsr
             // 
             this.txt_NombreUsr.Depth = 0;
+            this.txt_NombreUsr.ForeColor = System.Drawing.Color.White;
             this.txt_NombreUsr.Hint = "Nombre";
             this.txt_NombreUsr.Location = new System.Drawing.Point(18, 106);
             this.txt_NombreUsr.MouseState = MaterialSkin.MouseState.HOVER;
@@ -132,6 +135,7 @@
             // txt_ApellidoPaterno
             // 
             this.txt_ApellidoPaterno.Depth = 0;
+            this.txt_ApellidoPaterno.ForeColor = System.Drawing.Color.White;
             this.txt_ApellidoPaterno.Hint = "Apellido Paterno";
             this.txt_ApellidoPaterno.Location = new System.Drawing.Point(18, 145);
             this.txt_ApellidoPaterno.MouseState = MaterialSkin.MouseState.HOVER;
@@ -147,6 +151,7 @@
             // txt_ApellidoMaterno
             // 
             this.txt_ApellidoMaterno.Depth = 0;
+            this.txt_ApellidoMaterno.ForeColor = System.Drawing.Color.White;
             this.txt_ApellidoMaterno.Hint = "Apellido Materno";
             this.txt_ApellidoMaterno.Location = new System.Drawing.Point(18, 185);
             this.txt_ApellidoMaterno.MouseState = MaterialSkin.MouseState.HOVER;
@@ -162,8 +167,9 @@
             // txt_Password
             // 
             this.txt_Password.Depth = 0;
+            this.txt_Password.ForeColor = System.Drawing.Color.White;
             this.txt_Password.Hint = "Contraseña";
-            this.txt_Password.Location = new System.Drawing.Point(238, 106);
+            this.txt_Password.Location = new System.Drawing.Point(18, 223);
             this.txt_Password.MouseState = MaterialSkin.MouseState.HOVER;
             this.txt_Password.Name = "txt_Password";
             this.txt_Password.PasswordChar = '\0';
@@ -177,8 +183,9 @@
             // txt_RepeatPass
             // 
             this.txt_RepeatPass.Depth = 0;
+            this.txt_RepeatPass.ForeColor = System.Drawing.Color.White;
             this.txt_RepeatPass.Hint = "Confirmar Contraseña";
-            this.txt_RepeatPass.Location = new System.Drawing.Point(238, 145);
+            this.txt_RepeatPass.Location = new System.Drawing.Point(18, 262);
             this.txt_RepeatPass.MouseState = MaterialSkin.MouseState.HOVER;
             this.txt_RepeatPass.Name = "txt_RepeatPass";
             this.txt_RepeatPass.PasswordChar = '\0';
@@ -189,12 +196,46 @@
             this.txt_RepeatPass.TabIndex = 36;
             this.txt_RepeatPass.UseSystemPasswordChar = true;
             // 
+            // txtbox_usu
+            // 
+            this.txtbox_usu.Depth = 0;
+            this.txtbox_usu.ForeColor = System.Drawing.Color.White;
+            this.txtbox_usu.Hint = "Usuario Administrador";
+            this.txtbox_usu.Location = new System.Drawing.Point(253, 106);
+            this.txtbox_usu.MouseState = MaterialSkin.MouseState.HOVER;
+            this.txtbox_usu.Name = "txtbox_usu";
+            this.txtbox_usu.PasswordChar = '\0';
+            this.txtbox_usu.SelectedText = "";
+            this.txtbox_usu.SelectionLength = 0;
+            this.txtbox_usu.SelectionStart = 0;
+            this.txtbox_usu.Size = new System.Drawing.Size(177, 23);
+            this.txtbox_usu.TabIndex = 37;
+            this.txtbox_usu.UseSystemPasswordChar = false;
+            // 
+            // txtbox_pw
+            // 
+            this.txtbox_pw.Depth = 0;
+            this.txtbox_pw.ForeColor = System.Drawing.Color.White;
+            this.txtbox_pw.Hint = "Contraseña Administrador";
+            this.txtbox_pw.Location = new System.Drawing.Point(253, 145);
+            this.txtbox_pw.MouseState = MaterialSkin.MouseState.HOVER;
+            this.txtbox_pw.Name = "txtbox_pw";
+            this.txtbox_pw.PasswordChar = '\0';
+            this.txtbox_pw.SelectedText = "";
+            this.txtbox_pw.SelectionLength = 0;
+            this.txtbox_pw.SelectionStart = 0;
+            this.txtbox_pw.Size = new System.Drawing.Size(177, 23);
+            this.txtbox_pw.TabIndex = 39;
+            this.txtbox_pw.UseSystemPasswordChar = true;
+            // 
             // form_UsrSistema
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(445, 293);
+            this.ClientSize = new System.Drawing.Size(451, 365);
+            this.Controls.Add(this.txtbox_pw);
+            this.Controls.Add(this.txtbox_usu);
             this.Controls.Add(this.txt_RepeatPass);
             this.Controls.Add(this.txt_Password);
             this.Controls.Add(this.txt_ApellidoMaterno);
@@ -205,6 +246,7 @@
             this.Controls.Add(this.btn_Cancelar);
             this.Controls.Add(this.btn_Registrar);
             this.Controls.Add(this.lbl_Opc);
+            this.ForeColor = System.Drawing.Color.White;
             this.Name = "form_UsrSistema";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Usuario del Sistema";
@@ -227,5 +269,7 @@
         private MaterialSkin.Controls.MaterialSingleLineTextField txt_ApellidoMaterno;
         private MaterialSkin.Controls.MaterialSingleLineTextField txt_Password;
         private MaterialSkin.Controls.MaterialSingleLineTextField txt_RepeatPass;
+        private MaterialSkin.Controls.MaterialSingleLineTextField txtbox_usu;
+        private MaterialSkin.Controls.MaterialSingleLineTextField txtbox_pw;
     }
 }

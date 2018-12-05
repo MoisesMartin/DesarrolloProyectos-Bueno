@@ -19,6 +19,7 @@ namespace ERP_ServicioElPendulo
     {
         public static string conexionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=servicioElPendulo;Integrated Security=True";
         SqlConnection con = new SqlConnection(conexionString);
+        static string codigo;
 
         #region Validar_Cierre_Formulario
 
@@ -64,16 +65,30 @@ namespace ERP_ServicioElPendulo
 
         private void btn_Registrar_Click(object sender, EventArgs e)
         {
-            if(txt_Password.Text == txt_RepeatPass.Text)
+            
+            try
             {
-                insertarUsr();
-                form_Login login = new form_Login();
-                login.Show();
-                MessageBox.Show("Usuario registrado con éxito.", "Usuario Creado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                ConfirmarUPWADM(txtbox_usu.Text, txtbox_pw.Text);
+
+                if (codigo == "ACEPTADO")
+                {
+                    if (txt_Password.Text == txt_RepeatPass.Text)
+                    {
+                        insertarUsr();
+                        form_Login login = new form_Login();
+                        MessageBox.Show("Usuario registrado con éxito.", "Usuario Creado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        login.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Las contraseñas ingresadas no coinciden", "Advertencia", MessageBoxButtons.RetryCancel, MessageBoxIcon.Exclamation);
+                    }
+                }
+                
             }
-            else
+            catch(Exception exp)
             {
-                MessageBox.Show("Las contraseñas ingresadas no coinciden","Advertencia",MessageBoxButtons.RetryCancel,MessageBoxIcon.Exclamation);
+                MessageBox.Show("No se tienen las credenciales requeridas", "Advertencia", MessageBoxButtons.RetryCancel, MessageBoxIcon.Exclamation);
             }
         }
         private void insertarUsr()
@@ -121,7 +136,34 @@ namespace ERP_ServicioElPendulo
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        #region MyRegion
+
+        protected string ConfirmarUPWADM(string user, string pw)
+        {
+            if (user == "Administrador" && pw == "12345")
+            {
+                Close();
+                codigo = "ACEPTADO";
+            }
+            else
+            {
+                MessageBox.Show("No se tienen las credenciales requeridas", "Advertencia", MessageBoxButtons.RetryCancel, MessageBoxIcon.Exclamation);
+                txtbox_pw.Text = string.Empty;
+                txtbox_usu.Text = string.Empty;
+                codigo = "NEGADO";
+            }
+
+            return codigo;
+        }
+           
+
+            
+       
+
+
+    #endregion
+
+    private void label1_Click(object sender, EventArgs e)
         {
             MessageBox.Show(" Si seleccionas esta opcion, el usuario tendra privilegios de administración");
         }

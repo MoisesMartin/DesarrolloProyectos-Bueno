@@ -66,12 +66,12 @@
             this.SerieTotal.AutoSize = true;
             this.SerieTotal.Depth = 0;
             this.SerieTotal.Font = new System.Drawing.Font("Roboto", 11F);
-            this.SerieTotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.SerieTotal.ForeColor = System.Drawing.Color.White;
             this.SerieTotal.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.SerieTotal.Location = new System.Drawing.Point(34, 46);
             this.SerieTotal.MouseState = MaterialSkin.MouseState.HOVER;
             this.SerieTotal.Name = "SerieTotal";
-            this.SerieTotal.Size = new System.Drawing.Size(130, 19);
+            this.SerieTotal.Size = new System.Drawing.Size(129, 19);
             this.SerieTotal.TabIndex = 47;
             this.SerieTotal.Text = "Total de Servicios";
             // 
@@ -80,12 +80,12 @@
             this.SerieQuejas.AutoSize = true;
             this.SerieQuejas.Depth = 0;
             this.SerieQuejas.Font = new System.Drawing.Font("Roboto", 11F);
-            this.SerieQuejas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.SerieQuejas.ForeColor = System.Drawing.Color.White;
             this.SerieQuejas.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.SerieQuejas.Location = new System.Drawing.Point(34, 132);
             this.SerieQuejas.MouseState = MaterialSkin.MouseState.HOVER;
             this.SerieQuejas.Name = "SerieQuejas";
-            this.SerieQuejas.Size = new System.Drawing.Size(138, 19);
+            this.SerieQuejas.Size = new System.Drawing.Size(137, 19);
             this.SerieQuejas.TabIndex = 48;
             this.SerieQuejas.Text = "Quejas Registradas";
             // 
@@ -94,12 +94,12 @@
             this.SerieReincidencias.AutoSize = true;
             this.SerieReincidencias.Depth = 0;
             this.SerieReincidencias.Font = new System.Drawing.Font("Roboto", 11F);
-            this.SerieReincidencias.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.SerieReincidencias.ForeColor = System.Drawing.Color.White;
             this.SerieReincidencias.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.SerieReincidencias.Location = new System.Drawing.Point(34, 227);
             this.SerieReincidencias.MouseState = MaterialSkin.MouseState.HOVER;
             this.SerieReincidencias.Name = "SerieReincidencias";
-            this.SerieReincidencias.Size = new System.Drawing.Size(102, 19);
+            this.SerieReincidencias.Size = new System.Drawing.Size(101, 19);
             this.SerieReincidencias.TabIndex = 49;
             this.SerieReincidencias.Text = "Reincidencias";
             // 
@@ -108,12 +108,12 @@
             this.nQuejas.AutoSize = true;
             this.nQuejas.Depth = 0;
             this.nQuejas.Font = new System.Drawing.Font("Roboto", 11F);
-            this.nQuejas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.nQuejas.ForeColor = System.Drawing.Color.White;
             this.nQuejas.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.nQuejas.Location = new System.Drawing.Point(34, 180);
             this.nQuejas.MouseState = MaterialSkin.MouseState.HOVER;
             this.nQuejas.Name = "nQuejas";
-            this.nQuejas.Size = new System.Drawing.Size(25, 19);
+            this.nQuejas.Size = new System.Drawing.Size(24, 19);
             this.nQuejas.TabIndex = 50;
             this.nQuejas.Text = "15";
             // 
@@ -122,12 +122,12 @@
             this.nTotalServicios.AutoSize = true;
             this.nTotalServicios.Depth = 0;
             this.nTotalServicios.Font = new System.Drawing.Font("Roboto", 11F);
-            this.nTotalServicios.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.nTotalServicios.ForeColor = System.Drawing.Color.White;
             this.nTotalServicios.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.nTotalServicios.Location = new System.Drawing.Point(34, 88);
             this.nTotalServicios.MouseState = MaterialSkin.MouseState.HOVER;
             this.nTotalServicios.Name = "nTotalServicios";
-            this.nTotalServicios.Size = new System.Drawing.Size(33, 19);
+            this.nTotalServicios.Size = new System.Drawing.Size(32, 19);
             this.nTotalServicios.TabIndex = 51;
             this.nTotalServicios.Text = "100";
             // 
@@ -136,12 +136,12 @@
             this.nReincidencias.AutoSize = true;
             this.nReincidencias.Depth = 0;
             this.nReincidencias.Font = new System.Drawing.Font("Roboto", 11F);
-            this.nReincidencias.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.nReincidencias.ForeColor = System.Drawing.Color.White;
             this.nReincidencias.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.nReincidencias.Location = new System.Drawing.Point(34, 268);
             this.nReincidencias.MouseState = MaterialSkin.MouseState.HOVER;
             this.nReincidencias.Name = "nReincidencias";
-            this.nReincidencias.Size = new System.Drawing.Size(17, 19);
+            this.nReincidencias.Size = new System.Drawing.Size(16, 19);
             this.nReincidencias.TabIndex = 52;
             this.nReincidencias.Text = "2";
             // 
@@ -150,12 +150,12 @@
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel1.ForeColor = System.Drawing.Color.White;
             this.materialLabel1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.materialLabel1.Location = new System.Drawing.Point(268, 435);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(193, 19);
+            this.materialLabel1.Size = new System.Drawing.Size(192, 19);
             this.materialLabel1.TabIndex = 53;
             this.materialLabel1.Text = "Total de Servicios Exitosos";
             // 
@@ -164,12 +164,12 @@
             this.materialLabel2.AutoSize = true;
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel2.ForeColor = System.Drawing.Color.White;
             this.materialLabel2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.materialLabel2.Location = new System.Drawing.Point(512, 435);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(149, 19);
+            this.materialLabel2.Size = new System.Drawing.Size(148, 19);
             this.materialLabel2.TabIndex = 54;
             this.materialLabel2.Text = "Servicios Pendientes";
             // 
@@ -178,12 +178,12 @@
             this.nExitosos.AutoSize = true;
             this.nExitosos.Depth = 0;
             this.nExitosos.Font = new System.Drawing.Font("Roboto", 11F);
-            this.nExitosos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.nExitosos.ForeColor = System.Drawing.Color.White;
             this.nExitosos.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.nExitosos.Location = new System.Drawing.Point(268, 470);
             this.nExitosos.MouseState = MaterialSkin.MouseState.HOVER;
             this.nExitosos.Name = "nExitosos";
-            this.nExitosos.Size = new System.Drawing.Size(17, 19);
+            this.nExitosos.Size = new System.Drawing.Size(16, 19);
             this.nExitosos.TabIndex = 55;
             this.nExitosos.Text = "0";
             // 
@@ -192,12 +192,12 @@
             this.n_NoExitosos.AutoSize = true;
             this.n_NoExitosos.Depth = 0;
             this.n_NoExitosos.Font = new System.Drawing.Font("Roboto", 11F);
-            this.n_NoExitosos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.n_NoExitosos.ForeColor = System.Drawing.Color.White;
             this.n_NoExitosos.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.n_NoExitosos.Location = new System.Drawing.Point(512, 470);
             this.n_NoExitosos.MouseState = MaterialSkin.MouseState.HOVER;
             this.n_NoExitosos.Name = "n_NoExitosos";
-            this.n_NoExitosos.Size = new System.Drawing.Size(17, 19);
+            this.n_NoExitosos.Size = new System.Drawing.Size(16, 19);
             this.n_NoExitosos.TabIndex = 56;
             this.n_NoExitosos.Text = "0";
             // 
@@ -206,12 +206,12 @@
             this.materialLabel3.AutoSize = true;
             this.materialLabel3.Depth = 0;
             this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel3.ForeColor = System.Drawing.Color.White;
             this.materialLabel3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.materialLabel3.Location = new System.Drawing.Point(268, 510);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(284, 19);
+            this.materialLabel3.Size = new System.Drawing.Size(283, 19);
             this.materialLabel3.TabIndex = 57;
             this.materialLabel3.Text = "El Porcentaje de inefectividad ha sido del";
             // 
@@ -220,12 +220,12 @@
             this.nPorcentaje.AutoSize = true;
             this.nPorcentaje.Depth = 0;
             this.nPorcentaje.Font = new System.Drawing.Font("Roboto", 11F);
-            this.nPorcentaje.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.nPorcentaje.ForeColor = System.Drawing.Color.White;
             this.nPorcentaje.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.nPorcentaje.Location = new System.Drawing.Point(578, 510);
             this.nPorcentaje.MouseState = MaterialSkin.MouseState.HOVER;
             this.nPorcentaje.Name = "nPorcentaje";
-            this.nPorcentaje.Size = new System.Drawing.Size(17, 19);
+            this.nPorcentaje.Size = new System.Drawing.Size(16, 19);
             this.nPorcentaje.TabIndex = 58;
             this.nPorcentaje.Text = "0";
             // 
@@ -248,6 +248,7 @@
             this.Controls.Add(this.SerieQuejas);
             this.Controls.Add(this.SerieTotal);
             this.Controls.Add(this.chartQuejas);
+            this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "QuejasReincidencias";
             this.Text = "QuejasReincidencias";

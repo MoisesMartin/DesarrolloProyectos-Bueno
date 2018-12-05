@@ -60,7 +60,7 @@
             // 
             resources.ApplyResources(this.materialLabel1, "materialLabel1");
             this.materialLabel1.Depth = 0;
-            this.materialLabel1.ForeColor = System.Drawing.Color.White;
+            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             // 
@@ -68,7 +68,7 @@
             // 
             resources.ApplyResources(this.materialLabel2, "materialLabel2");
             this.materialLabel2.Depth = 0;
-            this.materialLabel2.ForeColor = System.Drawing.Color.White;
+            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
             // 
@@ -76,7 +76,7 @@
             // 
             resources.ApplyResources(this.materialLabel3, "materialLabel3");
             this.materialLabel3.Depth = 0;
-            this.materialLabel3.ForeColor = System.Drawing.Color.White;
+            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
             // 
@@ -84,7 +84,7 @@
             // 
             resources.ApplyResources(this.materialLabel4, "materialLabel4");
             this.materialLabel4.Depth = 0;
-            this.materialLabel4.ForeColor = System.Drawing.Color.White;
+            this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
             // 
@@ -92,7 +92,7 @@
             // 
             resources.ApplyResources(this.materialLabel5, "materialLabel5");
             this.materialLabel5.Depth = 0;
-            this.materialLabel5.ForeColor = System.Drawing.Color.White;
+            this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
             // 
@@ -100,7 +100,7 @@
             // 
             resources.ApplyResources(this.materialLabel6, "materialLabel6");
             this.materialLabel6.Depth = 0;
-            this.materialLabel6.ForeColor = System.Drawing.Color.White;
+            this.materialLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel6.Name = "materialLabel6";
             // 
@@ -175,7 +175,7 @@
             // 
             resources.ApplyResources(this.materialLabel7, "materialLabel7");
             this.materialLabel7.Depth = 0;
-            this.materialLabel7.ForeColor = System.Drawing.Color.White;
+            this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel7.Name = "materialLabel7";
             // 
@@ -183,14 +183,14 @@
             // 
             resources.ApplyResources(this.materialLabel8, "materialLabel8");
             this.materialLabel8.Depth = 0;
-            this.materialLabel8.ForeColor = System.Drawing.Color.White;
+            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel8.Name = "materialLabel8";
             // 
             // list_Sucursales
             // 
             resources.ApplyResources(this.list_Sucursales, "list_Sucursales");
-            this.list_Sucursales.BackColor = System.Drawing.Color.Transparent;
+            this.list_Sucursales.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(160)))), ((int)(((byte)(71)))));
             this.list_Sucursales.BorderRadius = 3;
             this.list_Sucursales.DisabledColor = System.Drawing.Color.Gray;
             this.list_Sucursales.ForeColor = System.Drawing.Color.White;

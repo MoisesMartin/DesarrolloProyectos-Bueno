@@ -258,5 +258,10 @@ namespace ERP_ServicioElPendulo
                 MessageBox.Show("Operación inválida", "Operación Imposible " + ex.Message, MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void materialLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -163,7 +163,7 @@
     <value>33, 31</value>
   </data>
   <data name="materialLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 19</value>
+    <value>70, 19</value>
   </data>
   <data name="materialLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -199,7 +199,7 @@
     <value>33, 107</value>
   </data>
   <data name="materialLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 19</value>
+    <value>186, 19</value>
   </data>
   <data name="materialLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -235,7 +235,7 @@
     <value>33, 152</value>
   </data>
   <data name="materialLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 19</value>
+    <value>171, 19</value>
   </data>
   <data name="materialLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -271,7 +271,7 @@
     <value>33, 227</value>
   </data>
   <data name="materialLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 19</value>
+    <value>96, 19</value>
   </data>
   <data name="materialLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -307,7 +307,7 @@
     <value>467, 31</value>
   </data>
   <data name="materialLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 19</value>
+    <value>149, 19</value>
   </data>
   <data name="materialLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -343,7 +343,7 @@
     <value>467, 99</value>
   </data>
   <data name="materialLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 19</value>
+    <value>145, 19</value>
   </data>
   <data name="materialLabel6.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -553,7 +553,7 @@
     <value>495, 128</value>
   </data>
   <data name="materialLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 19</value>
+    <value>84, 19</value>
   </data>
   <data name="materialLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -589,7 +589,7 @@
     <value>495, 158</value>
   </data>
   <data name="materialLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 19</value>
+    <value>75, 19</value>
   </data>
   <data name="materialLabel8.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>

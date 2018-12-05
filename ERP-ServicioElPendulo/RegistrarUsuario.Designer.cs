@@ -31,23 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.gestionTecnicos = new System.Windows.Forms.TabControl();
             this.btn_CancelarReg = new System.Windows.Forms.TabPage();
-            this.txt_claveT = new System.Windows.Forms.TextBox();
-            this.lbl_claveT = new System.Windows.Forms.Label();
-            this.btn_Registrar = new System.Windows.Forms.Button();
-            this.btn_Cancelar = new System.Windows.Forms.Button();
-            this.rd_Fem = new System.Windows.Forms.RadioButton();
-            this.rd_Masc = new System.Windows.Forms.RadioButton();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txt_Email = new System.Windows.Forms.TextBox();
-            this.txt_Telefono = new System.Windows.Forms.TextBox();
-            this.txt_AMaterno = new System.Windows.Forms.TextBox();
-            this.txt_APaterno = new System.Windows.Forms.TextBox();
-            this.txt_Nombre = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.txtPaterno = new System.Windows.Forms.TabPage();
             this.btn_ActualizarI = new System.Windows.Forms.Button();
             this.btn_Back = new System.Windows.Forms.Button();
@@ -91,6 +74,23 @@
             this.apellidoPaternoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombresDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.iDTecnicoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rd_Masc = new MaterialSkin.Controls.MaterialRadioButton();
+            this.rd_Fem = new MaterialSkin.Controls.MaterialRadioButton();
+            this.label10 = new MaterialSkin.Controls.MaterialLabel();
+            this.lbl_claveT = new MaterialSkin.Controls.MaterialLabel();
+            this.label5 = new MaterialSkin.Controls.MaterialLabel();
+            this.label4 = new MaterialSkin.Controls.MaterialLabel();
+            this.label3 = new MaterialSkin.Controls.MaterialLabel();
+            this.label2 = new MaterialSkin.Controls.MaterialLabel();
+            this.label1 = new MaterialSkin.Controls.MaterialLabel();
+            this.txt_claveT = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.txt_APaterno = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.txt_Email = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.txt_Telefono = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.txt_AMaterno = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.txt_Nombre = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.btn_Cancelar = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.btn_Registrar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.gestionTecnicos.SuspendLayout();
             this.btn_CancelarReg.SuspendLayout();
             this.txtPaterno.SuspendLayout();
@@ -112,183 +112,29 @@
             // btn_CancelarReg
             // 
             this.btn_CancelarReg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.btn_CancelarReg.Controls.Add(this.txt_claveT);
-            this.btn_CancelarReg.Controls.Add(this.lbl_claveT);
             this.btn_CancelarReg.Controls.Add(this.btn_Registrar);
             this.btn_CancelarReg.Controls.Add(this.btn_Cancelar);
+            this.btn_CancelarReg.Controls.Add(this.txt_Nombre);
+            this.btn_CancelarReg.Controls.Add(this.txt_AMaterno);
+            this.btn_CancelarReg.Controls.Add(this.txt_Telefono);
+            this.btn_CancelarReg.Controls.Add(this.txt_Email);
+            this.btn_CancelarReg.Controls.Add(this.txt_APaterno);
+            this.btn_CancelarReg.Controls.Add(this.txt_claveT);
+            this.btn_CancelarReg.Controls.Add(this.label1);
+            this.btn_CancelarReg.Controls.Add(this.label2);
+            this.btn_CancelarReg.Controls.Add(this.label3);
+            this.btn_CancelarReg.Controls.Add(this.label4);
+            this.btn_CancelarReg.Controls.Add(this.label5);
+            this.btn_CancelarReg.Controls.Add(this.lbl_claveT);
+            this.btn_CancelarReg.Controls.Add(this.label10);
             this.btn_CancelarReg.Controls.Add(this.rd_Fem);
             this.btn_CancelarReg.Controls.Add(this.rd_Masc);
-            this.btn_CancelarReg.Controls.Add(this.label10);
-            this.btn_CancelarReg.Controls.Add(this.txt_Email);
-            this.btn_CancelarReg.Controls.Add(this.txt_Telefono);
-            this.btn_CancelarReg.Controls.Add(this.txt_AMaterno);
-            this.btn_CancelarReg.Controls.Add(this.txt_APaterno);
-            this.btn_CancelarReg.Controls.Add(this.txt_Nombre);
-            this.btn_CancelarReg.Controls.Add(this.label5);
-            this.btn_CancelarReg.Controls.Add(this.label4);
-            this.btn_CancelarReg.Controls.Add(this.label3);
-            this.btn_CancelarReg.Controls.Add(this.label2);
-            this.btn_CancelarReg.Controls.Add(this.label1);
             this.btn_CancelarReg.Location = new System.Drawing.Point(4, 22);
             this.btn_CancelarReg.Name = "btn_CancelarReg";
             this.btn_CancelarReg.Padding = new System.Windows.Forms.Padding(3);
             this.btn_CancelarReg.Size = new System.Drawing.Size(1057, 459);
             this.btn_CancelarReg.TabIndex = 1;
             this.btn_CancelarReg.Text = "Registrar Tecnicos";
-            // 
-            // txt_claveT
-            // 
-            this.txt_claveT.Location = new System.Drawing.Point(13, 43);
-            this.txt_claveT.Name = "txt_claveT";
-            this.txt_claveT.Size = new System.Drawing.Size(239, 20);
-            this.txt_claveT.TabIndex = 26;
-            // 
-            // lbl_claveT
-            // 
-            this.lbl_claveT.AutoSize = true;
-            this.lbl_claveT.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_claveT.Location = new System.Drawing.Point(10, 22);
-            this.lbl_claveT.Name = "lbl_claveT";
-            this.lbl_claveT.Size = new System.Drawing.Size(107, 13);
-            this.lbl_claveT.TabIndex = 25;
-            this.lbl_claveT.Text = "Clave de Técnico";
-            // 
-            // btn_Registrar
-            // 
-            this.btn_Registrar.Location = new System.Drawing.Point(177, 414);
-            this.btn_Registrar.Name = "btn_Registrar";
-            this.btn_Registrar.Size = new System.Drawing.Size(75, 23);
-            this.btn_Registrar.TabIndex = 21;
-            this.btn_Registrar.Text = "Registrar";
-            this.btn_Registrar.UseVisualStyleBackColor = true;
-            this.btn_Registrar.Click += new System.EventHandler(this.btn_Registrar_Click_1);
-            // 
-            // btn_Cancelar
-            // 
-            this.btn_Cancelar.Location = new System.Drawing.Point(14, 414);
-            this.btn_Cancelar.Name = "btn_Cancelar";
-            this.btn_Cancelar.Size = new System.Drawing.Size(75, 23);
-            this.btn_Cancelar.TabIndex = 22;
-            this.btn_Cancelar.Text = "Cancelar";
-            this.btn_Cancelar.UseVisualStyleBackColor = true;
-            this.btn_Cancelar.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // rd_Fem
-            // 
-            this.rd_Fem.AutoSize = true;
-            this.rd_Fem.Location = new System.Drawing.Point(275, 68);
-            this.rd_Fem.Name = "rd_Fem";
-            this.rd_Fem.Size = new System.Drawing.Size(71, 17);
-            this.rd_Fem.TabIndex = 20;
-            this.rd_Fem.Text = "Femenino";
-            this.rd_Fem.UseVisualStyleBackColor = true;
-            // 
-            // rd_Masc
-            // 
-            this.rd_Masc.AutoSize = true;
-            this.rd_Masc.Checked = true;
-            this.rd_Masc.Location = new System.Drawing.Point(275, 45);
-            this.rd_Masc.Name = "rd_Masc";
-            this.rd_Masc.Size = new System.Drawing.Size(73, 17);
-            this.rd_Masc.TabIndex = 19;
-            this.rd_Masc.TabStop = true;
-            this.rd_Masc.Text = "Masculino";
-            this.rd_Masc.UseVisualStyleBackColor = true;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(272, 29);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(34, 13);
-            this.label10.TabIndex = 15;
-            this.label10.Text = "Sexo:";
-            // 
-            // txt_Email
-            // 
-            this.txt_Email.Location = new System.Drawing.Point(13, 309);
-            this.txt_Email.Name = "txt_Email";
-            this.txt_Email.Size = new System.Drawing.Size(239, 20);
-            this.txt_Email.TabIndex = 9;
-            // 
-            // txt_Telefono
-            // 
-            this.txt_Telefono.Location = new System.Drawing.Point(13, 253);
-            this.txt_Telefono.Name = "txt_Telefono";
-            this.txt_Telefono.Size = new System.Drawing.Size(239, 20);
-            this.txt_Telefono.TabIndex = 8;
-            // 
-            // txt_AMaterno
-            // 
-            this.txt_AMaterno.Location = new System.Drawing.Point(14, 202);
-            this.txt_AMaterno.Name = "txt_AMaterno";
-            this.txt_AMaterno.Size = new System.Drawing.Size(239, 20);
-            this.txt_AMaterno.TabIndex = 7;
-            // 
-            // txt_APaterno
-            // 
-            this.txt_APaterno.Location = new System.Drawing.Point(13, 152);
-            this.txt_APaterno.Name = "txt_APaterno";
-            this.txt_APaterno.Size = new System.Drawing.Size(239, 20);
-            this.txt_APaterno.TabIndex = 6;
-            // 
-            // txt_Nombre
-            // 
-            this.txt_Nombre.Location = new System.Drawing.Point(14, 96);
-            this.txt_Nombre.Name = "txt_Nombre";
-            this.txt_Nombre.Size = new System.Drawing.Size(239, 20);
-            this.txt_Nombre.TabIndex = 5;
-            this.txt_Nombre.TextChanged += new System.EventHandler(this.txt_Nombre_TextChanged);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(10, 293);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(112, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Correo Electrónico";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(10, 237);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Teléfono:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(11, 186);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Apellido Materno:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(10, 132);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Apellido Paterno";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(11, 80);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nombre:";
             // 
             // txtPaterno
             // 
@@ -442,6 +288,7 @@
             // ck_Edicion
             // 
             this.ck_Edicion.AutoSize = true;
+            this.ck_Edicion.ForeColor = System.Drawing.Color.White;
             this.ck_Edicion.Location = new System.Drawing.Point(203, 15);
             this.ck_Edicion.Name = "ck_Edicion";
             this.ck_Edicion.Size = new System.Drawing.Size(94, 17);
@@ -690,6 +537,272 @@
             this.iDTecnicoDataGridViewTextBoxColumn.Name = "iDTecnicoDataGridViewTextBoxColumn";
             this.iDTecnicoDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // rd_Masc
+            // 
+            this.rd_Masc.AutoSize = true;
+            this.rd_Masc.Checked = true;
+            this.rd_Masc.Depth = 0;
+            this.rd_Masc.Font = new System.Drawing.Font("Roboto", 10F);
+            this.rd_Masc.Location = new System.Drawing.Point(279, 40);
+            this.rd_Masc.Margin = new System.Windows.Forms.Padding(0);
+            this.rd_Masc.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.rd_Masc.MouseState = MaterialSkin.MouseState.HOVER;
+            this.rd_Masc.Name = "rd_Masc";
+            this.rd_Masc.Ripple = true;
+            this.rd_Masc.Size = new System.Drawing.Size(93, 30);
+            this.rd_Masc.TabIndex = 27;
+            this.rd_Masc.TabStop = true;
+            this.rd_Masc.Text = "Masculino";
+            this.rd_Masc.UseVisualStyleBackColor = true;
+            // 
+            // rd_Fem
+            // 
+            this.rd_Fem.AutoSize = true;
+            this.rd_Fem.Depth = 0;
+            this.rd_Fem.Font = new System.Drawing.Font("Roboto", 10F);
+            this.rd_Fem.Location = new System.Drawing.Point(279, 73);
+            this.rd_Fem.Margin = new System.Windows.Forms.Padding(0);
+            this.rd_Fem.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.rd_Fem.MouseState = MaterialSkin.MouseState.HOVER;
+            this.rd_Fem.Name = "rd_Fem";
+            this.rd_Fem.Ripple = true;
+            this.rd_Fem.Size = new System.Drawing.Size(90, 30);
+            this.rd_Fem.TabIndex = 28;
+            this.rd_Fem.Text = "Femenino";
+            this.rd_Fem.UseVisualStyleBackColor = true;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Depth = 0;
+            this.label10.Font = new System.Drawing.Font("Roboto", 11F);
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label10.Location = new System.Drawing.Point(285, 18);
+            this.label10.MouseState = MaterialSkin.MouseState.HOVER;
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(41, 19);
+            this.label10.TabIndex = 29;
+            this.label10.Text = "Sexo";
+            // 
+            // lbl_claveT
+            // 
+            this.lbl_claveT.AutoSize = true;
+            this.lbl_claveT.Depth = 0;
+            this.lbl_claveT.Font = new System.Drawing.Font("Roboto", 11F);
+            this.lbl_claveT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lbl_claveT.Location = new System.Drawing.Point(10, 18);
+            this.lbl_claveT.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lbl_claveT.Name = "lbl_claveT";
+            this.lbl_claveT.Size = new System.Drawing.Size(127, 19);
+            this.lbl_claveT.TabIndex = 30;
+            this.lbl_claveT.Text = "Clave de Técnico:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Depth = 0;
+            this.label5.Font = new System.Drawing.Font("Roboto", 11F);
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label5.Location = new System.Drawing.Point(10, 366);
+            this.label5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(139, 19);
+            this.label5.TabIndex = 31;
+            this.label5.Text = "Correo Electrónico:";
+            this.label5.Click += new System.EventHandler(this.materialLabel3_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Depth = 0;
+            this.label4.Font = new System.Drawing.Font("Roboto", 11F);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label4.Location = new System.Drawing.Point(11, 294);
+            this.label4.MouseState = MaterialSkin.MouseState.HOVER;
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(72, 19);
+            this.label4.TabIndex = 32;
+            this.label4.Text = "Teléfono:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Depth = 0;
+            this.label3.Font = new System.Drawing.Font("Roboto", 11F);
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label3.Location = new System.Drawing.Point(10, 222);
+            this.label3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(127, 19);
+            this.label3.TabIndex = 34;
+            this.label3.Text = "Apellido Materno:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Depth = 0;
+            this.label2.Font = new System.Drawing.Font("Roboto", 11F);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label2.Location = new System.Drawing.Point(10, 153);
+            this.label2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(123, 19);
+            this.label2.TabIndex = 35;
+            this.label2.Text = "Apellido Paterno:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Depth = 0;
+            this.label1.Font = new System.Drawing.Font("Roboto", 11F);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(10, 84);
+            this.label1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(66, 19);
+            this.label1.TabIndex = 36;
+            this.label1.Text = "Nombre:";
+            // 
+            // txt_claveT
+            // 
+            this.txt_claveT.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_claveT.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_claveT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_claveT.HintForeColor = System.Drawing.Color.Empty;
+            this.txt_claveT.HintText = "";
+            this.txt_claveT.isPassword = false;
+            this.txt_claveT.LineFocusedColor = System.Drawing.Color.Blue;
+            this.txt_claveT.LineIdleColor = System.Drawing.Color.Gray;
+            this.txt_claveT.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.txt_claveT.LineThickness = 3;
+            this.txt_claveT.Location = new System.Drawing.Point(13, 41);
+            this.txt_claveT.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_claveT.Name = "txt_claveT";
+            this.txt_claveT.Size = new System.Drawing.Size(229, 33);
+            this.txt_claveT.TabIndex = 37;
+            this.txt_claveT.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txt_APaterno
+            // 
+            this.txt_APaterno.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_APaterno.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_APaterno.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_APaterno.HintForeColor = System.Drawing.Color.Empty;
+            this.txt_APaterno.HintText = "";
+            this.txt_APaterno.isPassword = false;
+            this.txt_APaterno.LineFocusedColor = System.Drawing.Color.Blue;
+            this.txt_APaterno.LineIdleColor = System.Drawing.Color.Gray;
+            this.txt_APaterno.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.txt_APaterno.LineThickness = 3;
+            this.txt_APaterno.Location = new System.Drawing.Point(13, 176);
+            this.txt_APaterno.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_APaterno.Name = "txt_APaterno";
+            this.txt_APaterno.Size = new System.Drawing.Size(229, 33);
+            this.txt_APaterno.TabIndex = 38;
+            this.txt_APaterno.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txt_Email
+            // 
+            this.txt_Email.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_Email.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_Email.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_Email.HintForeColor = System.Drawing.Color.Empty;
+            this.txt_Email.HintText = "";
+            this.txt_Email.isPassword = false;
+            this.txt_Email.LineFocusedColor = System.Drawing.Color.Blue;
+            this.txt_Email.LineIdleColor = System.Drawing.Color.Gray;
+            this.txt_Email.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.txt_Email.LineThickness = 3;
+            this.txt_Email.Location = new System.Drawing.Point(13, 399);
+            this.txt_Email.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_Email.Name = "txt_Email";
+            this.txt_Email.Size = new System.Drawing.Size(229, 33);
+            this.txt_Email.TabIndex = 42;
+            this.txt_Email.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txt_Telefono
+            // 
+            this.txt_Telefono.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_Telefono.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_Telefono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_Telefono.HintForeColor = System.Drawing.Color.Empty;
+            this.txt_Telefono.HintText = "";
+            this.txt_Telefono.isPassword = false;
+            this.txt_Telefono.LineFocusedColor = System.Drawing.Color.Blue;
+            this.txt_Telefono.LineIdleColor = System.Drawing.Color.Gray;
+            this.txt_Telefono.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.txt_Telefono.LineThickness = 3;
+            this.txt_Telefono.Location = new System.Drawing.Point(13, 317);
+            this.txt_Telefono.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_Telefono.Name = "txt_Telefono";
+            this.txt_Telefono.Size = new System.Drawing.Size(229, 33);
+            this.txt_Telefono.TabIndex = 43;
+            this.txt_Telefono.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txt_AMaterno
+            // 
+            this.txt_AMaterno.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_AMaterno.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_AMaterno.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_AMaterno.HintForeColor = System.Drawing.Color.Empty;
+            this.txt_AMaterno.HintText = "";
+            this.txt_AMaterno.isPassword = false;
+            this.txt_AMaterno.LineFocusedColor = System.Drawing.Color.Blue;
+            this.txt_AMaterno.LineIdleColor = System.Drawing.Color.Gray;
+            this.txt_AMaterno.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.txt_AMaterno.LineThickness = 3;
+            this.txt_AMaterno.Location = new System.Drawing.Point(13, 245);
+            this.txt_AMaterno.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_AMaterno.Name = "txt_AMaterno";
+            this.txt_AMaterno.Size = new System.Drawing.Size(229, 33);
+            this.txt_AMaterno.TabIndex = 45;
+            this.txt_AMaterno.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txt_Nombre
+            // 
+            this.txt_Nombre.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_Nombre.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_Nombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_Nombre.HintForeColor = System.Drawing.Color.Empty;
+            this.txt_Nombre.HintText = "";
+            this.txt_Nombre.isPassword = false;
+            this.txt_Nombre.LineFocusedColor = System.Drawing.Color.Blue;
+            this.txt_Nombre.LineIdleColor = System.Drawing.Color.Gray;
+            this.txt_Nombre.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.txt_Nombre.LineThickness = 3;
+            this.txt_Nombre.Location = new System.Drawing.Point(14, 107);
+            this.txt_Nombre.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_Nombre.Name = "txt_Nombre";
+            this.txt_Nombre.Size = new System.Drawing.Size(229, 33);
+            this.txt_Nombre.TabIndex = 46;
+            this.txt_Nombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // btn_Cancelar
+            // 
+            this.btn_Cancelar.Depth = 0;
+            this.btn_Cancelar.Location = new System.Drawing.Point(288, 393);
+            this.btn_Cancelar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_Cancelar.Name = "btn_Cancelar";
+            this.btn_Cancelar.Primary = true;
+            this.btn_Cancelar.Size = new System.Drawing.Size(99, 39);
+            this.btn_Cancelar.TabIndex = 47;
+            this.btn_Cancelar.Text = "Cancelar";
+            this.btn_Cancelar.UseVisualStyleBackColor = true;
+            this.btn_Cancelar.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btn_Registrar
+            // 
+            this.btn_Registrar.Depth = 0;
+            this.btn_Registrar.Location = new System.Drawing.Point(421, 393);
+            this.btn_Registrar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_Registrar.Name = "btn_Registrar";
+            this.btn_Registrar.Primary = true;
+            this.btn_Registrar.Size = new System.Drawing.Size(99, 39);
+            this.btn_Registrar.TabIndex = 48;
+            this.btn_Registrar.Text = "Registrar";
+            this.btn_Registrar.UseVisualStyleBackColor = true;
+            this.btn_Registrar.Click += new System.EventHandler(this.btn_Registrar_Click_1);
+            // 
             // OperacionesUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -716,23 +829,6 @@
         #endregion
         private System.Windows.Forms.TabControl gestionTecnicos;
         private System.Windows.Forms.TabPage btn_CancelarReg;
-        private System.Windows.Forms.TextBox txt_Email;
-        private System.Windows.Forms.TextBox txt_Telefono;
-        private System.Windows.Forms.TextBox txt_AMaterno;
-        private System.Windows.Forms.TextBox txt_APaterno;
-        private System.Windows.Forms.TextBox txt_Nombre;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button btn_Registrar;
-        private System.Windows.Forms.Button btn_Cancelar;
-        private System.Windows.Forms.TextBox txt_claveT;
-        private System.Windows.Forms.Label lbl_claveT;
-        private System.Windows.Forms.RadioButton rd_Fem;
-        private System.Windows.Forms.RadioButton rd_Masc;
         private servicioElPenduloDataSet7 servicioElPenduloDataSet7;
         private System.Windows.Forms.BindingSource tecnicosBindingSource;
         private servicioElPenduloDataSet7TableAdapters.TecnicosTableAdapter tecnicosTableAdapter;
@@ -776,5 +872,22 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn telefonoDataGridViewTextBoxColumn1;
         private System.Windows.Forms.Button btn_Back;
         private System.Windows.Forms.Button btn_ActualizarI;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txt_APaterno;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txt_claveT;
+        private MaterialSkin.Controls.MaterialLabel label1;
+        private MaterialSkin.Controls.MaterialLabel label2;
+        private MaterialSkin.Controls.MaterialLabel label3;
+        private MaterialSkin.Controls.MaterialLabel label4;
+        private MaterialSkin.Controls.MaterialLabel label5;
+        private MaterialSkin.Controls.MaterialLabel lbl_claveT;
+        private MaterialSkin.Controls.MaterialLabel label10;
+        private MaterialSkin.Controls.MaterialRadioButton rd_Fem;
+        private MaterialSkin.Controls.MaterialRadioButton rd_Masc;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txt_Nombre;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txt_AMaterno;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txt_Telefono;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txt_Email;
+        private MaterialSkin.Controls.MaterialRaisedButton btn_Registrar;
+        private MaterialSkin.Controls.MaterialRaisedButton btn_Cancelar;
     }
 }

@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.btn_Asignar = new System.Windows.Forms.Button();
-            this.btn_Cancelar = new System.Windows.Forms.Button();
             this.tecnicosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataSetListaTecnicos = new ERP_ServicioElPendulo.dataSetListaTecnicos();
             this.txt_PQAtendio = new System.Windows.Forms.TextBox();
@@ -66,6 +64,8 @@
             this.tecnicosTableAdapter2 = new ERP_ServicioElPendulo.tecnicosAsignacionTableAdapters.TecnicosTableAdapter();
             this.txtIdTecnico = new System.Windows.Forms.TextBox();
             this.list_Estatus = new System.Windows.Forms.ComboBox();
+            this.btn_Cancelar = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.btn_Asignar = new MaterialSkin.Controls.MaterialRaisedButton();
             ((System.ComponentModel.ISupportInitialize)(this.tecnicosBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSetListaTecnicos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tablaAsignacion)).BeginInit();
@@ -76,26 +76,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.servicioElPenduloDataSet9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tecnicosBindingSource1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btn_Asignar
-            // 
-            this.btn_Asignar.Location = new System.Drawing.Point(1009, 488);
-            this.btn_Asignar.Name = "btn_Asignar";
-            this.btn_Asignar.Size = new System.Drawing.Size(75, 23);
-            this.btn_Asignar.TabIndex = 9;
-            this.btn_Asignar.Text = "Asignar";
-            this.btn_Asignar.UseVisualStyleBackColor = true;
-            this.btn_Asignar.Click += new System.EventHandler(this.btn_Asignar_Click);
-            // 
-            // btn_Cancelar
-            // 
-            this.btn_Cancelar.Location = new System.Drawing.Point(897, 488);
-            this.btn_Cancelar.Name = "btn_Cancelar";
-            this.btn_Cancelar.Size = new System.Drawing.Size(75, 23);
-            this.btn_Cancelar.TabIndex = 10;
-            this.btn_Cancelar.Text = "Cancelar";
-            this.btn_Cancelar.UseVisualStyleBackColor = true;
-            this.btn_Cancelar.Click += new System.EventHandler(this.btn_Cancelar_Click);
             // 
             // tecnicosBindingSource
             // 
@@ -133,6 +113,7 @@
             // 
             this.tablaAsignacion.AllowUserToAddRows = false;
             this.tablaAsignacion.AllowUserToDeleteRows = false;
+            this.tablaAsignacion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.tablaAsignacion.AutoGenerateColumns = false;
             this.tablaAsignacion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tablaAsignacion.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -234,7 +215,7 @@
             this.materialLabel3.Location = new System.Drawing.Point(9, 28);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(104, 19);
+            this.materialLabel3.Size = new System.Drawing.Size(103, 19);
             this.materialLabel3.TabIndex = 44;
             this.materialLabel3.Text = "Clave Servicio";
             // 
@@ -248,7 +229,7 @@
             this.materialLabel1.Location = new System.Drawing.Point(9, 88);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(67, 19);
+            this.materialLabel1.Size = new System.Drawing.Size(66, 19);
             this.materialLabel1.TabIndex = 45;
             this.materialLabel1.Text = "Sucursal";
             // 
@@ -262,7 +243,7 @@
             this.materialLabel2.Location = new System.Drawing.Point(9, 153);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(100, 19);
+            this.materialLabel2.Size = new System.Drawing.Size(99, 19);
             this.materialLabel2.TabIndex = 46;
             this.materialLabel2.Text = "Fecha de Cita";
             // 
@@ -276,7 +257,7 @@
             this.materialLabel4.Location = new System.Drawing.Point(9, 227);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(93, 19);
+            this.materialLabel4.Size = new System.Drawing.Size(92, 19);
             this.materialLabel4.TabIndex = 47;
             this.materialLabel4.Text = "Hora de Cita";
             // 
@@ -290,7 +271,7 @@
             this.materialLabel5.Location = new System.Drawing.Point(9, 289);
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
-            this.materialLabel5.Size = new System.Drawing.Size(175, 19);
+            this.materialLabel5.Size = new System.Drawing.Size(174, 19);
             this.materialLabel5.TabIndex = 48;
             this.materialLabel5.Text = "Persona que Realizo cita";
             // 
@@ -304,7 +285,7 @@
             this.materialLabel6.Location = new System.Drawing.Point(7, 347);
             this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel6.Name = "materialLabel6";
-            this.materialLabel6.Size = new System.Drawing.Size(130, 19);
+            this.materialLabel6.Size = new System.Drawing.Size(129, 19);
             this.materialLabel6.TabIndex = 49;
             this.materialLabel6.Text = "Técnico Asignado";
             // 
@@ -318,7 +299,7 @@
             this.materialLabel7.Location = new System.Drawing.Point(11, 437);
             this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel7.Name = "materialLabel7";
-            this.materialLabel7.Size = new System.Drawing.Size(141, 19);
+            this.materialLabel7.Size = new System.Drawing.Size(140, 19);
             this.materialLabel7.TabIndex = 50;
             this.materialLabel7.Text = "Estatus del servicio";
             // 
@@ -412,12 +393,42 @@
             this.list_Estatus.TabIndex = 52;
             this.list_Estatus.ValueMember = "0";
             // 
+            // btn_Cancelar
+            // 
+            this.btn_Cancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Cancelar.Depth = 0;
+            this.btn_Cancelar.Location = new System.Drawing.Point(855, 478);
+            this.btn_Cancelar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_Cancelar.Name = "btn_Cancelar";
+            this.btn_Cancelar.Primary = true;
+            this.btn_Cancelar.Size = new System.Drawing.Size(99, 33);
+            this.btn_Cancelar.TabIndex = 54;
+            this.btn_Cancelar.Text = "Cancelar";
+            this.btn_Cancelar.UseVisualStyleBackColor = true;
+            this.btn_Cancelar.Click += new System.EventHandler(this.btn_Cancelar_Click);
+            // 
+            // btn_Asignar
+            // 
+            this.btn_Asignar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Asignar.Depth = 0;
+            this.btn_Asignar.Location = new System.Drawing.Point(985, 478);
+            this.btn_Asignar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_Asignar.Name = "btn_Asignar";
+            this.btn_Asignar.Primary = true;
+            this.btn_Asignar.Size = new System.Drawing.Size(99, 33);
+            this.btn_Asignar.TabIndex = 55;
+            this.btn_Asignar.Text = "Asignar";
+            this.btn_Asignar.UseVisualStyleBackColor = true;
+            this.btn_Asignar.Click += new System.EventHandler(this.btn_Asignar_Click);
+            // 
             // AsignarTrabajos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(1106, 523);
+            this.Controls.Add(this.btn_Asignar);
+            this.Controls.Add(this.btn_Cancelar);
             this.Controls.Add(this.txtIdTecnico);
             this.Controls.Add(this.list_Estatus);
             this.Controls.Add(this.list_Tecnicos);
@@ -434,8 +445,6 @@
             this.Controls.Add(this.txtFecha);
             this.Controls.Add(this.txt_horaCita);
             this.Controls.Add(this.txt_Sucursal);
-            this.Controls.Add(this.btn_Cancelar);
-            this.Controls.Add(this.btn_Asignar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AsignarTrabajos";
             this.Text = "AsignarTrabajos";
@@ -455,8 +464,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button btn_Asignar;
-        private System.Windows.Forms.Button btn_Cancelar;
         private System.Windows.Forms.TextBox txt_PQAtendio;
         private System.Windows.Forms.TextBox txt_Sucursal;
         private dataSetListaTecnicos dataSetListaTecnicos;
@@ -492,5 +499,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn horaCitaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn personaQueAtendioDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn estatusCitaDataGridViewTextBoxColumn;
+        private MaterialSkin.Controls.MaterialRaisedButton btn_Cancelar;
+        private MaterialSkin.Controls.MaterialRaisedButton btn_Asignar;
     }
 }
