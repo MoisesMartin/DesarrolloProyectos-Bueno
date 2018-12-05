@@ -89,7 +89,7 @@ namespace ERP_ServicioElPendulo
         {
             
             // TODO: esta línea de código carga datos en la tabla 'servicioElPenduloDataSet5.Cotizaciones' Puede moverla o quitarla según sea necesario.
-            this.cotizacionesTableAdapter.Fill(this.servicioElPenduloDataSet5.Cotizaciones);
+            //this.cotizacionesTableAdapter.Fill(this.servicioElPenduloDataSet5.Cotizaciones);
             llenarTabla();
 
 

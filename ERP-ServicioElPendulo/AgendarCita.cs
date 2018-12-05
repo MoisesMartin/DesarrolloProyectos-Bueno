@@ -18,7 +18,7 @@ namespace ERP_ServicioElPendulo
     {
         public static string conexionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=servicioElPendulo;Integrated Security=True";
         SqlConnection con = new SqlConnection(conexionString);
-
+        /*
         #region Cierre Formulario
 
         protected override void OnFormClosing(FormClosingEventArgs e)
@@ -45,14 +45,11 @@ namespace ERP_ServicioElPendulo
     
 
         #endregion
+        */
 
         public AgendarCita()
         {
             InitializeComponent();
-            //MaterialSkinManager sm = MaterialSkinManager.Instance;
-            //sm.AddFormToManage(this);
-            //sm.Theme = MaterialSkinManager.Themes.DARK;
-            //sm.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.BlueGrey500, Accent.Green700, TextShade.WHITE);
             this.AcceptButton = btn_Aceptar;
         }
 
@@ -76,7 +73,7 @@ namespace ERP_ServicioElPendulo
                 fechaCorrecta = false;
             }
             //Validar tienda
-            if (String.IsNullOrEmpty(list_Sucursales.Text))
+            if (String.IsNullOrEmpty(list_Sucursales.selectedValue))
             {
                 tiendaLlenada = false;
                 MessageBox.Show("No se ha elegido una sucursal");
@@ -121,7 +118,7 @@ namespace ERP_ServicioElPendulo
         }
         public void agendarCita()
         {
-            string sucursalCita = list_Sucursales.Text;
+            string sucursalCita = list_Sucursales.selectedValue;
             string FechaAgendada = fechaAgendacion.Value.ToString("dd/MM/yyyy");
             string FechaCita = fechaProgramada.Value.ToString("dd/MM/yyyy");
             string HoraCita = horaCita.Value.ToString("hh:mm tt");

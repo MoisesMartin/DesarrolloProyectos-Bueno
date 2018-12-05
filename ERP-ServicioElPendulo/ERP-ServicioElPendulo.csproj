@@ -501,6 +501,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="IMG\LOGOPendulo.jpg" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\padlock.png" />
     <None Include="IMG\Maximize Window_52px.png" />
     <None Include="IMG\Minimize Window_52px.png" />
     <None Include="IMG\Multiply_50px.png" />

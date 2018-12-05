@@ -18,12 +18,12 @@ using MaterialSkin.Controls;
 
 namespace ERP_ServicioElPendulo
 {
-    public partial class ConsultaSolicitudes : MaterialForm
+    public partial class ConsultaSolicitudes : Form
     {
 
         public static string conexionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=servicioElPendulo;Integrated Security=True";
         SqlConnection con = new SqlConnection(conexionString);
-        /* Validar Cierre de formulario*/
+        /* Validar Cierre de formulario*
 
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
@@ -52,10 +52,6 @@ namespace ERP_ServicioElPendulo
         public ConsultaSolicitudes()
         {
             InitializeComponent();
-            MaterialSkinManager sm = MaterialSkinManager.Instance;
-            sm.AddFormToManage(this);
-            sm.Theme = MaterialSkinManager.Themes.DARK;
-            sm.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.BlueGrey500, Accent.Green700, TextShade.WHITE);
             
         }
 

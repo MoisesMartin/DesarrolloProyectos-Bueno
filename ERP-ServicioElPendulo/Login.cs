@@ -25,7 +25,12 @@ namespace ERP_ServicioElPendulo
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             if (Cerrar() == false)
+            {
                 e.Cancel = true;
+            } else
+            {
+                e.Cancel = false;
+            }
         }
         public static bool Cerrar()
         {
@@ -36,7 +41,7 @@ namespace ERP_ServicioElPendulo
 
             if (resultado == DialogResult.Yes)
             {
-                Application.Exit();
+                //Application.Exit();
                 return true;
             }
             else

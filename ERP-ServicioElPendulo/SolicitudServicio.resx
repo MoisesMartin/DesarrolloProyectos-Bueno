@@ -144,43 +144,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="list_ContactoSolicitante.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="list_ContactoSolicitante.Items" xml:space="preserve">
-    <value>Abigail Castillo</value>
-  </data>
-  <data name="list_ContactoSolicitante.Items1" xml:space="preserve">
-    <value>Mariell Ugalde</value>
-  </data>
-  <data name="list_ContactoSolicitante.Items2" xml:space="preserve">
-    <value>Paola Castillo</value>
-  </data>
-  <data name="list_ContactoSolicitante.Items3" xml:space="preserve">
-    <value>Sergio Marines</value>
-  </data>
-  <data name="list_ContactoSolicitante.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 48</value>
-  </data>
-  <data name="list_ContactoSolicitante.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 21</value>
-  </data>
-  <data name="list_ContactoSolicitante.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;list_ContactoSolicitante.Name" xml:space="preserve">
-    <value>list_ContactoSolicitante</value>
-  </data>
-  <data name="&gt;&gt;list_ContactoSolicitante.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;list_ContactoSolicitante.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;list_ContactoSolicitante.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
   <metadata name="contactosInnovaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -189,95 +152,15 @@
   <metadata name="ds_ContactosSolicitud.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="list_TipoServicio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="list_TipoServicio.Items" xml:space="preserve">
-    <value>Levantamiento</value>
-  </data>
-  <data name="list_TipoServicio.Items1" xml:space="preserve">
-    <value>Autorizado</value>
-  </data>
-  <data name="list_TipoServicio.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 98</value>
-  </data>
-  <data name="list_TipoServicio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 21</value>
-  </data>
-  <data name="list_TipoServicio.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;list_TipoServicio.Name" xml:space="preserve">
-    <value>list_TipoServicio</value>
-  </data>
-  <data name="&gt;&gt;list_TipoServicio.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;list_TipoServicio.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;list_TipoServicio.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="list_Sucursal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="list_Sucursal.Items" xml:space="preserve">
-    <value>Coyoacán</value>
-  </data>
-  <data name="list_Sucursal.Items1" xml:space="preserve">
-    <value>Polanco</value>
-  </data>
-  <data name="list_Sucursal.Items2" xml:space="preserve">
-    <value>Zumpango</value>
-  </data>
-  <data name="list_Sucursal.Items3" xml:space="preserve">
-    <value>Cuautitlán Izcalli</value>
-  </data>
-  <data name="list_Sucursal.Items4" xml:space="preserve">
-    <value>Iztapalapa</value>
-  </data>
-  <data name="list_Sucursal.Items5" xml:space="preserve">
-    <value>Azcapotzalco</value>
-  </data>
-  <data name="list_Sucursal.Items6" xml:space="preserve">
-    <value>Nezahulcoyotl</value>
-  </data>
-  <data name="list_Sucursal.Items7" xml:space="preserve">
-    <value>Ecatepec</value>
-  </data>
-  <data name="list_Sucursal.Items8" xml:space="preserve">
-    <value>Tecámac</value>
-  </data>
-  <data name="list_Sucursal.Items9" xml:space="preserve">
-    <value>Las Américas</value>
-  </data>
-  <data name="list_Sucursal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 151</value>
-  </data>
-  <data name="list_Sucursal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 21</value>
-  </data>
-  <data name="list_Sucursal.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;list_Sucursal.Name" xml:space="preserve">
-    <value>list_Sucursal</value>
-  </data>
-  <data name="&gt;&gt;list_Sucursal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;list_Sucursal.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;list_Sucursal.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
+  <metadata name="ds_ContactosSolicitud.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="textBox_Descripcion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
+    <value>Top, Right</value>
   </data>
   <data name="textBox_Descripcion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 203</value>
+    <value>246, 48</value>
   </data>
   <data name="textBox_Descripcion.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>10000, 200</value>
@@ -289,7 +172,7 @@
     <value>True</value>
   </data>
   <data name="textBox_Descripcion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 83</value>
+    <value>380, 144</value>
   </data>
   <data name="textBox_Descripcion.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -304,7 +187,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_Descripcion.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="link_help.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -316,7 +199,7 @@
     <value>Segoe UI Semilight, 9.75pt</value>
   </data>
   <data name="link_help.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 361</value>
+    <value>13, 240</value>
   </data>
   <data name="link_help.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 17</value>
@@ -337,7 +220,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;link_help.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <metadata name="contactosInnovaTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>408, 17</value>
@@ -370,7 +253,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel1.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="materialLabel2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -382,7 +265,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 76</value>
+    <value>20, 88</value>
   </data>
   <data name="materialLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 19</value>
@@ -403,7 +286,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel2.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="materialLabel3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -415,7 +298,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 129</value>
+    <value>20, 145</value>
   </data>
   <data name="materialLabel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 19</value>
@@ -436,10 +319,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel3.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="materialLabel4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left</value>
+    <value>Top, Right</value>
   </data>
   <data name="materialLabel4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -451,7 +334,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 181</value>
+    <value>240, 26</value>
   </data>
   <data name="materialLabel4.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 19</value>
@@ -472,7 +355,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel4.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="materialLabel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -487,7 +370,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 26</value>
+    <value>265, 257</value>
   </data>
   <data name="materialLabel5.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 19</value>
@@ -497,6 +380,9 @@
   </data>
   <data name="materialLabel5.Text" xml:space="preserve">
     <value>Fecha de Captura: Hoy</value>
+  </data>
+  <data name="materialLabel5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;materialLabel5.Name" xml:space="preserve">
     <value>materialLabel5</value>
@@ -508,34 +394,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel5.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btn_Cancelar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="btn_Cancelar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>312, 343</value>
-  </data>
-  <data name="btn_Cancelar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 32</value>
-  </data>
-  <data name="btn_Cancelar.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="btn_Cancelar.Text" xml:space="preserve">
-    <value>Cancelar</value>
-  </data>
-  <data name="&gt;&gt;btn_Cancelar.Name" xml:space="preserve">
-    <value>btn_Cancelar</value>
-  </data>
-  <data name="&gt;&gt;btn_Cancelar.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btn_Cancelar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btn_Cancelar.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="btn_Aceptar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -544,7 +403,7 @@
     <value>NoControl</value>
   </data>
   <data name="btn_Aceptar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>412, 343</value>
+    <value>542, 220</value>
   </data>
   <data name="btn_Aceptar.Size" type="System.Drawing.Size, System.Drawing">
     <value>84, 32</value>
@@ -565,7 +424,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btn_Aceptar.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="fecha_Solicitud.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -574,13 +433,16 @@
     <value>False</value>
   </data>
   <data name="fecha_Solicitud.Location" type="System.Drawing.Point, System.Drawing">
-    <value>304, 48</value>
+    <value>269, 279</value>
   </data>
   <data name="fecha_Solicitud.Size" type="System.Drawing.Size, System.Drawing">
     <value>186, 33</value>
   </data>
   <data name="fecha_Solicitud.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
+  </data>
+  <data name="fecha_Solicitud.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;fecha_Solicitud.Name" xml:space="preserve">
     <value>fecha_Solicitud</value>
@@ -592,6 +454,78 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;fecha_Solicitud.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="list_ContactoSolicitante.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="list_ContactoSolicitante.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 48</value>
+  </data>
+  <data name="list_ContactoSolicitante.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 25</value>
+  </data>
+  <data name="list_ContactoSolicitante.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;list_ContactoSolicitante.Name" xml:space="preserve">
+    <value>list_ContactoSolicitante</value>
+  </data>
+  <data name="&gt;&gt;list_ContactoSolicitante.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuDropdown, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;list_ContactoSolicitante.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;list_ContactoSolicitante.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="list_TipoServicio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="list_TipoServicio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 110</value>
+  </data>
+  <data name="list_TipoServicio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 25</value>
+  </data>
+  <data name="list_TipoServicio.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;list_TipoServicio.Name" xml:space="preserve">
+    <value>list_TipoServicio</value>
+  </data>
+  <data name="&gt;&gt;list_TipoServicio.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuDropdown, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;list_TipoServicio.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;list_TipoServicio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="list_Sucursal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="list_Sucursal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 167</value>
+  </data>
+  <data name="list_Sucursal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 25</value>
+  </data>
+  <data name="list_Sucursal.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;list_Sucursal.Name" xml:space="preserve">
+    <value>list_Sucursal</value>
+  </data>
+  <data name="&gt;&gt;list_Sucursal.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuDropdown, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;list_Sucursal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;list_Sucursal.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -601,7 +535,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>508, 387</value>
+    <value>642, 266</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>  Formulario de Solicitud de Servicio</value>

@@ -54,7 +54,6 @@
             this.rd_porFecha = new MaterialSkin.Controls.MaterialRadioButton();
             this.rd_BuscarTodo = new MaterialSkin.Controls.MaterialRadioButton();
             this.btn_GenerarPDF = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.btn_Back = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btn_Filtrar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
@@ -104,6 +103,7 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.ayuda_Filtrar.AutoSize = true;
             this.ayuda_Filtrar.Font = new System.Drawing.Font("Segoe UI Semilight", 10F);
+            this.ayuda_Filtrar.LinkColor = System.Drawing.Color.White;
             this.ayuda_Filtrar.Location = new System.Drawing.Point(213, 89);
             this.ayuda_Filtrar.Name = "ayuda_Filtrar";
             this.ayuda_Filtrar.Size = new System.Drawing.Size(48, 19);
@@ -238,7 +238,7 @@
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel1.ForeColor = System.Drawing.Color.White;
             this.materialLabel1.Location = new System.Drawing.Point(31, 89);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
@@ -312,20 +312,6 @@
             this.btn_GenerarPDF.UseVisualStyleBackColor = true;
             this.btn_GenerarPDF.Click += new System.EventHandler(this.btn_GenerarPDF_Click);
             // 
-            // btn_Back
-            // 
-            this.btn_Back.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Back.Depth = 0;
-            this.btn_Back.Location = new System.Drawing.Point(500, 489);
-            this.btn_Back.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btn_Back.Name = "btn_Back";
-            this.btn_Back.Primary = true;
-            this.btn_Back.Size = new System.Drawing.Size(99, 38);
-            this.btn_Back.TabIndex = 51;
-            this.btn_Back.Text = "Volver";
-            this.btn_Back.UseVisualStyleBackColor = true;
-            this.btn_Back.Click += new System.EventHandler(this.btn_Back_Click);
-            // 
             // btn_Filtrar
             // 
             this.btn_Filtrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -347,7 +333,7 @@
             this.materialLabel2.AutoSize = true;
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel2.ForeColor = System.Drawing.Color.White;
             this.materialLabel2.Location = new System.Drawing.Point(57, 127);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
@@ -362,7 +348,7 @@
             this.materialLabel3.AutoSize = true;
             this.materialLabel3.Depth = 0;
             this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel3.ForeColor = System.Drawing.Color.White;
             this.materialLabel3.Location = new System.Drawing.Point(57, 169);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
@@ -377,7 +363,7 @@
             this.materialLabel4.AutoSize = true;
             this.materialLabel4.Depth = 0;
             this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel4.ForeColor = System.Drawing.Color.White;
             this.materialLabel4.Location = new System.Drawing.Point(643, 85);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
@@ -397,14 +383,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(756, 536);
             this.Controls.Add(this.date_buscarPorFecha);
             this.Controls.Add(this.materialLabel4);
             this.Controls.Add(this.materialLabel3);
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.btn_Filtrar);
-            this.Controls.Add(this.btn_Back);
             this.Controls.Add(this.btn_GenerarPDF);
             this.Controls.Add(this.rd_BuscarTodo);
             this.Controls.Add(this.rd_porFecha);
@@ -456,7 +441,6 @@
         private MaterialSkin.Controls.MaterialRadioButton rd_porFecha;
         private MaterialSkin.Controls.MaterialRadioButton rd_BuscarTodo;
         private MaterialSkin.Controls.MaterialRaisedButton btn_GenerarPDF;
-        private MaterialSkin.Controls.MaterialRaisedButton btn_Back;
         private MaterialSkin.Controls.MaterialRaisedButton btn_Filtrar;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
         private MaterialSkin.Controls.MaterialLabel materialLabel3;

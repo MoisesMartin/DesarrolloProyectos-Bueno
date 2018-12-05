@@ -33,7 +33,6 @@
             this.servicioElPenduloDataSet3 = new ERP_ServicioElPendulo.servicioElPenduloDataSet3();
             this.citasAgendadasTableAdapter = new ERP_ServicioElPendulo.servicioElPenduloDataSet3TableAdapters.CitasAgendadasTableAdapter();
             this.btn_generarPDF = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.button1 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btn_Filtrar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.rdBuscarTodo = new MaterialSkin.Controls.MaterialRadioButton();
@@ -89,20 +88,6 @@
             this.btn_generarPDF.Text = "Generar PDF";
             this.btn_generarPDF.UseVisualStyleBackColor = true;
             this.btn_generarPDF.Click += new System.EventHandler(this.btn_generarPDF_Click);
-            // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Depth = 0;
-            this.button1.Location = new System.Drawing.Point(730, 546);
-            this.button1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.button1.Name = "button1";
-            this.button1.Primary = true;
-            this.button1.Size = new System.Drawing.Size(120, 38);
-            this.button1.TabIndex = 74;
-            this.button1.Text = "Volver";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btn_Filtrar
             // 
@@ -365,10 +350,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(1013, 596);
             this.Controls.Add(this.btn_generarPDF);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_Filtrar);
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.rdBuscarTodo);
@@ -385,6 +369,7 @@
             this.Controls.Add(this.combo_Estatus);
             this.Controls.Add(this.ayuda_Filtrar);
             this.Controls.Add(this.calendarioCitas);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "rd_BuscarTodo";
             this.Text = "Consulta de Citas";
             this.Load += new System.EventHandler(this.btn_Back_Load);
@@ -401,7 +386,6 @@
         private System.Windows.Forms.BindingSource citasAgendadasBindingSource;
         private servicioElPenduloDataSet3TableAdapters.CitasAgendadasTableAdapter citasAgendadasTableAdapter;
         private MaterialSkin.Controls.MaterialRaisedButton btn_generarPDF;
-        private MaterialSkin.Controls.MaterialRaisedButton button1;
         private MaterialSkin.Controls.MaterialRaisedButton btn_Filtrar;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
         private MaterialSkin.Controls.MaterialRadioButton rdBuscarTodo;

@@ -74,7 +74,7 @@ namespace ERP_ServicioElPendulo
             bool tipoServicio = false;
             bool sucursal = false;
 
-            if (String.IsNullOrEmpty(list_ContactoSolicitante.Text))
+            if (String.IsNullOrEmpty(list_ContactoSolicitante.selectedValue))
             {
                 contacto = false;
                 MessageBox.Show("No se indico un contacto solicitante", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -84,7 +84,7 @@ namespace ERP_ServicioElPendulo
                 contacto = true;
             }
 
-            if (String.IsNullOrEmpty(list_TipoServicio.Text))
+            if (String.IsNullOrEmpty(list_TipoServicio.selectedValue))
             {
                 tipoServicio = false;
                 MessageBox.Show("No se indicó un tipo de servicio", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -93,7 +93,7 @@ namespace ERP_ServicioElPendulo
             {
                 tipoServicio = true;
             }
-            if (String.IsNullOrEmpty(list_TipoServicio.Text))
+            if (String.IsNullOrEmpty(list_Sucursal.selectedValue))
             {
                 sucursal = false;
                 MessageBox.Show("No se indicó una sucursal", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -139,9 +139,9 @@ namespace ERP_ServicioElPendulo
         }
         public void bdOperations()
         {
-            string contactoSolicitante = list_ContactoSolicitante.Text;
-            string tipoServicio = list_TipoServicio.Text;
-            string sucursal = list_Sucursal.Text;
+            string contactoSolicitante = list_ContactoSolicitante.selectedValue;
+            string tipoServicio = list_TipoServicio.selectedValue;
+            string sucursal = list_Sucursal.selectedValue;
             string descrProbl = textBox_Descripcion.Text;
             string fechaC = fecha_Solicitud.Value.ToString("dd/MM/yyyy");
 

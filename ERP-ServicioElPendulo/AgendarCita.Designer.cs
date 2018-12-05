@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AgendarCita));
-            this.txt_PersonaAtiende = new System.Windows.Forms.TextBox();
-            this.list_Sucursales = new System.Windows.Forms.ComboBox();
             this.link_Fecha = new System.Windows.Forms.LinkLabel();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
@@ -40,40 +38,15 @@
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
             this.radio_EnProceso = new MaterialSkin.Controls.MaterialRadioButton();
             this.radio_Agendado = new MaterialSkin.Controls.MaterialRadioButton();
-            this.btn_Cancelar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btn_Aceptar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.fechaAgendacion = new Bunifu.Framework.UI.BunifuDatepicker();
             this.fechaProgramada = new Bunifu.Framework.UI.BunifuDatepicker();
             this.horaCita = new Bunifu.Framework.UI.BunifuDatepicker();
             this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
+            this.list_Sucursales = new Bunifu.Framework.UI.BunifuDropdown();
+            this.txt_PersonaAtiende = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.SuspendLayout();
-            // 
-            // txt_PersonaAtiende
-            // 
-            resources.ApplyResources(this.txt_PersonaAtiende, "txt_PersonaAtiende");
-            this.txt_PersonaAtiende.Name = "txt_PersonaAtiende";
-            // 
-            // list_Sucursales
-            // 
-            resources.ApplyResources(this.list_Sucursales, "list_Sucursales");
-            this.list_Sucursales.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.list_Sucursales.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.list_Sucursales.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.list_Sucursales.FormattingEnabled = true;
-            this.list_Sucursales.Items.AddRange(new object[] {
-            resources.GetString("list_Sucursales.Items"),
-            resources.GetString("list_Sucursales.Items1"),
-            resources.GetString("list_Sucursales.Items2"),
-            resources.GetString("list_Sucursales.Items3"),
-            resources.GetString("list_Sucursales.Items4"),
-            resources.GetString("list_Sucursales.Items5"),
-            resources.GetString("list_Sucursales.Items6"),
-            resources.GetString("list_Sucursales.Items7"),
-            resources.GetString("list_Sucursales.Items8"),
-            resources.GetString("list_Sucursales.Items9")});
-            this.list_Sucursales.Name = "list_Sucursales";
-            this.list_Sucursales.SelectedIndexChanged += new System.EventHandler(this.list_Sucursales_SelectedIndexChanged);
             // 
             // link_Fecha
             // 
@@ -87,7 +60,7 @@
             // 
             resources.ApplyResources(this.materialLabel1, "materialLabel1");
             this.materialLabel1.Depth = 0;
-            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel1.ForeColor = System.Drawing.Color.White;
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             // 
@@ -95,7 +68,7 @@
             // 
             resources.ApplyResources(this.materialLabel2, "materialLabel2");
             this.materialLabel2.Depth = 0;
-            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel2.ForeColor = System.Drawing.Color.White;
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
             // 
@@ -103,7 +76,7 @@
             // 
             resources.ApplyResources(this.materialLabel3, "materialLabel3");
             this.materialLabel3.Depth = 0;
-            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel3.ForeColor = System.Drawing.Color.White;
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
             // 
@@ -111,7 +84,7 @@
             // 
             resources.ApplyResources(this.materialLabel4, "materialLabel4");
             this.materialLabel4.Depth = 0;
-            this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel4.ForeColor = System.Drawing.Color.White;
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
             // 
@@ -119,7 +92,7 @@
             // 
             resources.ApplyResources(this.materialLabel5, "materialLabel5");
             this.materialLabel5.Depth = 0;
-            this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel5.ForeColor = System.Drawing.Color.White;
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
             // 
@@ -127,7 +100,7 @@
             // 
             resources.ApplyResources(this.materialLabel6, "materialLabel6");
             this.materialLabel6.Depth = 0;
-            this.materialLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel6.ForeColor = System.Drawing.Color.White;
             this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel6.Name = "materialLabel6";
             // 
@@ -154,16 +127,6 @@
             this.radio_Agendado.Ripple = true;
             this.radio_Agendado.TabStop = true;
             this.radio_Agendado.UseVisualStyleBackColor = true;
-            // 
-            // btn_Cancelar
-            // 
-            resources.ApplyResources(this.btn_Cancelar, "btn_Cancelar");
-            this.btn_Cancelar.Depth = 0;
-            this.btn_Cancelar.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btn_Cancelar.Name = "btn_Cancelar";
-            this.btn_Cancelar.Primary = true;
-            this.btn_Cancelar.UseVisualStyleBackColor = true;
-            this.btn_Cancelar.Click += new System.EventHandler(this.btn_Cancelar_Click);
             // 
             // btn_Aceptar
             // 
@@ -212,7 +175,7 @@
             // 
             resources.ApplyResources(this.materialLabel7, "materialLabel7");
             this.materialLabel7.Depth = 0;
-            this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel7.ForeColor = System.Drawing.Color.White;
             this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel7.Name = "materialLabel7";
             // 
@@ -220,22 +183,59 @@
             // 
             resources.ApplyResources(this.materialLabel8, "materialLabel8");
             this.materialLabel8.Depth = 0;
-            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel8.ForeColor = System.Drawing.Color.White;
             this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel8.Name = "materialLabel8";
+            // 
+            // list_Sucursales
+            // 
+            resources.ApplyResources(this.list_Sucursales, "list_Sucursales");
+            this.list_Sucursales.BackColor = System.Drawing.Color.Transparent;
+            this.list_Sucursales.BorderRadius = 3;
+            this.list_Sucursales.DisabledColor = System.Drawing.Color.Gray;
+            this.list_Sucursales.ForeColor = System.Drawing.Color.White;
+            this.list_Sucursales.Items = new string[] {
+        "Coyoacán",
+        "Polanco",
+        "Zumpango",
+        "Cuautitlán Izcalli",
+        "Iztapalapa",
+        "Azcapotzalco",
+        "Nezahuacoyotl",
+        "Ecatepec",
+        "Tecámac",
+        "Las Américas"};
+            this.list_Sucursales.Name = "list_Sucursales";
+            this.list_Sucursales.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.list_Sucursales.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.list_Sucursales.selectedIndex = -1;
+            // 
+            // txt_PersonaAtiende
+            // 
+            resources.ApplyResources(this.txt_PersonaAtiende, "txt_PersonaAtiende");
+            this.txt_PersonaAtiende.Depth = 0;
+            this.txt_PersonaAtiende.Hint = "Nombre";
+            this.txt_PersonaAtiende.MouseState = MaterialSkin.MouseState.HOVER;
+            this.txt_PersonaAtiende.Name = "txt_PersonaAtiende";
+            this.txt_PersonaAtiende.PasswordChar = '\0';
+            this.txt_PersonaAtiende.SelectedText = "";
+            this.txt_PersonaAtiende.SelectionLength = 0;
+            this.txt_PersonaAtiende.SelectionStart = 0;
+            this.txt_PersonaAtiende.UseSystemPasswordChar = false;
             // 
             // AgendarCita
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.Controls.Add(this.txt_PersonaAtiende);
+            this.Controls.Add(this.list_Sucursales);
             this.Controls.Add(this.materialLabel8);
             this.Controls.Add(this.materialLabel7);
             this.Controls.Add(this.horaCita);
             this.Controls.Add(this.fechaProgramada);
             this.Controls.Add(this.fechaAgendacion);
             this.Controls.Add(this.btn_Aceptar);
-            this.Controls.Add(this.btn_Cancelar);
             this.Controls.Add(this.radio_Agendado);
             this.Controls.Add(this.radio_EnProceso);
             this.Controls.Add(this.materialLabel6);
@@ -245,8 +245,6 @@
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.materialLabel1);
             this.Controls.Add(this.link_Fecha);
-            this.Controls.Add(this.list_Sucursales);
-            this.Controls.Add(this.txt_PersonaAtiende);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AgendarCita";
             this.Load += new System.EventHandler(this.AgendarCita_Load);
@@ -256,8 +254,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.TextBox txt_PersonaAtiende;
-        private System.Windows.Forms.ComboBox list_Sucursales;
         private System.Windows.Forms.LinkLabel link_Fecha;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
@@ -267,12 +263,13 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel6;
         private MaterialSkin.Controls.MaterialRadioButton radio_EnProceso;
         private MaterialSkin.Controls.MaterialRadioButton radio_Agendado;
-        private MaterialSkin.Controls.MaterialRaisedButton btn_Cancelar;
         private MaterialSkin.Controls.MaterialRaisedButton btn_Aceptar;
         private Bunifu.Framework.UI.BunifuDatepicker fechaAgendacion;
         private Bunifu.Framework.UI.BunifuDatepicker fechaProgramada;
         private Bunifu.Framework.UI.BunifuDatepicker horaCita;
         private MaterialSkin.Controls.MaterialLabel materialLabel7;
         private MaterialSkin.Controls.MaterialLabel materialLabel8;
+        private Bunifu.Framework.UI.BunifuDropdown list_Sucursales;
+        private MaterialSkin.Controls.MaterialSingleLineTextField txt_PersonaAtiende;
     }
 }

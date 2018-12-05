@@ -22,11 +22,12 @@ namespace ERP_ServicioElPendulo
 
         #region Validar_Cierre_Formulario
 
-        protected override void OnFormClosing(FormClosingEventArgs e)
+        /*protected override void OnFormClosing(FormClosingEventArgs e)
         {
             if (Cerrar() == false)
                 e.Cancel = true;
         }
+        
         public static bool Cerrar()
         {
             const string mensaje = "¿Seguro que deseas salir?";
@@ -42,7 +43,7 @@ namespace ERP_ServicioElPendulo
             {
                 return false;
             }
-        }
+        }*/
 
         #endregion
 
@@ -58,9 +59,7 @@ namespace ERP_ServicioElPendulo
 
         private void btn_CancelarReg_Click(object sender, EventArgs e)
         {
-            Hide();
-            form_Login log = new form_Login();
-            log.Show();
+            Close();
         }
 
         private void btn_Registrar_Click(object sender, EventArgs e)
@@ -70,6 +69,7 @@ namespace ERP_ServicioElPendulo
                 insertarUsr();
                 form_Login login = new form_Login();
                 login.Show();
+                MessageBox.Show("Usuario registrado con éxito.", "Usuario Creado", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
@@ -124,6 +124,12 @@ namespace ERP_ServicioElPendulo
         private void label1_Click(object sender, EventArgs e)
         {
             MessageBox.Show(" Si seleccionas esta opcion, el usuario tendra privilegios de administración");
+        }
+
+        private void form_UsrSistema_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            form_Login log = new form_Login();
+            log.Show();
         }
     }
 }
