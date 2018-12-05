@@ -564,10 +564,10 @@
             this.label2.Depth = 0;
             this.label2.Font = new System.Drawing.Font("Roboto", 11F);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(605, 86);
+            this.label2.Location = new System.Drawing.Point(576, 86);
             this.label2.MouseState = MaterialSkin.MouseState.HOVER;
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(157, 19);
+            this.label2.Size = new System.Drawing.Size(158, 19);
             this.label2.TabIndex = 24;
             this.label2.Text = "Tabla de Cotizaciones";
             // 

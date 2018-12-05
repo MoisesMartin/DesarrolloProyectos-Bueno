@@ -23,7 +23,7 @@ namespace ERP_ServicioElPendulo
 
 
 
-        #region Validar_Cierre_Formulario
+      /*  #region Validar_Cierre_Formulario
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             if (Cerrar() == false)
@@ -47,8 +47,8 @@ namespace ERP_ServicioElPendulo
             }
         }
         #endregion
-
         
+        */
         private void infoNS_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             MessageBox.Show("Permite registrar las solicitudes de servicio enviadas por los contactos innova","Nueva Solicitud de Servicio", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -160,6 +160,7 @@ namespace ERP_ServicioElPendulo
 
         private void bunifuImageButton2_Click_1(object sender, EventArgs e)
         {
+            //Cerrar();
             this.Close();
             Application.Exit();
         }
